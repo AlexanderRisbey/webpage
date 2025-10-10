@@ -1,0 +1,2015 @@
+
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      width="99.999"
+      height="206.846"
+      version="1.1"
+      viewBox="0 0 26.458 54.728"
+    >
+      <defs>
+        <linearGradient
+          id="linearGradient42813"
+          x1="80.777"
+          x2="164.002"
+          y1="53.649"
+          y2="53.649"
+          gradientTransform="matrix(.14887 0 0 .14887 85.995 92.778)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#linearGradient40963-6"
+        ></linearGradient>
+        <linearGradient id="linearGradient40963-6">
+          <stop offset="0" stopColor="#22577a" stopOpacity="1"></stop>
+          <stop offset="1" stopColor="#80ed99" stopOpacity="1"></stop>
+        </linearGradient>
+        <linearGradient
+          id="linearGradient42815"
+          x1="80.777"
+          x2="164.002"
+          y1="53.649"
+          y2="53.649"
+          gradientTransform="matrix(.13574 0 0 .0242 87.602 119.198)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#linearGradient40963-6"
+        ></linearGradient>
+      </defs>
+      <g>
+        <g transform="matrix(2.13026 0 0 2.13029 -208.81 -213.558)">
+          <path
+            style={{ InkscapeStroke: "none" }}
+            fill="#fff"
+            fillOpacity="1"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="0.002"
+            d="M98.02 100.248h12.39l.03 25.63-12.42.06z"
+            color="#000"
+            paintOrder="markers fill stroke"
+          ></path>
+          <path
+            style={{ InkscapeStroke: "none" }}
+            fill="#22577a"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="0.002"
+            d="M100.04 114.344c-.773 0-1.476.11-2.02.297v.416l.04-.015c.227-.085.499-.157.802-.21l2.002 1.645c-.26.03-.537.047-.824.047-.78 0-1.487-.121-1.98-.307l-.04-.015v.417c.544.187 1.247.296 2.02.296.82 0 1.562-.123 2.117-.332.228-.086.425-.185.584-.304v.998c0 .08-.042.172-.162.279a1.84 1.84 0 01-.56.31c-.493.185-1.2.306-1.98.306s-1.485-.121-1.98-.307l-.038-.015v.416c.543.188 1.246.297 2.019.297.82 0 1.562-.123 2.117-.332.277-.104.509-.23.682-.383.173-.154.293-.35.293-.57v-1.648c0-.221-.12-.417-.293-.57a2.173 2.173 0 00-.682-.384c-.555-.209-1.297-.331-2.117-.331zm0 .391c.78 0 1.486.121 1.98.307.246.093.439.202.56.31.12.106.161.197.161.278 0 .08-.042.17-.162.278a1.84 1.84 0 01-.56.31c-.185.069-.4.13-.638.178l-1.987-1.632a7.31 7.31 0 01.646-.029z"
+            color="#000"
+            paintOrder="markers fill stroke"
+          ></path>
+          <path
+            d="M99.013 103.692v-1.173h.354l.213.8.211-.8h.356v1.173h-.22v-.924l-.234.924h-.228l-.232-.924v.924z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M100.873 103.422l.224.037q-.043.124-.137.189-.093.064-.233.064-.222 0-.328-.145-.084-.116-.084-.293 0-.212.11-.331.11-.12.28-.12.19 0 .3.126.109.124.104.383h-.564q.002.1.055.156.052.055.13.055.052 0 .088-.028.036-.03.055-.093zm.013-.228q-.002-.097-.05-.148-.049-.05-.118-.05-.073 0-.121.053t-.048.145z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M102.072 103.692h-.209v-.124q-.052.072-.123.108-.07.036-.143.036-.146 0-.25-.118-.105-.119-.105-.33 0-.216.102-.328.101-.113.257-.113.142 0 .246.118v-.422h.225zm-.6-.443q0 .136.037.197.055.088.153.088.077 0 .132-.066.054-.066.054-.198 0-.146-.053-.21-.053-.065-.135-.065-.08 0-.135.064-.053.063-.053.19z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M102.294 102.727v-.208h.225v.208zm0 .965v-.85h.225v.85z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M103.491 103.094l-.222.04q-.01-.067-.05-.1-.04-.034-.103-.034-.084 0-.135.058-.05.058-.05.194 0 .151.051.214.051.062.137.062.064 0 .105-.036.04-.036.057-.125l.221.037q-.034.152-.132.23-.097.078-.262.078-.186 0-.297-.118-.11-.118-.11-.326 0-.21.11-.327.112-.118.301-.118.156 0 .247.067.092.067.132.204z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M103.83 103.102l-.204-.037q.034-.124.118-.183.084-.06.25-.06.15 0 .224.037.074.035.104.09.03.055.03.201l-.002.263q0 .112.01.166.012.053.041.113h-.222q-.01-.022-.022-.066l-.008-.026q-.058.056-.123.084-.066.028-.14.028-.132 0-.208-.072-.075-.071-.075-.18 0-.072.034-.128.035-.057.096-.086.063-.03.18-.053.157-.03.218-.056v-.022q0-.065-.032-.092-.032-.028-.12-.028-.06 0-.094.024-.034.023-.055.082zm.301.182q-.043.014-.137.034-.094.02-.122.04-.044.03-.044.079 0 .047.035.082.035.034.09.034.06 0 .116-.04.04-.03.053-.074.01-.03.01-.11z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M104.964 102.842v.18h-.154v.342q0 .104.004.122.005.017.02.028.016.011.038.011.032 0 .09-.022l.02.175q-.078.034-.178.034-.06 0-.11-.02-.048-.021-.071-.053-.023-.033-.032-.088-.007-.04-.007-.159v-.37h-.103v-.18h.103v-.169l.226-.131v.3z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M105.12 102.727v-.208h.225v.208zm0 .965v-.85h.225v.85z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M105.523 103.255q0-.112.056-.217.055-.105.156-.16.102-.055.226-.055.193 0 .317.126.123.124.123.316 0 .193-.125.32-.124.127-.313.127-.117 0-.223-.053t-.161-.155q-.056-.102-.056-.249zm.231.012q0 .127.06.194t.148.067q.088 0 .148-.067t.06-.195q0-.125-.06-.193-.06-.067-.148-.067t-.148.067q-.06.068-.06.194z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M107.35 103.692h-.224v-.434q0-.137-.015-.177-.014-.041-.047-.064-.032-.022-.078-.022-.058 0-.105.032-.046.032-.064.085-.017.053-.017.195v.385h-.225v-.85h.21v.125q.11-.144.28-.144.074 0 .136.027.062.026.093.068.032.042.044.095.013.052.013.151z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M99.018 105.454v-1.174h.231l.48.784v-.784h.22v1.174h-.237l-.473-.765v.765z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M100.367 104.863l-.204-.037q.034-.123.118-.182.084-.06.25-.06.15 0 .224.037.074.035.103.09.03.055.03.201l-.001.263q0 .112.01.165.011.053.041.114h-.223q-.009-.022-.021-.066l-.008-.027q-.058.056-.123.084-.066.028-.14.028-.132 0-.208-.071-.075-.071-.075-.18 0-.072.034-.128.035-.057.096-.087.063-.03.18-.053.157-.03.218-.055v-.022q0-.065-.032-.092-.032-.028-.12-.028-.06 0-.094.024-.034.023-.055.082zm.3.183q-.042.014-.136.034-.094.02-.123.04-.044.03-.044.079 0 .047.036.081.035.035.09.035.06 0 .115-.04.041-.03.054-.075.01-.029.01-.11z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M101.094 104.604h.207v.116q.112-.135.265-.135.082 0 .142.033.06.034.099.102.056-.068.12-.102.065-.033.139-.033.094 0 .158.038.065.037.097.111.024.055.024.176v.544h-.225v-.486q0-.127-.024-.163-.03-.048-.096-.048-.047 0-.089.028-.041.03-.06.085-.018.056-.018.176v.408h-.225v-.466q0-.124-.012-.16-.012-.036-.038-.054-.025-.017-.068-.017-.052 0-.094.028-.041.028-.06.08-.017.053-.017.176v.413h-.225z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M103.061 105.183l.224.038q-.043.123-.136.188-.093.064-.234.064-.221 0-.328-.145-.084-.116-.084-.293 0-.211.11-.33.111-.12.28-.12.19 0 .3.125.11.125.104.384h-.563q.002.1.054.156.052.055.13.055.053 0 .089-.029.036-.028.054-.093zm.013-.227q-.002-.098-.05-.148-.048-.051-.117-.051-.074 0-.122.053-.048.054-.047.146z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.041"
+            fontFamily="Arial"
+            fontSize="11.016"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M99.013 106.664l.07-.006q.005.042.023.07.019.026.057.043.039.017.087.017.042 0 .075-.013.033-.013.049-.034.016-.023.016-.049 0-.026-.016-.046-.015-.02-.05-.034-.023-.009-.1-.027-.078-.019-.11-.035-.04-.022-.06-.053-.02-.031-.02-.07 0-.043.025-.08.024-.037.07-.056.047-.02.104-.02.063 0 .11.02.048.02.074.06.026.04.028.089l-.072.005q-.006-.053-.039-.08-.033-.028-.098-.028-.068 0-.099.025-.03.025-.03.06 0 .03.021.05.022.02.112.04.092.02.125.036.05.022.073.057.024.035.024.08t-.026.085q-.026.04-.074.062t-.109.022q-.076 0-.128-.022-.052-.022-.082-.067-.029-.045-.03-.102z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M99.806 106.845v-.06q-.048.07-.13.07-.036 0-.068-.015-.031-.013-.046-.034-.015-.021-.021-.052-.004-.02-.004-.064v-.253h.069v.226q0 .054.004.073.007.028.027.043.022.016.053.016.03 0 .058-.016.028-.016.039-.044.011-.027.011-.08v-.218h.07v.408z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M100.023 106.845h-.064v-.564h.069v.201q.044-.055.112-.055.037 0 .071.016.034.015.055.042.022.028.035.067.012.038.012.083 0 .105-.052.162-.052.057-.125.057-.072 0-.113-.06zm0-.207q0 .073.02.106.032.053.088.053.045 0 .078-.039.033-.04.033-.117 0-.08-.032-.119-.031-.038-.076-.038-.046 0-.079.04t-.033.114z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M100.352 106.723l.069-.01q.006.04.032.062.026.022.074.022.047 0 .07-.019.024-.02.024-.046 0-.023-.02-.037-.015-.009-.072-.023-.076-.02-.105-.033-.03-.014-.045-.039t-.015-.055q0-.027.012-.05.013-.024.035-.04.016-.011.043-.02.028-.007.06-.007.048 0 .085.014.036.014.053.037.018.024.024.063l-.067.01q-.005-.032-.027-.05-.022-.017-.063-.017-.047 0-.068.015-.02.016-.02.037 0 .014.008.024.008.012.026.019.01.004.062.018.073.02.102.032.03.012.046.036.016.024.016.06 0 .034-.02.065-.02.03-.058.047-.038.017-.086.017-.08 0-.122-.034-.042-.033-.053-.098z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M100.908 106.783l.01.061q-.029.006-.052.006-.038 0-.059-.012-.02-.011-.029-.03-.008-.02-.008-.083v-.235h-.05v-.053h.05v-.102l.07-.041v.143h.069v.053h-.07v.24q0 .029.004.037.004.008.012.014.008.005.024.005.011 0 .03-.003z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M101.226 106.795q-.039.032-.075.046-.035.013-.076.013-.067 0-.103-.032-.036-.034-.036-.085 0-.03.013-.054.014-.025.036-.04t.05-.023q.02-.005.061-.01.084-.01.124-.024v-.018q0-.043-.02-.06-.026-.023-.078-.023-.05 0-.073.017-.023.017-.034.06l-.067-.009q.009-.043.03-.07.021-.027.061-.04.04-.016.093-.016.052 0 .085.013.033.012.048.031.015.018.021.047.004.018.004.064v.092q0 .097.004.122.005.026.018.05h-.072q-.01-.022-.014-.051zm-.006-.155q-.038.015-.113.026-.043.006-.06.014-.019.008-.028.023-.01.014-.01.032 0 .028.02.047.022.018.062.018t.071-.017q.032-.018.046-.048.011-.024.011-.07z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M101.38 106.845v-.408h.063v.058q.045-.068.13-.068.036 0 .067.014.031.013.047.034.015.022.021.052.004.019.004.067v.251h-.069v-.248q0-.043-.008-.063-.008-.022-.029-.034-.02-.013-.048-.013-.044 0-.077.028-.031.029-.031.107v.223z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M102.068 106.695l.068.01q-.011.07-.057.11-.046.04-.113.04-.084 0-.135-.055-.05-.055-.05-.157 0-.067.021-.116.022-.05.067-.074.045-.025.097-.025.067 0 .11.033.042.034.054.096l-.068.01q-.01-.041-.034-.062-.024-.02-.059-.02-.052 0-.085.037-.033.038-.033.119 0 .082.032.12.031.037.082.037.041 0 .068-.025.028-.025.035-.077z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M102.458 106.714l.072.009q-.017.062-.063.097-.046.034-.117.034-.09 0-.142-.055-.053-.055-.053-.155 0-.103.053-.16.054-.056.138-.056.082 0 .134.055.052.056.052.157v.019h-.305q.004.067.038.103.034.036.085.036.038 0 .065-.02.027-.02.043-.064zm-.227-.112h.228q-.005-.052-.026-.078-.034-.04-.086-.04-.048 0-.08.032-.033.032-.036.086z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M102.801 106.845v-.408h.063v.058q.045-.068.13-.068.037 0 .067.014.032.013.047.034.015.022.021.052.004.019.004.067v.251h-.069v-.248q0-.043-.008-.063-.008-.022-.029-.034-.02-.013-.048-.013-.044 0-.076.028-.032.029-.032.107v.223z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M103.49 106.795q-.04.032-.075.046-.035.013-.076.013-.068 0-.104-.032-.036-.034-.036-.085 0-.03.014-.054.014-.025.035-.04.023-.015.05-.023.02-.005.062-.01.084-.01.123-.024v-.018q0-.043-.019-.06-.026-.023-.079-.023-.048 0-.072.017-.023.017-.034.06l-.068-.009q.01-.043.03-.07.022-.027.062-.04.04-.016.093-.016.052 0 .085.013.032.012.048.031.015.018.021.047.004.018.004.064v.092q0 .097.004.122.005.026.018.05h-.072q-.011-.022-.014-.051zm-.007-.155q-.038.015-.113.026-.043.006-.06.014-.018.008-.028.023-.01.014-.01.032 0 .028.021.047.021.018.062.018.04 0 .07-.017.032-.018.047-.048.01-.024.01-.07z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M103.644 106.845v-.408h.062v.057q.019-.03.05-.048.033-.019.074-.019.045 0 .074.02.029.018.041.052.049-.072.126-.072.061 0 .094.034.032.034.032.104v.28h-.068v-.257q0-.042-.007-.06-.007-.018-.025-.03-.017-.01-.041-.01-.043 0-.072.028-.028.029-.028.092v.237h-.07v-.265q0-.047-.016-.07-.017-.023-.056-.023-.029 0-.054.016-.024.015-.036.045-.01.03-.01.085v.212z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <path
+            d="M104.563 106.714l.071.009q-.017.062-.062.097-.046.034-.117.034-.09 0-.143-.055-.052-.055-.052-.155 0-.103.053-.16.053-.056.138-.056.082 0 .134.055.052.056.052.157v.019h-.306q.004.067.039.103.034.036.085.036.038 0 .065-.02.027-.02.043-.064zm-.228-.112h.229q-.006-.052-.027-.078-.033-.04-.086-.04-.047 0-.08.032-.032.032-.036.086z"
+            style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            strokeWidth="0.018"
+            fontFamily="Arial"
+            fontSize="5.292"
+            letterSpacing="-0.114"
+          ></path>
+          <g
+            strokeWidth="0.014"
+            fontFamily="Arial"
+            fontSize="4.17"
+            letterSpacing="-0.09"
+            transform="translate(21.494)"
+          >
+            <path
+              d="M85.146 121.45l.054-.008q.004.032.025.05.021.017.058.017.038 0 .056-.015.018-.016.018-.036 0-.019-.016-.03-.011-.006-.056-.018-.06-.015-.083-.026-.023-.011-.035-.03-.012-.02-.012-.044 0-.021.01-.04.01-.018.027-.03.012-.01.034-.016.022-.007.048-.007.037 0 .066.01.029.012.042.03.014.02.02.05l-.054.007q-.004-.025-.021-.039-.018-.014-.05-.014-.037 0-.053.013-.016.012-.016.029 0 .01.007.02.006.008.02.014l.049.014q.058.015.08.025.023.01.036.029.013.018.013.046t-.016.052q-.015.024-.045.037-.03.013-.068.013-.063 0-.096-.026t-.042-.077z"
+              style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            ></path>
+            <path
+              d="M85.675 121.428l.054.007q-.01.056-.046.087-.036.031-.088.031-.067 0-.107-.043-.04-.043-.04-.124 0-.052.017-.09.018-.04.053-.06.035-.02.077-.02.052.001.086.028.033.026.042.075l-.053.008q-.007-.033-.027-.049-.019-.016-.046-.016-.041 0-.067.03-.026.029-.026.093 0 .065.025.094.025.03.065.03.032 0 .054-.02.021-.02.027-.06z"
+              style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            ></path>
+            <path
+              d="M85.972 121.506q-.03.026-.059.037-.027.01-.06.01-.053 0-.081-.025-.029-.027-.029-.067 0-.023.011-.043.01-.02.028-.031.018-.012.04-.018.016-.004.048-.008.066-.008.097-.02v-.013q0-.034-.015-.047-.02-.019-.062-.019-.038 0-.057.014-.018.013-.027.047l-.053-.007q.007-.034.024-.055.016-.021.048-.032.031-.012.073-.012.041 0 .067.01.026.01.038.025.012.014.017.037.003.014.003.05v.073q0 .076.003.096.003.02.014.039h-.057q-.009-.017-.011-.04zm-.005-.122q-.03.013-.089.021-.033.005-.047.011-.014.006-.022.018-.007.011-.007.026 0 .021.016.036.017.015.048.015.032 0 .056-.014.025-.014.037-.038.008-.018.008-.055z"
+              style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            ></path>
+            <path
+              d="M86.094 121.546v-.322h.049v.046q.035-.053.102-.053.03 0 .054.01t.036.028q.013.017.017.04.003.015.003.053v.198h-.054v-.196q0-.033-.007-.05-.006-.016-.022-.026-.016-.01-.038-.01-.035 0-.06.022-.026.022-.026.084v.176z"
+              style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            ></path>
+            <path
+              d="M86.585 121.546v-.444h.054v.16q.039-.045.097-.045.036 0 .062.014.026.014.038.039.011.025.011.072v.204h-.054v-.204q0-.041-.018-.06-.018-.018-.05-.018-.025 0-.046.012-.021.013-.03.034-.01.022-.01.06v.176z"
+              style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            ></path>
+            <path
+              d="M87.137 121.442l.057.007q-.014.05-.05.077-.036.027-.092.027-.07 0-.112-.043-.041-.044-.041-.122 0-.081.041-.126.042-.045.109-.045.065 0 .105.044.041.044.041.123v.015h-.24q.003.053.03.081.027.028.067.028.03 0 .051-.015.022-.016.034-.05zm-.179-.088h.18q-.004-.04-.02-.06-.027-.032-.068-.032-.038 0-.064.025-.025.025-.028.067z"
+              style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            ></path>
+            <path
+              d="M87.248 121.546v-.322h.05v.049q.018-.034.034-.045.016-.011.035-.011.027 0 .056.017l-.019.051q-.02-.012-.04-.012-.018 0-.032.011-.014.01-.02.03-.01.029-.01.064v.168z"
+              style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            ></path>
+            <path
+              d="M87.662 121.442l.057.007q-.014.05-.05.077-.036.027-.092.027-.07 0-.112-.043-.041-.044-.041-.122 0-.081.042-.126t.108-.045q.065 0 .106.044.04.044.04.123v.015h-.24q.003.053.03.081.027.028.068.028.03 0 .05-.015.022-.016.034-.05zm-.179-.088h.18q-.004-.04-.02-.06-.027-.032-.068-.032-.038 0-.064.025-.025.025-.028.067z"
+              style={{ lineHeight: "1.05", InkscapeFontSpecification: "Arial" }}
+            ></path>
+          </g>
+          <path
+            style={{ InkscapeStroke: "none" }}
+            fill="url(#linearGradient42813)"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="0.001"
+            d="M98.02 100.248h12.39v1.033H98.02z"
+            color="#000"
+            paintOrder="markers fill stroke"
+          ></path>
+          <path
+            style={{ InkscapeStroke: "none" }}
+            fill="url(#linearGradient42815)"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="0.001"
+            d="M98.567 120.412h11.297v.168H98.567z"
+            color="#000"
+            paintOrder="markers fill stroke"
+          ></path>
+          <path
+            d="M100.183 123.673q0 .076-.025.136-.024.06-.067.1-.05.047-.11.066-.059.02-.15.02h-.367v-1.052h.326q.102 0 .149.008t.093.037q.048.03.071.082.024.051.024.117 0 .076-.032.135-.032.058-.09.09v.006q.081.02.13.085.048.064.048.17zm-.278-.433q0-.026-.01-.052t-.037-.039q-.024-.011-.06-.012l-.098-.001h-.02v.223h.034q.05 0 .087-.002.036-.002.057-.014.03-.017.038-.042.01-.026.01-.06zm.053.429q0-.05-.016-.078-.015-.027-.052-.04-.025-.01-.07-.01l-.093-.001h-.047v.262H99.826q.04-.001.073-.019.034-.018.046-.046.013-.03.013-.068z"
+            style={{ lineHeight: "1.25" }}
+            strokeWidth="0.044"
+            fontFamily="sans-serif"
+            fontSize="8.688"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M100.815 123.265q0-.04-.013-.068-.013-.028-.044-.044-.022-.012-.052-.014-.029-.003-.068-.003h-.078v.284h.066q.052 0 .087-.006.035-.006.059-.03.022-.021.032-.047.011-.027.011-.072zm.338.73h-.264l-.23-.386h-.1v.386h-.215v-1.052h.363q.075 0 .128.01.054.01.1.046.048.035.076.092.028.056.028.14 0 .117-.043.19-.043.074-.123.123z"
+            style={{ lineHeight: "1.25" }}
+            strokeWidth="0.044"
+            fontFamily="sans-serif"
+            fontSize="8.688"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M102.024 123.995h-.224l-.058-.213h-.311l-.058.213h-.219l.31-1.052h.25zm-.334-.406l-.104-.377-.103.377z"
+            style={{ lineHeight: "1.25" }}
+            strokeWidth="0.044"
+            fontFamily="sans-serif"
+            fontSize="8.688"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M102.909 123.995h-.209l-.357-.722v.722h-.198v-1.052h.259l.306.603v-.603h.199z"
+            style={{ lineHeight: "1.25" }}
+            strokeWidth="0.044"
+            fontFamily="sans-serif"
+            fontSize="8.688"
+            fontWeight="bold"
+          ></path>
+          <path
+            d="M103.917 123.47q0 .147-.054.264-.053.116-.135.178-.062.046-.135.065-.073.018-.174.018h-.296v-1.052h.305q.102 0 .177.021.074.022.125.061.087.067.137.18.05.112.05.265zm-.224-.002q0-.104-.03-.178t-.096-.115q-.033-.02-.068-.028t-.105-.008h-.054v.659h.054q.078 0 .114-.008.036-.01.07-.033.06-.042.087-.113.028-.071.028-.176z"
+            style={{ lineHeight: "1.25" }}
+            strokeWidth="0.044"
+            fontFamily="sans-serif"
+            fontSize="8.688"
+            fontWeight="bold"
+          ></path>
+          <g
+            strokeWidth="0.118"
+            color="#000"
+            shapeRendering="crispEdges"
+            transform="translate(21.494)"
+          >
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#e7e7e7"
+              fillOpacity="1"
+              d="M85.052 122.105h2.992v2.991h-2.992z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 122.105h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 122.105h.125v.124H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 122.105h.125v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 122.105h.125v.124H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 122.105h.124v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 122.105h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 122.105h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 122.105h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 122.105h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 122.105h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 122.105h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 122.105h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 122.23h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 122.23h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 122.23h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 122.23h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 122.23h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 122.354h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 122.354h.125v.124H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 122.354h.125v.124H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 122.354h.124v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 122.354h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 122.354h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 122.354h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 122.354h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 122.478h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 122.478h.125v.125H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 122.478h.124v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 122.478h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 122.478h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 122.478h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 122.478h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 122.478h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 122.478h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 122.478h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 122.478h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 122.603h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 122.603h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 122.603h.125v.125H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 122.603h.125v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 122.603h.124v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 122.603h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 122.603h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 122.603h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 122.603h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 122.603h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 122.603h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 122.603h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 122.603h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 122.603h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 122.603h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 122.728h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 122.728h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 122.728h.125v.124H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 122.728h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 122.728h.125v.124H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 122.728h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 122.728h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 122.728h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 122.728h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 122.728h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 122.728h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 122.728h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 122.728h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 122.728h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 122.728h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 122.728h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 122.852h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 122.852h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 122.852h.125v.125H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 122.852h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 122.852h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 122.852h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 122.852h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 122.852h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 122.852h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 122.852h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 122.852h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 122.852h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 122.977h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 122.977h.125v.125H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 122.977h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 122.977h.125v.125H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 122.977h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 122.977h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 122.977h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 122.977h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 122.977h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 122.977h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 122.977h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 122.977h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 122.977h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 123.102h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 123.102h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 123.102h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 123.102h.125v.124H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 123.102h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 123.102h.124v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 123.102h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 123.102h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 123.102h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 123.102h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 123.102h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 123.102h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 123.102h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 123.102h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 123.102h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 123.226h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 123.226h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 123.226h.125v.125H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 123.226h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 123.226h.125v.125H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 123.226h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 123.226h.124v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 123.226h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 123.226h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 123.226h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 123.226h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 123.226h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 123.226h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 123.226h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 123.351h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 123.351h.125v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 123.351h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 123.351h.125v.125H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 123.351h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 123.351h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 123.351h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 123.351h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 123.351h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 123.351h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 123.351h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 123.476h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 123.476h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 123.476h.125v.124H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 123.476h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 123.476h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 123.476h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 123.476h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 123.476h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 123.476h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 123.476h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 123.476h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 123.476h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 123.476h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 123.6h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 123.6h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 123.6h.125v.125H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 123.6h.125v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 123.6h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 123.6h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 123.6h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 123.6h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 123.6h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 123.6h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 123.725h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 123.725h.125v.125H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 123.725h.125v.125H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 123.725h.124v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 123.725h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 123.725h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 123.725h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 123.725h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 123.725h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 123.725h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 123.725h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 123.725h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 123.85h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 123.85h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 123.85h.125v.124H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 123.85h.125v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 123.85h.125v.124H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 123.85h.124v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 123.85h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 123.85h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 123.85h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 123.85h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 123.85h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 123.85h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 123.85h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 123.974h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 123.974h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 123.974h.125v.125H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 123.974h.125v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 123.974h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 123.974h.124v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 123.974h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 123.974h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 123.974h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 123.974h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 123.974h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 123.974h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 123.974h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 123.974h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 123.974h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 124.099h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 124.099h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 124.099h.125v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 124.099h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 124.099h.125v.125H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 124.099h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 124.099h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 124.099h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 124.099h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 124.099h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 124.099h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 124.099h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 124.224h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 124.224h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 124.224h.125v.124H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 124.224h.125v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 124.224h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 124.224h.125v.124H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 124.224h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 124.224h.124v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 124.224h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 124.224h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 124.224h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 124.224h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 124.224h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 124.224h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 124.224h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 124.224h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 124.224h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 124.348h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 124.348h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 124.348h.125v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 124.348h.125v.125H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 124.348h.124v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 124.348h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 124.348h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 124.348h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 124.348h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 124.348h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 124.348h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 124.348h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 124.348h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 124.473h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 124.473h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 124.473h.124v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 124.473h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 124.473h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 124.473h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 124.473h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 124.473h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 124.473h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 124.473h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 124.473h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 124.473h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 124.473h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 124.598h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 124.598h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 124.598h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 124.598h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 124.598h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 124.598h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 124.598h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 124.598h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 124.598h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 124.722h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 124.722h.125v.125H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 124.722h.124v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 124.722h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 124.722h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 124.722h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 124.722h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 124.722h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 124.847h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 124.847h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 124.847h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 124.847h.125v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 124.847h.124v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 124.847h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 124.847h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 124.847h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 124.847h.124v.125h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 124.847h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 124.847h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 124.847h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 124.847h.125v.125h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.052 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.177 124.972h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.301 124.972h.125v.124H85.3z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.426 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.55 124.972h.125v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.675 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.8 124.972h.125v.124H85.8z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M85.925 124.972h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.05 124.972h.124v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.174 124.972h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.298 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.423 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.548 124.972h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.672 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.797 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M86.922 124.972h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.046 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.171 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.296 124.972h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.42 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.545 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.67 124.972h.124v.124h-.124z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.794 124.972h.125v.124h-.125z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M87.919 124.972h.125v.124h-.125z"
+            ></path>
+          </g>
+          <path
+            style={{ InkscapeStroke: "none" }}
+            fill="#22577a"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="0.002"
+            d="M98.511 107.627c-.164 0-.33.02-.49.058v.462a1.62 1.62 0 011.638.4 1.62 1.62 0 010 2.296l-1.638 1.639v.631l.005-.005 1.95-1.95a2.073 2.073 0 000-2.927 2.064 2.064 0 00-1.464-.605zm.041.753c-.025 0-.05 0-.076.002-.154.01-.31.054-.455.13v.447c.31-.272.7-.278.936-.043a.186.186 0 00.263 0 .186.186 0 000-.263.938.938 0 00-.667-.273z"
+            color="#000"
+            paintOrder="markers fill stroke"
+          ></path>
+        </g>
+      </g>
+    </svg>

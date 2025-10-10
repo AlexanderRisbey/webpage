@@ -1,0 +1,30 @@
+[
+  {
+    "id": "1",
+    "date": "2025-09-30",
+    "title": "Lydriarx Welcomes Dr. Andrew Roddam",
+    "excerpt": "Dr. Roddam joins Lydriarx to advance AI and genomic research in Pakistan.",
+    "content": "Lydriarx is proud to announce that **Dr. Andrew Roddam** has joined our team. With extensive expertise in biomedical research, data science, and healthcare innovation, Dr. Roddam strengthens our mission to drive breakthroughs at the intersection of artificial intelligence and genomic research.\n\nAs a company, Lydriarx is committed to developing solutions that harness AI to unlock insights from genetic data, advancing precision medicine and healthcare innovation in Pakistan. By combining global expertise with a focus on local impact, we aim to contribute to the future of life sciences and address some of the region’s most pressing healthcare challenges.\n\nDr. Roddam’s appointment marks an important step in Lydriarx’s journey to expand research collaborations and build technologies that push the boundaries of what’s possible in AI-driven genomics."
+  },
+  {
+    "id": "2",
+    "date": "2025-09-25",
+    "title": "Partnership Announced",
+    "excerpt": "We have partnered with XYZ company.",
+    "content": "Full details about the partnership go here."
+  },
+  {
+    "id": "3",
+    "date": "2025-09-20",
+    "title": "Award Won",
+    "excerpt": "We won a prestigious award for innovation.",
+    "content": "Full details about the award go here."
+  },
+  {
+    "id": "4",
+    "date": "2025-09-15",
+    "title": "New Office Opening",
+    "excerpt": "We opened a new office in Zurich.",
+    "content": "Full details about the new office opening go here."
+  }
+]

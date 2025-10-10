@@ -1,0 +1,18 @@
+export default {
+  ROOT: '/',
+  HOME: '/home',
+  ABOUT: '/about-us',
+  CONTACT: '/contact-us',
+  AISTUDIO: '/products/ai-studio',
+  EPI: '/products/electronic-product-information',
+  TT: '/products/track-and-trace',
+  DEMO: '/products/demo',
+  CSV: '/services/computer-system-validation',
+  IT: '/services/it-infrastructure',
+  DA: '/services/data-and-analytics',
+  PRESS: '/press',
+  PRESSRELEASE: '/press-release/:id',
+  PRIVACY: '/legal/privacy-policy',
+  TERMS: '/legal/terms-of-service',
+  MSS: '/legal/modern-slavery-statement',
+};

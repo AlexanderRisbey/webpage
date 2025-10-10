@@ -1,0 +1,3323 @@
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      xmlnsXlink="http://www.w3.org/1999/xlink"
+      width="73.304"
+      height="206.846"
+      version="1.1"
+      viewBox="0 0 19.395 54.728"
+    >
+      <defs>
+        <linearGradient
+          id="linearGradient35829"
+          x1="80.777"
+          x2="164.002"
+          y1="53.649"
+          y2="53.649"
+          gradientTransform="matrix(-.1094 0 0 -.14887 106.857 108.751)"
+          gradientUnits="userSpaceOnUse"
+          xlinkHref="#linearGradient40963-6"
+        ></linearGradient>
+        <linearGradient id="linearGradient40963-6">
+          <stop offset="0" stopColor="#22577a" stopOpacity="1"></stop>
+          <stop offset="1" stopColor="#80ed99" stopOpacity="1"></stop>
+        </linearGradient>
+      </defs>
+      <g>
+        <g color="#000" transform="matrix(2.1303 0 0 2.1303 -189.418 -213.559)">
+          <path
+            style={{ InkscapeStroke: "none" }}
+            fill="#fff"
+            fillOpacity="1"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="0.001"
+            d="M88.916 100.248h9.105v25.607l-9.105.084z"
+            paintOrder="markers fill stroke"
+          ></path>
+          <path
+            style={{ InkscapeStroke: "none" }}
+            fill="#22577a"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="0.001"
+            d="M98.02 114.643a2.17 2.17 0 00-.78.417c-.172.153-.293.35-.293.57v1.648c0 .22.12.416.294.57.173.154.404.279.681.383l.099.034v-.416a1.794 1.794 0 01-.52-.293c-.121-.107-.163-.198-.163-.278v-.999c.16.119.356.218.584.304l.099.034v-.416a1.794 1.794 0 01-.52-.293c-.121-.107-.163-.198-.163-.278 0-.08.042-.172.162-.278.114-.101.294-.204.52-.294z"
+            paintOrder="markers fill stroke"
+          ></path>
+          <path
+            style={{ InkscapeStroke: "none" }}
+            fill="#22577a"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="0.001"
+            d="M98.02 107.685a2.056 2.056 0 00-.972.547l-1.95 1.95-1.95 1.949a2.073 2.073 0 000 2.927c.807.807 2.121.807 2.928 0l1.945-1.945v-.631l-.153.153-2.296-2.296 1.792-1.792c.19-.19.417-.324.657-.4zm0 .827a1.272 1.272 0 00-.311.23l-1.106 1.106a.186.186 0 000 .264.186.186 0 00.263 0l1.106-1.107c.016-.016.032-.031.049-.045zm-2.764 2.143l2.296 2.296-1.792 1.791a1.62 1.62 0 01-2.296 0 1.62 1.62 0 010-2.295z"
+            paintOrder="markers fill stroke"
+          ></path>
+          <path
+            style={{ InkscapeStroke: "none" }}
+            fill="url(#linearGradient35829)"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            strokeWidth="0.001"
+            d="M98.02 101.281h-9.104v-1.033h9.105z"
+            paintOrder="markers fill stroke"
+          ></path>
+          <path
+            style={{
+              InkscapeFontSpecification: "'sans-serif, Normal'",
+              InkscapeStroke: "none",
+            }}
+            fill="#000"
+            strokeWidth="0.044"
+            d="M91.424 103.333q0 .076-.025.136-.024.06-.067.1-.05.046-.11.066-.059.02-.15.02h-.367v-1.053h.326q.102 0 .148.008.048.008.094.038.048.03.071.082.024.05.024.116 0 .077-.032.135-.033.058-.091.09v.007q.082.02.13.085.049.064.049.17zm-.278-.433q0-.026-.01-.052-.01-.027-.037-.04-.024-.01-.06-.011l-.098-.001h-.02v.222h.033q.052 0 .088-.002t.057-.014q.029-.016.038-.041.01-.027.01-.06zm.053.428q0-.05-.016-.077-.015-.027-.052-.04-.026-.01-.07-.01l-.093-.001h-.048v.262H91.067q.04-.001.073-.02.034-.017.046-.046.013-.03.013-.068z"
+            fontFamily="nobel book"
+            fontSize="8.688"
+          ></path>
+          <path
+            style={{
+              InkscapeFontSpecification: "'sans-serif, Normal'",
+              InkscapeStroke: "none",
+            }}
+            fill="#000"
+            strokeWidth="0.044"
+            d="M92.056 102.925q0-.04-.013-.068-.013-.029-.044-.045-.022-.011-.052-.013-.03-.003-.068-.003H91.8v.283h.066q.052 0 .087-.006.035-.006.059-.029.022-.022.032-.048.011-.027.011-.071zm.338.73h-.265l-.229-.386h-.1v.386h-.215v-1.053h.363q.075 0 .128.01.054.011.1.047.048.035.076.092.028.056.028.14 0 .117-.043.19-.043.074-.123.123z"
+            fontFamily="nobel book"
+            fontSize="8.688"
+          ></path>
+          <path
+            style={{
+              InkscapeFontSpecification: "'sans-serif, Normal'",
+              InkscapeStroke: "none",
+            }}
+            fill="#000"
+            strokeWidth="0.044"
+            d="M93.265 103.655h-.224l-.058-.213h-.311l-.059.213h-.218l.31-1.053h.25zm-.334-.406l-.104-.377-.103.377z"
+            fontFamily="nobel book"
+            fontSize="8.688"
+          ></path>
+          <path
+            style={{
+              InkscapeFontSpecification: "'sans-serif, Normal'",
+              InkscapeStroke: "none",
+            }}
+            fill="#000"
+            strokeWidth="0.044"
+            d="M94.15 103.655h-.21l-.356-.723v.723h-.198v-1.053h.259l.306.603v-.603h.199z"
+            fontFamily="nobel book"
+            fontSize="8.688"
+          ></path>
+          <path
+            style={{
+              InkscapeFontSpecification: "'sans-serif, Normal'",
+              InkscapeStroke: "none",
+            }}
+            fill="#000"
+            strokeWidth="0.044"
+            d="M95.158 103.13q0 .147-.054.263-.053.116-.135.178-.062.047-.135.065-.073.019-.174.019h-.296v-1.053h.305q.102 0 .177.022.074.021.125.061.087.066.137.18.05.112.05.265zm-.224-.002q0-.104-.03-.178t-.096-.116q-.033-.02-.068-.027-.035-.008-.105-.008h-.054v.659h.054q.078 0 .114-.008.036-.01.07-.033.06-.042.087-.113.028-.072.028-.176z"
+            fontFamily="nobel book"
+            fontSize="8.688"
+          ></path>
+          <g
+            strokeWidth="0.096"
+            shapeRendering="auto"
+            transform="translate(21.494)"
+          >
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#fff"
+              d="M68.12 122.746h2.433v2.434H68.12z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 122.746h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 122.746h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 122.746h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 122.746h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 122.746h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 122.746h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 122.746h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 122.746h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 122.746h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 122.746h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 122.746h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 122.746h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 122.848h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 122.848h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 122.848h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 122.848h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 122.848h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 122.848h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 122.848h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 122.848h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 122.848h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 122.848h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 122.848h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 122.848h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 122.848h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 122.848h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 122.95h.1v.1h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 122.95h.102v.1h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 122.95h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 122.95h.102v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 122.95h.101v.1h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 122.95h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 122.95h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 122.95h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.05h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 123.05h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 123.05h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 123.05h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 123.05h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 123.05h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 123.05h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 123.05h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 123.05h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 123.05h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 123.05h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.152h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 123.152h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 123.152h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 123.152h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 123.152h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 123.152h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 123.152h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 123.152h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 123.152h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 123.152h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 123.152h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 123.152h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 123.152h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 123.152h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 123.152h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.253h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 123.253h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 123.253h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 123.253h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 123.253h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 123.253h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 123.253h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 123.253h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 123.253h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 123.253h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 123.253h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 123.253h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 123.253h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 123.253h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 123.253h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 123.253h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.355h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 123.355h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 123.355h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 123.355h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 123.355h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 123.355h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 123.355h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 123.355h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 123.355h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 123.355h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 123.355h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 123.355h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.456h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 123.456h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 123.456h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 123.456h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 123.456h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 123.456h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 123.456h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 123.456h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 123.456h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 123.456h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 123.456h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 123.456h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 123.456h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.558h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 123.558h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 123.558h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 123.558h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 123.558h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 123.558h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 123.558h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 123.558h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 123.558h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 123.558h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 123.558h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 123.558h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 123.558h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 123.558h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 123.558h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.659h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 123.659h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 123.659h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 123.659h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 123.659h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 123.659h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 123.659h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 123.659h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 123.659h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 123.659h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 123.659h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 123.659h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 123.659h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 123.659h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.76h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 123.76h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 123.76h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 123.76h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 123.76h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 123.76h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 123.76h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 123.76h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 123.76h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 123.76h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 123.76h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.862h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 123.862h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 123.862h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 123.862h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 123.862h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 123.862h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 123.862h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 123.862h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 123.862h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 123.862h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 123.862h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 123.862h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 123.862h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 123.963h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 123.963h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 123.963h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 123.963h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 123.963h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 123.963h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 123.963h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 123.963h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 123.963h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 123.963h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.065h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 124.065h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 124.065h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 124.065h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 124.065h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 124.065h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 124.065h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 124.065h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 124.065h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 124.065h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 124.065h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 124.065h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.166h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 124.166h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 124.166h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 124.166h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 124.166h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 124.166h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 124.166h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 124.166h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 124.166h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 124.166h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 124.166h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 124.166h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 124.166h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.267h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 124.267h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 124.267h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 124.267h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 124.267h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 124.267h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 124.267h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 124.267h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 124.267h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 124.267h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 124.267h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 124.267h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 124.267h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 124.267h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 124.267h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.369h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 124.369h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 124.369h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 124.369h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 124.369h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 124.369h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 124.369h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 124.369h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 124.369h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 124.369h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 124.369h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 124.369h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.47h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 124.47h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 124.47h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 124.47h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 124.47h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 124.47h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 124.47h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 124.47h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 124.47h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 124.47h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 124.47h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 124.47h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 124.47h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 124.47h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 124.47h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 124.47h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 124.47h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.572h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 124.572h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 124.572h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 124.572h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 124.572h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 124.572h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 124.572h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 124.572h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 124.572h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 124.572h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 124.572h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 124.572h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 124.572h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.673h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 124.673h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 124.673h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 124.673h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 124.673h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 124.673h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 124.673h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 124.673h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 124.673h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 124.673h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 124.673h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 124.673h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 124.673h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.774h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 124.774h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 124.774h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 124.774h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 124.774h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 124.774h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 124.774h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 124.774h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 124.774h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.876h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 124.876h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 124.876h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 124.876h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 124.876h.1v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 124.876h.102v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 124.876h.101v.101h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 124.876h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 124.876h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 124.876h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 124.876h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 124.876h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 124.876h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 124.876h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 124.876h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 124.876h.102v.101h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 124.876h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 124.876h.101v.101h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 124.977h.1v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 124.977h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 124.977h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 124.977h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 124.977h.102v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 124.977h.101v.102h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 124.977h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 124.977h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 124.977h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 124.977h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 124.977h.101v.102h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 124.977h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 124.977h.102v.102h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.12 125.079h.1v.1h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.22 125.079h.102v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.322 125.079h.102v.1h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.424 125.079h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.525 125.079h.101v.1h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.627 125.079h.1v.1h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.728 125.079h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.83 125.079h.1v.1h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M68.93 125.079h.102v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.032 125.079h.101v.1h-.1z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.133 125.079h.102v.1h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.235 125.079h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.336 125.079h.102v.1h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.438 125.079h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.539 125.079h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.64 125.079h.102v.1h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.742 125.079h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.843 125.079h.102v.1h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M69.945 125.079h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.046 125.079h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.147 125.079h.102v.1h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.249 125.079h.101v.1h-.101z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.35 125.079h.102v.1h-.102z"
+            ></path>
+            <path
+              style={{ InkscapeStroke: "none" }}
+              fill="#000"
+              d="M70.452 125.079h.101v.1h-.101z"
+            ></path>
+          </g>
+          <g
+            fill="#000"
+            strokeWidth="0.039"
+            fontFamily="nobel book"
+            fontSize="3.175"
+            transform="translate(21.494)"
+          >
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.148 117.899v-.339h.045v.299h.166v.04z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.392 117.776q0-.068.038-.1.031-.028.077-.028.05 0 .082.033t.032.092q0 .047-.014.074-.014.027-.041.042-.027.015-.06.015-.05 0-.083-.033-.031-.033-.031-.095zm.042 0q0 .047.021.07.02.024.052.024.03 0 .051-.024.02-.023.02-.071 0-.046-.02-.07-.02-.023-.051-.023-.031 0-.052.024-.02.023-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.67 117.899v-.245h.037v.037q.014-.026.026-.035.013-.008.027-.008.021 0 .043.014l-.014.038q-.016-.009-.03-.009-.015 0-.025.008-.011.008-.016.023-.007.022-.007.048v.129z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.995 117.82l.043.005q-.01.037-.037.058-.028.02-.07.02-.054 0-.086-.032-.031-.033-.031-.093 0-.062.032-.096.031-.034.082-.034.05 0 .08.033.032.034.032.095v.01h-.183q.002.041.022.062.02.022.052.022.022 0 .039-.012.016-.012.025-.038zm-.136-.067h.137q-.003-.031-.016-.047-.02-.024-.051-.024-.029 0-.049.02-.019.018-.021.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.09 117.899v-.245h.038v.034q.011-.018.03-.029.02-.01.044-.01.027 0 .044.01.018.012.025.032.03-.043.076-.043.036 0 .056.02.02.02.02.062v.169h-.042v-.155q0-.025-.004-.035-.004-.012-.015-.018-.01-.007-.024-.007-.026 0-.043.017-.017.017-.017.055v.142h-.042v-.159q0-.028-.01-.041-.01-.014-.033-.014-.018 0-.033.009-.015.009-.021.027-.007.018-.007.051v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.616 117.608v-.048h.041v.048zm0 .29v-.244h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.72 117.993v-.34h.038v.032q.014-.018.03-.027.017-.01.041-.01.032 0 .056.017.024.016.036.045.012.03.012.065 0 .037-.013.068-.014.03-.04.046-.025.016-.054.016-.02 0-.037-.01-.016-.008-.027-.021v.12zm.038-.216q0 .048.02.07.018.023.046.023.027 0 .047-.023.02-.024.02-.073 0-.047-.02-.07-.019-.024-.046-.024-.026 0-.047.025-.02.025-.02.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.967 117.825l.04-.006q.004.025.02.038.016.014.044.014.029 0 .043-.012.014-.012.014-.027t-.013-.023q-.008-.006-.042-.014-.046-.011-.064-.02-.017-.009-.026-.023-.01-.015-.01-.033 0-.016.008-.03.008-.014.02-.023.01-.007.027-.012t.036-.005q.029 0 .05.008.022.008.033.022.01.014.014.038l-.04.006q-.003-.019-.017-.03-.013-.01-.037-.01-.029 0-.041.01-.012.008-.012.021 0 .008.005.015.005.007.016.01.006.003.037.011.044.012.06.02.018.007.028.022.01.014.01.035 0 .02-.012.04-.012.017-.035.028-.023.01-.052.01-.047 0-.072-.02-.025-.02-.032-.059z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.38 117.899v-.036q-.028.041-.077.041-.022 0-.041-.008-.019-.008-.028-.02-.01-.013-.013-.031-.002-.013-.002-.04v-.151h.041v.136q0 .032.003.044.004.016.016.026.013.009.032.009.018 0 .035-.01.016-.01.023-.026.007-.016.007-.048v-.13h.041v.244z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.483 117.899v-.245h.037v.034q.011-.018.03-.029.02-.01.044-.01.027 0 .045.01.017.012.024.032.03-.043.076-.043.036 0 .056.02.02.02.02.062v.169h-.042v-.155q0-.025-.004-.035-.004-.012-.014-.018-.011-.007-.025-.007-.026 0-.043.017-.017.017-.017.055v.142h-.042v-.159q0-.028-.01-.041-.01-.014-.033-.014-.018 0-.033.009-.015.009-.021.027-.007.018-.007.051v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.167 117.899v-.031q-.024.036-.069.036-.03 0-.054-.016t-.038-.045q-.013-.029-.013-.067 0-.036.012-.066.012-.03.037-.046.024-.016.054-.016.022 0 .04.01.017.008.028.023v-.121h.041v.338zm-.132-.123q0 .047.02.07.02.024.047.024t.046-.022q.02-.023.02-.068 0-.05-.02-.074-.02-.024-.048-.024t-.046.023q-.019.023-.019.071z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.255 117.776q0-.068.038-.1.031-.028.077-.028.05 0 .083.033.032.033.032.092 0 .047-.015.074-.014.027-.041.042-.027.015-.06.015-.05 0-.082-.033t-.032-.095zm.043 0q0 .047.02.07.02.024.052.024.03 0 .051-.024.02-.023.02-.071 0-.046-.02-.07-.02-.023-.051-.023-.031 0-.052.024-.02.023-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.532 117.899v-.339h.042v.339z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.623 117.776q0-.068.038-.1.031-.028.077-.028.05 0 .082.033t.032.092q0 .047-.014.074-.014.027-.041.042-.027.015-.06.015-.05 0-.083-.033-.031-.033-.031-.095zm.043 0q0 .047.02.07.02.024.052.024.03 0 .051-.024.02-.023.02-.071 0-.046-.02-.07-.02-.023-.051-.023-.031 0-.052.024-.02.023-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.9 117.899v-.245h.038v.037q.014-.026.026-.035.013-.008.027-.008.021 0 .043.014l-.014.038q-.016-.009-.03-.009-.014 0-.025.008-.011.008-.016.023-.007.022-.007.048v.129z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.173 117.825l.041-.006q.004.025.02.038.015.014.044.014.028 0 .042-.012.014-.012.014-.027t-.012-.023q-.009-.006-.043-.014-.045-.011-.063-.02-.018-.009-.027-.023-.009-.015-.009-.033 0-.016.008-.03.007-.014.02-.023.01-.007.026-.012.017-.005.036-.005.03 0 .051.008.022.008.032.022.01.014.015.038l-.041.006q-.003-.019-.016-.03-.013-.01-.038-.01-.028 0-.04.01-.013.008-.013.021 0 .008.005.015.006.007.016.01l.037.011q.044.012.061.02.018.007.028.022.01.014.01.035 0 .02-.012.04-.012.017-.035.028-.023.01-.052.01-.048 0-.073-.02-.025-.02-.032-.059z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.426 117.608v-.048h.042v.048zm0 .29v-.244h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.622 117.861l.006.037q-.018.004-.031.004-.023 0-.036-.007-.012-.007-.017-.019-.005-.011-.005-.049v-.14h-.03v-.033h.03v-.06l.041-.026v.086h.042v.032h-.042v.144q0 .017.002.022.003.005.007.008.006.003.015.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.954 117.868q-.023.02-.045.028-.021.008-.045.008-.04 0-.063-.02-.021-.02-.021-.05 0-.018.008-.033.008-.015.021-.024.014-.009.03-.013l.037-.006q.05-.006.074-.015v-.01q0-.026-.011-.036-.016-.015-.047-.015-.03 0-.044.01-.014.01-.02.037l-.041-.006q.006-.026.018-.042.013-.016.037-.025.024-.009.056-.009.031 0 .05.007.02.007.03.019.009.011.012.028.002.01.002.039v.055q0 .058.003.073.003.016.01.03h-.043q-.006-.013-.008-.03zm-.004-.092q-.022.009-.068.015-.025.004-.036.008-.01.005-.016.014-.006.009-.006.02 0 .016.013.027.012.011.036.011.024 0 .043-.01.019-.01.028-.029.006-.014.006-.042z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.057 117.899v-.245h.037v.034q.011-.018.03-.029.02-.01.044-.01.027 0 .045.01.017.012.024.032.03-.043.076-.043.037 0 .056.02.02.02.02.062v.169h-.041v-.155q0-.025-.005-.035-.004-.012-.014-.018-.01-.007-.025-.007-.026 0-.043.017-.017.017-.017.055v.142h-.042v-.159q0-.028-.01-.041-.01-.014-.033-.014-.018 0-.033.009-.014.009-.021.027-.007.018-.007.051v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.618 117.82l.043.005q-.01.037-.037.058-.028.02-.07.02-.054 0-.086-.032-.031-.033-.031-.093 0-.062.031-.096.032-.034.083-.034.05 0 .08.033.032.034.032.095v.01h-.184q.003.041.023.062.02.022.052.022.022 0 .039-.012.016-.012.025-.038zm-.136-.067h.137q-.003-.031-.016-.047-.02-.024-.051-.024-.03 0-.049.02-.02.018-.021.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.804 117.861l.006.037q-.017.004-.031.004-.023 0-.035-.007-.013-.007-.018-.019-.005-.011-.005-.049v-.14h-.03v-.033h.03v-.06l.041-.026v.086h.042v.032h-.042v.144q0 .017.002.022.003.005.008.008t.014.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.856 117.899v-.048h.047v.048q0 .026-.01.042-.009.016-.029.025l-.011-.018q.013-.006.02-.017.005-.011.006-.032z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.304 118.411l.041.005q-.007.042-.034.066-.028.024-.068.024-.05 0-.08-.033-.031-.033-.031-.094 0-.04.013-.07.013-.03.04-.044.027-.015.058-.015.04 0 .066.02.025.02.032.057l-.04.006q-.006-.024-.02-.037-.015-.012-.036-.012-.031 0-.051.022-.02.023-.02.072 0 .049.02.071.018.023.049.023.024 0 .04-.015.017-.015.021-.046z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.365 118.378q0-.068.038-.1.032-.028.077-.028.05 0 .083.034.032.033.032.09 0 .048-.014.075-.015.027-.042.042-.027.015-.059.015-.051 0-.083-.033-.032-.033-.032-.095zm.043 0q0 .047.02.071.021.023.052.023.031 0 .052-.023.02-.024.02-.072 0-.046-.02-.069-.021-.023-.052-.023-.031 0-.052.023-.02.023-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.644 118.5v-.244h.037v.035q.027-.04.078-.04.022 0 .04.007.02.008.029.021.009.013.012.03.003.012.003.041v.15H68.8v-.148q0-.026-.005-.038-.004-.013-.017-.02-.012-.008-.029-.008-.026 0-.046.017-.019.016-.019.063v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.89 118.428l.04-.006q.004.024.02.038.016.013.044.013.029 0 .043-.012.014-.012.014-.027 0-.014-.013-.022-.008-.006-.042-.015-.046-.011-.063-.02-.018-.008-.027-.023-.01-.015-.01-.033 0-.016.008-.03.008-.014.02-.023.01-.007.027-.012t.036-.005q.029 0 .05.008.022.008.033.022.01.014.014.038l-.04.006q-.003-.019-.017-.03-.013-.01-.037-.01-.029 0-.04.01-.013.008-.013.021 0 .008.005.015.005.007.016.01.006.003.037.011.044.012.061.02.018.007.027.022.01.014.01.035 0 .021-.012.04-.012.018-.035.028-.023.01-.051.01-.048 0-.073-.02-.025-.02-.032-.059z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.31 118.422l.043.005q-.01.038-.037.058-.028.021-.07.021-.054 0-.086-.033-.031-.033-.031-.093 0-.062.032-.096t.082-.034q.05 0 .08.033.032.034.032.095v.01h-.183q.002.041.023.063.02.021.05.021.024 0 .04-.012t.026-.038zm-.136-.067h.137q-.003-.031-.016-.047-.02-.024-.051-.024-.029 0-.048.02-.02.019-.022.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.566 118.411l.04.005q-.006.042-.034.066-.027.024-.068.024-.05 0-.08-.033-.031-.033-.031-.094 0-.04.013-.07.013-.03.04-.044.027-.015.059-.015.04 0 .065.02t.033.057l-.04.006q-.007-.024-.021-.037-.015-.012-.036-.012-.031 0-.05.022-.02.023-.02.072 0 .049.019.071.018.023.049.023.024 0 .04-.015.017-.015.022-.046z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.733 118.464l.006.036q-.018.004-.032.004-.022 0-.035-.007-.012-.007-.017-.018-.005-.012-.005-.05v-.14h-.03v-.033h.03v-.06l.04-.025v.085h.043v.033h-.042v.143q0 .018.002.023.002.005.007.008t.014.003l.019-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.941 118.422l.043.005q-.01.038-.038.058-.027.021-.07.021-.054 0-.085-.033-.032-.033-.032-.093 0-.062.032-.096t.083-.034q.05 0 .08.033.031.034.031.095v.01h-.183q.003.041.023.063.02.021.051.021.023 0 .04-.012.016-.012.025-.038zm-.136-.067h.137q-.003-.031-.016-.047-.02-.024-.052-.024-.028 0-.048.02-.02.019-.021.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.127 118.464l.006.036q-.018.004-.032.004-.022 0-.035-.007-.012-.007-.017-.018-.005-.012-.005-.05v-.14h-.03v-.033h.03v-.06l.041-.025v.085h.042v.033h-.042v.143q0 .018.002.023.002.005.007.008t.015.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.328 118.5v-.035q-.029.041-.078.041-.021 0-.04-.008t-.028-.02q-.01-.013-.013-.031-.002-.012-.002-.04v-.15h.041v.135q0 .033.003.044.004.016.016.026.013.009.032.009.018 0 .035-.01.016-.01.023-.025.007-.017.007-.048v-.132h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.43 118.5v-.244h.037v.037q.015-.026.027-.034.012-.008.026-.008.021 0 .043.013l-.014.039q-.015-.01-.03-.01-.014 0-.025.009-.011.008-.016.022-.007.022-.007.049v.128z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.879 118.47q-.023.02-.045.028-.02.008-.045.008-.04 0-.062-.02-.022-.019-.022-.05 0-.018.008-.033.008-.015.022-.024.013-.009.03-.013.012-.003.037-.006.05-.006.074-.014v-.011q0-.026-.012-.036-.016-.014-.047-.014-.03 0-.044.01-.013.01-.02.036l-.04-.006q.005-.026.017-.042.013-.016.037-.024.024-.01.056-.01.031 0 .05.008.02.007.03.018.009.012.013.029.002.01.002.038v.055q0 .058.002.074.003.015.01.03h-.043q-.006-.014-.008-.031zm-.003-.092q-.023.009-.068.016-.026.004-.037.008-.01.005-.016.013-.006.01-.006.02 0 .016.013.027.012.012.037.012.024 0 .042-.01.019-.011.028-.03.006-.014.006-.041z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.141 118.5v-.03q-.023.036-.069.036-.029 0-.054-.016-.024-.016-.038-.045-.013-.029-.013-.066 0-.037.012-.067.012-.03.037-.046.024-.016.055-.016.022 0 .04.01.016.008.027.023v-.12h.042v.337zm-.131-.121q0 .047.02.07.02.023.046.023.028 0 .047-.022t.019-.068q0-.05-.02-.074-.02-.023-.048-.023-.027 0-.046.022-.018.023-.018.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.245 118.21v-.047h.042v.047zm0 .29v-.244h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.35 118.595v-.34h.038v.033q.013-.02.03-.028.017-.01.04-.01.032 0 .056.017.024.016.036.046.013.029.013.064 0 .038-.014.068-.013.03-.04.046-.025.016-.053.016-.021 0-.038-.01-.016-.008-.027-.021v.119zm.037-.215q0 .047.02.07.019.022.046.022.028 0 .047-.023.02-.024.02-.073 0-.047-.02-.07-.018-.023-.045-.023t-.047.025q-.02.024-.02.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.613 118.21v-.047h.041v.047zm0 .29v-.244h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.701 118.428l.041-.006q.004.024.02.038.015.013.044.013.028 0 .042-.012.014-.012.014-.027 0-.014-.012-.022-.009-.006-.043-.015-.045-.011-.063-.02-.018-.008-.027-.023-.009-.015-.009-.033 0-.016.007-.03.008-.014.02-.023.01-.007.027-.012t.036-.005q.03 0 .05.008.023.008.033.022.01.014.014.038l-.04.006q-.003-.019-.016-.03-.014-.01-.038-.01-.028 0-.04.01-.013.008-.013.021 0 .008.005.015.005.007.016.01.006.003.037.011.044.012.061.02.018.007.028.022.01.014.01.035 0 .021-.013.04-.012.018-.034.028-.023.01-.052.01-.048 0-.073-.02-.025-.02-.032-.059z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.114 118.411l.04.005q-.006.042-.034.066-.027.024-.067.024-.05 0-.081-.033-.03-.033-.03-.094 0-.04.013-.07.013-.03.04-.044.026-.015.058-.015.04 0 .065.02.026.02.033.057l-.04.006q-.006-.024-.021-.037-.015-.012-.035-.012-.032 0-.051.022-.02.023-.02.072 0 .049.019.071.019.023.05.023.024 0 .04-.015.017-.015.021-.046z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.19 118.21v-.047h.042v.047zm0 .29v-.244h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.295 118.5v-.244h.038v.035q.027-.04.078-.04.022 0 .04.007.02.008.028.021.01.013.013.03.003.012.003.041v.15h-.042v-.148q0-.026-.005-.038-.005-.013-.017-.02-.012-.008-.03-.008-.026 0-.045.017-.02.016-.02.063v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.55 118.521l.041.006q.003.019.014.027.016.012.042.012.03 0 .045-.012.016-.011.021-.032.003-.013.003-.053-.027.032-.068.032-.05 0-.078-.037-.028-.036-.028-.087 0-.035.013-.065t.037-.046q.024-.016.056-.016.044 0 .072.035v-.03h.038v.213q0 .057-.011.08-.012.025-.037.039-.026.013-.062.013-.044 0-.071-.02-.027-.019-.026-.059zm.035-.147q0 .048.02.07.018.023.047.023t.048-.022q.02-.023.02-.07 0-.045-.02-.067-.02-.023-.049-.023-.027 0-.047.022-.019.023-.019.067z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.12 118.422l.043.005q-.01.038-.037.058-.028.021-.07.021-.054 0-.086-.033-.031-.033-.031-.093 0-.062.031-.096.032-.034.083-.034.05 0 .08.033.032.034.032.095v.01h-.184q.003.041.023.063.02.021.052.021.022 0 .039-.012.016-.012.025-.038zm-.136-.067h.137q-.003-.031-.016-.047-.02-.024-.051-.024-.03 0-.049.02-.02.019-.021.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.214 118.5v-.337h.042v.338z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.32 118.21v-.047h.042v.047zm0 .29v-.244h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.516 118.464l.006.036q-.018.004-.031.004-.023 0-.035-.007-.013-.007-.018-.018-.005-.012-.005-.05v-.14h-.03v-.033h.03v-.06l.041-.025v.085h.042v.033h-.042v.143q0 .018.002.023.003.005.008.008t.014.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.568 118.5v-.046h.048v.047z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.81 118.392l.042-.004q.003.026.013.042.012.016.035.026.023.01.052.01.025 0 .045-.008.02-.008.029-.02.01-.014.01-.03 0-.015-.01-.027-.009-.012-.03-.02l-.06-.017q-.047-.011-.066-.021-.024-.013-.036-.031-.012-.02-.012-.043 0-.025.015-.047.014-.023.042-.034.028-.012.062-.012.038 0 .067.012.029.012.044.036.015.024.017.053l-.043.003q-.004-.032-.024-.048-.02-.017-.059-.017-.04 0-.059.015-.019.015-.019.036 0 .018.014.03.013.012.067.024.055.013.075.022.03.013.044.034.014.021.014.048t-.016.051q-.015.024-.044.038-.03.013-.065.013-.046 0-.077-.014-.031-.013-.05-.04-.017-.027-.018-.06z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.302 118.422l.043.005q-.01.038-.037.058-.028.021-.07.021-.054 0-.086-.033-.031-.033-.031-.093 0-.062.032-.096.031-.034.082-.034.05 0 .08.033.032.034.032.095v.01h-.183q.002.041.022.063.021.021.052.021.022 0 .039-.012.016-.012.025-.038zm-.136-.067h.137q-.003-.031-.016-.047-.02-.024-.051-.024-.029 0-.049.02-.019.019-.021.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.556 118.5v-.03q-.023.036-.068.036-.03 0-.054-.016-.025-.016-.038-.045-.014-.029-.014-.066 0-.037.013-.067.012-.03.036-.046.025-.016.055-.016.022 0 .04.01.017.008.028.023v-.12h.041v.337zm-.13-.121q0 .047.019.07.02.023.047.023t.046-.022q.02-.022.02-.068 0-.05-.02-.074-.02-.023-.048-.023t-.046.022q-.019.023-.019.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.95 118.5v-.03q-.023.036-.068.036-.03 0-.054-.016t-.038-.045q-.013-.029-.013-.066 0-.037.012-.067.012-.03.037-.046.024-.016.054-.016.022 0 .04.01.017.008.028.023v-.12h.041v.337zm-.13-.121q0 .047.02.07.019.023.046.023t.046-.022q.02-.022.02-.068 0-.05-.02-.074-.02-.023-.048-.023t-.046.022q-.019.023-.019.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M75.039 118.378q0-.068.038-.1.031-.028.077-.028.05 0 .083.034.032.033.032.09 0 .048-.015.075-.014.027-.041.042-.027.015-.06.015-.05 0-.082-.033t-.032-.095zm.043 0q0 .047.02.071.02.023.052.023.03 0 .051-.023.021-.024.021-.072 0-.046-.02-.069-.021-.023-.052-.023-.031 0-.052.023-.02.023-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.312 119.024l.043.005q-.01.038-.038.059-.027.02-.07.02-.053 0-.085-.033-.031-.033-.031-.093 0-.061.031-.096.032-.034.083-.034.05 0 .08.034.031.033.031.094v.011h-.183q.003.04.023.062.02.021.051.021.023 0 .04-.012.016-.012.025-.038zm-.136-.067h.137q-.003-.03-.016-.046-.02-.024-.052-.024-.028 0-.048.019t-.021.051z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.407 118.813v-.048h.042v.048zm0 .29v-.245h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.673 119.103v-.036q-.029.042-.078.042-.022 0-.04-.008-.02-.008-.028-.021-.01-.013-.013-.031-.003-.012-.003-.039v-.152h.042v.136q0 .033.002.044.004.016.017.026.013.009.031.009.02 0 .035-.009.017-.01.024-.026.006-.017.006-.048v-.131h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.759 119.03l.04-.006q.004.025.02.038.016.013.044.013.029 0 .043-.011.013-.012.013-.028 0-.014-.012-.022-.008-.006-.042-.014-.046-.012-.064-.02-.017-.009-.027-.023-.009-.015-.009-.033 0-.017.008-.03.007-.015.02-.024.01-.007.027-.012t.036-.005q.029 0 .05.008.022.008.033.023.01.014.014.038l-.04.006q-.004-.02-.017-.03-.013-.01-.037-.01-.029 0-.041.009t-.012.022q0 .008.005.014.005.007.016.011l.036.011q.044.012.062.02.017.006.027.021.01.014.01.036 0 .02-.012.039-.012.018-.035.028-.023.01-.052.01-.048 0-.073-.02-.025-.02-.032-.059z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.011 119.103v-.245h.038v.035q.011-.018.03-.03.02-.01.044-.01.027 0 .044.01.018.012.025.033.03-.043.076-.043.036 0 .056.02.02.02.02.062v.168h-.042v-.154q0-.025-.004-.036-.004-.011-.014-.018-.011-.007-.025-.007-.026 0-.043.018-.017.017-.017.054v.143h-.042v-.16q0-.027-.01-.04-.01-.015-.033-.015-.018 0-.033.01-.015.008-.021.026-.007.018-.007.052v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.39 118.98q0-.067.038-.1.031-.027.077-.027.05 0 .082.033t.032.091q0 .048-.014.075-.014.027-.041.042-.027.015-.06.015-.05 0-.083-.033-.031-.033-.031-.095zm.042 0q0 .048.021.071.02.024.052.024.03 0 .051-.024.02-.023.02-.072 0-.045-.02-.069-.02-.023-.051-.023-.031 0-.052.023-.02.024-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.827 119.103v-.03q-.023.036-.068.036-.03 0-.054-.016-.025-.016-.039-.045-.013-.03-.013-.067 0-.037.012-.066.013-.03.037-.046t.055-.016q.022 0 .04.009.016.009.027.024v-.121h.042v.338zm-.131-.122q0 .047.02.07.02.024.046.024.028 0 .047-.023.019-.022.019-.068 0-.05-.02-.074-.019-.023-.047-.023t-.047.023q-.018.022-.018.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.153 119.066l.006.037q-.018.004-.031.004-.023 0-.036-.007-.012-.007-.017-.019-.005-.012-.005-.05v-.14h-.03v-.032h.03v-.061l.041-.025v.086h.042v.032h-.042v.143q0 .018.002.023.003.005.007.008.006.003.015.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.361 119.024l.043.005q-.01.038-.037.059-.028.02-.07.02-.054 0-.086-.033-.031-.033-.031-.093 0-.061.032-.096.031-.034.082-.034.05 0 .08.034.032.033.032.094v.011h-.183q.002.04.022.062.021.021.052.021.023 0 .039-.012t.025-.038zm-.136-.067h.137q-.003-.03-.016-.046-.02-.024-.051-.024-.029 0-.049.019-.019.019-.021.051z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.456 119.103v-.245h.038v.035q.011-.018.03-.03.02-.01.044-.01.027 0 .044.01.018.012.025.033.03-.043.076-.043.036 0 .056.02.02.02.02.062v.168h-.042v-.154q0-.025-.004-.036-.004-.011-.015-.018-.01-.007-.024-.007-.026 0-.043.018-.017.017-.017.054v.143h-.042v-.16q0-.027-.01-.04-.01-.015-.033-.015-.018 0-.033.01-.015.008-.021.026-.007.018-.007.052v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.85 119.197v-.339h.038v.032q.013-.019.03-.028.017-.009.041-.009.031 0 .055.016t.037.046q.012.03.012.064 0 .038-.014.068-.013.03-.039.046-.026.016-.054.016-.02 0-.037-.009-.017-.009-.027-.022v.12zm.038-.215q0 .047.019.07.02.023.046.023.028 0 .048-.024.02-.023.02-.072 0-.047-.02-.07-.02-.024-.046-.024t-.047.025q-.02.025-.02.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.098 118.98q0-.067.037-.1.032-.027.078-.027.05 0 .082.033t.032.091q0 .048-.014.075-.014.027-.041.042-.027.015-.06.015-.051 0-.083-.033-.031-.033-.031-.095zm.042 0q0 .048.02.071.021.024.053.024.03 0 .051-.024.02-.023.02-.072 0-.045-.02-.069-.02-.023-.051-.023-.032 0-.052.023-.02.024-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.375 119.103v-.245h.038v.037q.014-.026.026-.034.012-.008.027-.008.02 0 .043.013l-.015.039q-.015-.01-.03-.01-.014 0-.025.009-.01.008-.015.022-.007.023-.007.049v.128z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.665 118.813v-.048h.041v.048zm0 .29v-.245h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.77 119.103v-.245h.037v.035q.027-.04.078-.04.022 0 .04.008.02.008.029.02.009.013.013.031.002.012.002.04v.151h-.042v-.149q0-.025-.005-.038-.004-.012-.017-.02-.012-.008-.029-.008-.026 0-.046.017-.019.017-.019.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.192 119.013l.041.005q-.006.043-.034.067-.028.023-.068.023-.05 0-.08-.032-.031-.033-.031-.095 0-.04.013-.07.013-.03.04-.044.027-.015.059-.015.04 0 .065.02t.032.058l-.04.006q-.006-.025-.02-.037-.015-.013-.036-.013-.031 0-.05.023-.02.022-.02.07 0 .05.018.073.02.022.05.022.024 0 .04-.015.017-.015.021-.046z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.27 118.813v-.048h.04v.048zm0 .29v-.245h.04v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.533 119.103v-.03q-.023.036-.069.036-.029 0-.054-.016-.024-.016-.038-.045-.013-.03-.013-.067 0-.037.012-.066.012-.03.037-.046.024-.016.054-.016.023 0 .04.009t.028.024v-.121h.041v.338zm-.131-.122q0 .047.02.07.02.024.046.024.027 0 .046-.023.02-.022.02-.068 0-.05-.02-.074-.02-.023-.048-.023-.027 0-.046.023-.018.022-.018.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.637 118.813v-.048h.041v.048zm0 .29v-.245h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.9 119.103v-.03q-.023.036-.068.036-.03 0-.054-.016t-.038-.045q-.013-.03-.013-.067 0-.037.012-.066.012-.03.037-.046.024-.016.054-.016.023 0 .04.009t.028.024v-.121h.041v.338zm-.13-.122q0 .047.02.07.02.024.046.024.027 0 .046-.023.02-.022.02-.068 0-.05-.02-.074-.02-.023-.048-.023-.027 0-.046.023-.019.022-.019.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.165 119.103v-.036q-.028.042-.078.042-.021 0-.04-.008t-.028-.021q-.01-.013-.013-.031-.002-.012-.002-.039v-.152h.041v.136q0 .033.003.044.004.016.016.026.013.009.032.009.018 0 .035-.009.016-.01.023-.026.007-.017.007-.048v-.131h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.267 119.103v-.245h.038v.035q.027-.04.078-.04.022 0 .04.008.02.008.028.02.01.013.013.031.003.012.003.04v.151h-.042v-.149q0-.025-.005-.038-.005-.012-.017-.02t-.029-.008q-.027 0-.046.017-.02.017-.02.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.621 119.066l.006.037q-.018.004-.031.004-.023 0-.035-.007-.013-.007-.018-.019-.005-.012-.005-.05v-.14h-.03v-.032h.03v-.061l.041-.025v.086h.042v.032h-.042v.143q0 .018.002.023.003.005.008.008t.014.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.954 119.103v-.036q-.029.042-.078.042-.022 0-.04-.008-.02-.008-.029-.021-.009-.013-.012-.031-.003-.012-.003-.039v-.152h.042v.136q0 .033.002.044.004.016.017.026.012.009.031.009t.035-.009q.017-.01.023-.026.007-.017.007-.048v-.131h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.147 119.066l.006.037q-.018.004-.032.004-.022 0-.035-.007-.012-.007-.017-.019-.006-.012-.006-.05v-.14h-.03v-.032h.03v-.061l.042-.025v.086h.042v.032h-.042v.143q0 .018.002.023.002.005.007.008t.014.003l.019-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.318 119.103v-.338h.041v.338z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.583 119.073q-.023.02-.044.028-.021.008-.046.008-.04 0-.062-.02t-.022-.05q0-.018.009-.033.008-.015.021-.024.013-.01.03-.014.012-.003.037-.006.05-.006.074-.014v-.011q0-.025-.011-.036-.016-.014-.048-.014-.03 0-.043.01-.014.01-.02.037l-.041-.006q.005-.026.018-.042.013-.017.037-.025.024-.009.055-.009.032 0 .051.007.02.007.03.019.008.01.012.028.002.01.002.038V119q0 .057.003.073.002.015.01.03h-.043q-.007-.014-.008-.03zm-.003-.093q-.023.01-.068.016-.026.004-.036.008-.01.005-.017.013-.005.01-.005.02 0 .017.012.028.013.01.037.01t.043-.01q.018-.01.027-.028.007-.015.007-.042z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.725 119.103h-.039v-.338h.042v.12q.026-.032.067-.032.022 0 .043.009.02.009.033.025.013.017.02.04.008.023.008.05 0 .063-.031.097-.032.034-.075.034-.044 0-.068-.036zm0-.124q0 .044.011.064.02.032.053.032.028 0 .047-.024.02-.024.02-.07 0-.048-.019-.071-.019-.023-.046-.023t-.047.024q-.02.023-.02.068z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.934 118.98q0-.067.038-.1.031-.027.077-.027.05 0 .082.033t.032.091q0 .048-.014.075-.014.027-.041.042-.027.015-.06.015-.05 0-.083-.033-.031-.033-.031-.095zm.042 0q0 .048.021.071.02.024.052.024.03 0 .051-.024.02-.023.02-.072 0-.045-.02-.069-.02-.023-.051-.023-.031 0-.052.023-.02.024-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M75.212 119.103v-.245h.037v.037q.014-.026.026-.034.013-.008.027-.008.021 0 .043.013l-.015.039q-.015-.01-.03-.01-.014 0-.024.009-.011.008-.016.022-.007.023-.007.049v.128z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M75.537 119.024l.043.005q-.01.038-.037.059-.028.02-.07.02-.054 0-.086-.033-.031-.033-.031-.093 0-.061.032-.096.031-.034.082-.034.05 0 .08.034.032.033.032.094v.011h-.183q.002.04.022.062.02.021.052.021.022 0 .039-.012.016-.012.025-.038zm-.136-.067h.137q-.003-.03-.016-.046-.02-.024-.051-.024-.029 0-.049.019-.019.019-.021.051z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.312 119.627l.043.005q-.01.037-.038.058-.027.02-.07.02-.053 0-.085-.032-.031-.033-.031-.093 0-.062.031-.096.032-.034.083-.034.05 0 .08.033.031.034.031.094v.011h-.183q.003.04.023.062t.051.022q.023 0 .04-.012.016-.012.025-.039zm-.136-.068h.137q-.003-.03-.016-.046-.02-.024-.052-.024-.028 0-.048.02-.02.018-.021.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.498 119.668l.006.037q-.018.004-.031.004-.023 0-.036-.007-.012-.007-.017-.019-.005-.011-.005-.049v-.14h-.03v-.033h.03v-.06l.041-.026v.086h.042v.032h-.042v.143q0 .018.002.023.003.005.007.008.006.003.015.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.829 119.706v-.031q-.023.036-.069.036-.029 0-.054-.016-.024-.016-.038-.045-.013-.03-.013-.067 0-.036.012-.066.012-.03.037-.046.024-.016.055-.016.022 0 .039.009t.028.024v-.121h.041v.338zm-.131-.123q0 .047.02.07.02.024.046.024.028 0 .046-.022.02-.023.02-.068 0-.05-.02-.074-.02-.024-.048-.024-.027 0-.046.023-.018.022-.018.071z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.917 119.583q0-.068.038-.1.032-.028.077-.028.05 0 .083.033.032.033.032.091 0 .048-.014.075-.014.027-.042.042-.027.015-.059.015-.051 0-.083-.033-.032-.033-.032-.095zm.043 0q0 .047.02.07.021.024.052.024.031 0 .052-.024.02-.023.02-.071 0-.046-.02-.07-.021-.023-.052-.023-.03 0-.051.023-.021.024-.021.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.195 119.706v-.339h.041v.338z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.285 119.583q0-.068.038-.1.032-.028.077-.028.05 0 .083.033.032.033.032.091 0 .048-.014.075-.015.027-.042.042-.027.015-.059.015-.051 0-.083-.033-.032-.033-.032-.095zm.043 0q0 .047.02.07.021.024.052.024.031 0 .052-.024.02-.023.02-.071 0-.046-.02-.07-.021-.023-.052-.023-.031 0-.052.023-.02.024-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.563 119.706v-.246h.037v.038q.015-.027.027-.035.012-.008.027-.008.02 0 .042.014l-.014.038q-.015-.009-.03-.009-.014 0-.025.008-.01.008-.015.023-.007.022-.007.048v.128z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.889 119.627l.043.005q-.01.037-.038.058-.027.02-.07.02-.054 0-.086-.032-.03-.033-.03-.093 0-.062.03-.096.033-.034.084-.034.049 0 .08.033.031.034.031.094v.011h-.183q.002.04.023.062.02.022.051.022.023 0 .039-.012t.026-.039zm-.137-.068h.137q-.003-.03-.016-.046-.02-.024-.051-.024-.029 0-.048.02-.02.018-.022.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.115 119.706v-.246h.037v.035q.012-.018.031-.03.02-.01.044-.01.027 0 .044.011.018.011.025.032.029-.043.076-.043.036 0 .056.02.02.02.02.062v.168h-.042v-.154q0-.025-.004-.036-.004-.01-.015-.018-.01-.007-.025-.007-.026 0-.043.018-.017.017-.017.055v.142h-.041v-.16q0-.027-.01-.04-.01-.015-.034-.015-.017 0-.032.01-.015.008-.022.026-.006.018-.006.052v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.669 119.675q-.023.02-.045.028-.021.008-.045.008-.04 0-.063-.02-.021-.02-.021-.05 0-.018.008-.033.008-.015.021-.024.014-.009.03-.014l.037-.006q.05-.006.074-.014v-.01q0-.026-.011-.037-.016-.014-.047-.014-.03 0-.044.01-.014.011-.02.037l-.041-.006q.005-.026.018-.042.013-.016.037-.025.024-.009.056-.009.03 0 .05.007.02.007.03.019.009.011.012.028.002.01.002.038v.056q0 .058.003.073.003.015.01.03h-.043q-.006-.013-.008-.03zm-.004-.093q-.022.01-.068.016-.025.004-.036.008-.01.005-.016.014-.006.009-.006.02 0 .016.012.027.013.011.037.011t.043-.01q.019-.01.028-.029.006-.014.006-.042z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.764 119.726l.04.006q.003.019.015.027.015.011.042.011.029 0 .044-.011.016-.011.022-.032.003-.013.003-.054-.028.032-.068.032-.05 0-.079-.036-.027-.036-.027-.087 0-.036.012-.065.013-.03.037-.046t.057-.016q.043 0 .072.035v-.03h.038v.212q0 .057-.012.081t-.037.038q-.025.014-.062.014-.044 0-.07-.02-.028-.02-.027-.06zm.034-.147q0 .048.02.07.019.022.048.022.028 0 .048-.022.019-.022.019-.069 0-.045-.02-.068-.02-.023-.048-.023t-.047.023q-.02.022-.02.067z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.035 119.706v-.246h.037v.035q.027-.04.078-.04.022 0 .04.008.02.008.029.02.009.013.012.031.003.012.003.04v.151h-.042v-.149q0-.025-.005-.038-.005-.012-.017-.02t-.029-.008q-.026 0-.046.017-.019.017-.019.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.457 119.675q-.023.02-.044.028-.021.008-.046.008-.04 0-.062-.02t-.022-.05q0-.018.008-.033.009-.015.022-.024.013-.009.03-.014.012-.003.037-.006.05-.006.074-.014v-.01q0-.026-.012-.037-.015-.014-.047-.014-.03 0-.043.01-.014.011-.02.037l-.041-.006q.005-.026.018-.042.013-.016.037-.025.024-.009.055-.009.032 0 .051.007.02.007.029.019.01.011.013.028.002.01.002.038v.056q0 .058.003.073.002.015.01.03h-.043q-.007-.013-.009-.03zm-.003-.093q-.023.01-.068.016-.026.004-.036.008-.01.005-.017.014-.005.009-.005.02 0 .016.012.027.013.011.037.011t.043-.01q.018-.01.027-.029.007-.014.007-.042z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.852 119.675q-.024.02-.045.028-.021.008-.046.008-.04 0-.062-.02-.021-.02-.021-.05 0-.018.008-.033.008-.015.021-.024.013-.009.03-.014.012-.003.037-.006.05-.006.074-.014v-.01q0-.026-.011-.037-.016-.014-.048-.014-.029 0-.043.01-.014.011-.02.037l-.041-.006q.005-.026.018-.042.013-.016.037-.025.024-.009.055-.009.032 0 .051.007.02.007.03.019.008.011.012.028.002.01.002.038v.056q0 .058.003.073.003.015.01.03h-.043q-.007-.013-.008-.03zm-.004-.093q-.023.01-.068.016-.025.004-.036.008-.01.005-.016.014-.006.009-.006.02 0 .016.012.027.013.011.037.011t.043-.01q.019-.01.027-.029.007-.014.007-.042z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.954 119.706v-.339h.041v.338z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.06 119.415v-.048h.041v.048zm0 .29v-.245h.041v.246z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.32 119.8v-.12q-.009.013-.026.022-.018.009-.037.009-.044 0-.076-.035-.031-.035-.031-.095 0-.037.013-.067.013-.029.037-.044.024-.015.053-.015.046 0 .072.038v-.033h.037v.34zm-.127-.218q0 .048.02.071.02.024.047.024t.046-.023q.019-.022.019-.068 0-.049-.02-.074-.02-.024-.048-.024-.027 0-.046.023-.018.023-.018.071z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.588 119.706v-.037q-.029.042-.078.042-.021 0-.04-.008-.02-.008-.028-.02-.01-.013-.013-.032-.003-.012-.003-.038v-.152h.042v.136q0 .032.003.043.003.017.016.026.013.01.032.01.018 0 .035-.01.016-.01.023-.026.007-.016.007-.048v-.131h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.85 119.675q-.023.02-.044.028-.022.008-.046.008-.04 0-.062-.02t-.022-.05q0-.018.008-.033.009-.015.022-.024.013-.009.03-.014.012-.003.037-.006.05-.006.074-.014v-.01q0-.026-.012-.037-.016-.014-.047-.014-.03 0-.043.01-.014.011-.021.037l-.04-.006q.005-.026.018-.042.012-.016.036-.025.024-.009.056-.009.031 0 .051.007.02.007.029.019.009.011.013.028.002.01.002.038v.056q0 .058.002.073.003.015.01.03h-.042q-.007-.013-.009-.03zm-.003-.093q-.023.01-.068.016-.026.004-.036.008-.011.005-.017.014-.006.009-.006.02 0 .016.013.027t.037.011q.024 0 .043-.01.018-.01.027-.029.007-.014.007-.042z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.965 119.706v-.048h.047v.047z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.443 119.367h.045v.196q0 .05-.012.08-.011.03-.041.05-.03.018-.08.018-.047 0-.077-.016-.03-.017-.043-.047-.013-.032-.013-.085v-.196h.045v.195q0 .045.008.066.008.02.028.032.02.01.049.01.05 0 .07-.021.021-.023.021-.087z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.648 119.668l.006.037q-.018.004-.032.004-.022 0-.035-.007-.012-.007-.017-.019-.005-.011-.005-.049v-.14h-.03v-.033h.03v-.06l.041-.026v.086h.042v.032h-.042v.143q0 .018.002.023.002.005.007.008t.015.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.988 119.627l.042.005q-.01.037-.037.058-.028.02-.07.02-.054 0-.086-.032-.031-.033-.031-.093 0-.062.032-.096t.082-.034q.05 0 .08.033.032.034.032.094v.011h-.183q.002.04.023.062.02.022.05.022.024 0 .04-.012t.025-.039zm-.137-.068h.137q-.003-.03-.016-.046-.02-.024-.051-.024-.029 0-.048.02-.02.018-.022.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.083 119.706v-.246h.037v.035q.027-.04.078-.04.022 0 .04.008.02.008.029.02.009.013.012.031.003.012.003.04v.151h-.042v-.149q0-.025-.005-.038-.005-.012-.017-.02t-.029-.008q-.026 0-.046.017-.019.017-.019.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.346 119.415v-.048h.041v.048zm0 .29v-.245h.041v.246z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.45 119.706v-.246h.038v.035q.011-.018.03-.03.02-.01.044-.01.027 0 .045.011.017.011.024.032.03-.043.076-.043.036 0 .056.02.02.02.02.062v.168h-.042v-.154q0-.025-.004-.036-.004-.01-.014-.018-.011-.007-.025-.007-.026 0-.043.018-.017.017-.017.055v.142h-.042v-.16q0-.027-.01-.04-.01-.015-.033-.015-.018 0-.033.01-.015.008-.021.026-.007.018-.007.052v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M75.135 119.675q-.023.02-.044.028-.021.008-.046.008-.04 0-.062-.02t-.022-.05q0-.018.009-.033.008-.015.021-.024.013-.009.03-.014.012-.003.037-.006.05-.006.074-.014v-.01q0-.026-.011-.037-.016-.014-.048-.014-.03 0-.043.01-.014.011-.02.037l-.041-.006q.005-.026.018-.042.013-.016.037-.025.024-.009.055-.009.032 0 .051.007.02.007.03.019.008.011.012.028.002.01.002.038v.056q0 .058.003.073.002.015.01.03h-.043q-.007-.013-.008-.03zm-.003-.093q-.023.01-.068.016-.025.004-.036.008-.01.005-.017.014-.005.009-.005.02 0 .016.012.027.013.011.037.011t.043-.01q.018-.01.027-.029.007-.014.007-.042z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M75.397 119.706v-.031q-.023.036-.068.036-.03 0-.054-.016-.025-.016-.038-.045-.014-.03-.014-.067 0-.036.013-.066.012-.03.036-.046.025-.016.055-.016.022 0 .04.009.017.009.028.024v-.121h.041v.338zm-.13-.123q0 .047.019.07.02.024.047.024t.046-.022q.02-.023.02-.068 0-.05-.02-.074-.02-.024-.048-.024t-.046.023q-.019.022-.019.071z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.144 120.308v-.245h.038v.034q.011-.018.03-.029.02-.01.044-.01.027 0 .044.01.018.012.025.032.03-.043.076-.043.036 0 .056.02.02.02.02.062v.169h-.042v-.155q0-.025-.004-.035-.004-.012-.015-.018-.01-.007-.024-.007-.026 0-.043.017-.017.017-.017.055v.142h-.042v-.159q0-.028-.01-.041-.01-.014-.033-.014-.018 0-.033.009-.015.009-.021.027-.007.018-.007.051v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.538 120.017v-.048h.042v.048zm0 .29v-.244h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.643 120.308v-.245h.038v.035q.027-.04.078-.04.022 0 .04.007.019.008.028.021.01.013.013.03.002.012.002.041v.15h-.041v-.148q0-.026-.005-.038-.005-.013-.017-.02-.013-.008-.03-.008-.026 0-.045.016-.02.017-.02.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.906 120.017v-.048h.042v.048zm0 .29v-.244h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.011 120.308v-.245h.037v.034q.012-.018.03-.029.02-.01.044-.01.028 0 .045.01.018.012.025.032.029-.043.075-.043.037 0 .056.02.02.02.02.062v.169h-.041v-.155q0-.025-.004-.035-.004-.012-.015-.018-.01-.007-.025-.007-.026 0-.043.017-.017.017-.017.055v.142h-.041v-.159q0-.028-.01-.041-.01-.014-.034-.014-.017 0-.032.009t-.022.027q-.007.018-.007.051v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.604 120.308l-.093-.245h.044l.052.146q.009.024.016.05l.016-.047.054-.15h.043l-.093.246z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.94 120.229l.043.005q-.01.037-.038.058-.027.021-.07.021-.053 0-.085-.033-.031-.033-.031-.093 0-.062.031-.096.032-.034.083-.034.05 0 .08.033.031.034.031.095v.01h-.183q.003.041.023.063.02.021.051.021.023 0 .04-.012.016-.012.025-.038zm-.136-.067h.137q-.003-.031-.016-.047-.02-.024-.052-.024-.028 0-.048.02-.02.019-.021.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.035 120.308v-.245h.038v.035q.027-.04.078-.04.022 0 .04.007.019.008.028.021.01.013.013.03.002.012.002.041v.15h-.041v-.148q0-.026-.005-.038-.005-.013-.017-.02-.013-.008-.03-.008-.026 0-.045.016-.02.017-.02.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.298 120.017v-.048h.042v.048zm0 .29v-.244h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.563 120.278q-.023.02-.044.027-.022.008-.046.008-.04 0-.062-.02t-.022-.05q0-.018.008-.033.008-.015.022-.024.013-.009.03-.013.012-.003.037-.006.05-.006.074-.015v-.01q0-.026-.012-.036-.016-.014-.047-.014-.03 0-.044.01-.013.01-.02.036l-.04-.006q.005-.026.018-.042.012-.016.036-.025.024-.009.056-.009.031 0 .05.007.02.007.03.02.009.01.013.027.002.01.002.039v.055q0 .058.002.073.003.016.01.03h-.043q-.006-.013-.008-.03zm-.003-.093q-.023.009-.068.015-.026.004-.037.008-.01.005-.016.014-.006.009-.006.02 0 .016.013.027.012.011.037.011.024 0 .042-.01.02-.01.028-.029.007-.014.007-.041z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.666 120.308v-.245h.037v.034q.012-.018.03-.029.02-.01.044-.01.028 0 .045.01.018.012.025.032.029-.043.075-.043.037 0 .056.02.02.02.02.062v.169h-.041v-.155q0-.025-.004-.035-.004-.012-.015-.018-.01-.007-.025-.007-.026 0-.043.017-.017.017-.017.055v.142h-.041v-.159q0-.028-.01-.041-.01-.014-.034-.014-.017 0-.032.009t-.022.027q-.007.018-.007.051v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.07 120.308v-.048h.048v.048q0 .026-.01.042-.009.016-.029.025l-.011-.018q.013-.006.02-.017.005-.011.006-.032z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.479 120.402v-.12q-.01.013-.028.022-.017.01-.037.01-.043 0-.075-.036-.031-.034-.031-.095 0-.037.013-.066.012-.03.037-.045.024-.015.053-.015.046 0 .072.039v-.033h.037v.339zm-.128-.217q0 .047.02.07.02.024.047.024.026 0 .046-.022.019-.023.019-.069 0-.049-.02-.073-.02-.025-.048-.025-.027 0-.046.023-.018.023-.018.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.746 120.308v-.036q-.029.041-.078.041-.022 0-.04-.008-.02-.008-.028-.02-.01-.013-.013-.031-.003-.013-.003-.04v-.151h.042v.136q0 .032.002.044.004.016.017.026.013.009.031.009.02 0 .035-.01.017-.01.024-.025.006-.017.006-.048v-.132h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.848 120.017v-.048h.042v.048zm0 .29v-.244h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.936 120.235l.042-.006q.003.024.019.037.016.014.044.014.029 0 .043-.012.013-.012.013-.027 0-.014-.012-.022-.008-.006-.042-.015-.046-.011-.064-.02-.017-.008-.027-.023-.009-.015-.009-.033 0-.016.008-.03.007-.014.02-.023.01-.007.027-.012t.036-.005q.029 0 .05.008.022.008.033.022.01.015.014.038l-.04.006q-.004-.019-.017-.03-.013-.01-.037-.01-.029 0-.041.01-.012.008-.012.021 0 .008.005.015.005.007.016.01.006.003.036.011.044.012.062.02.017.007.027.022.01.014.01.035 0 .02-.012.04-.012.017-.035.028-.023.01-.052.01-.048 0-.073-.02-.025-.02-.032-.06z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.32 120.308v-.245h.038v.035q.027-.04.078-.04.022 0 .04.007.02.008.029.021.009.013.013.03.002.012.002.041v.15h-.042v-.148q0-.026-.005-.038-.004-.013-.017-.02-.012-.008-.029-.008-.026 0-.046.016-.019.017-.019.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.568 120.185q0-.068.038-.1.032-.028.077-.028.05 0 .083.033.032.033.032.092 0 .047-.015.074-.014.027-.04.042-.028.015-.06.015-.051 0-.083-.033-.032-.033-.032-.095zm.043 0q0 .047.02.07.02.024.052.024.031 0 .052-.023.02-.024.02-.072 0-.046-.02-.069-.021-.023-.052-.023-.031 0-.052.023-.02.023-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.83 120.235l.041-.006q.003.024.02.037.015.014.043.014.03 0 .043-.012.014-.012.014-.027 0-.014-.012-.022-.009-.006-.043-.015-.046-.011-.063-.02-.018-.008-.027-.023-.01-.015-.01-.033 0-.016.008-.03.008-.014.02-.023.01-.007.027-.012t.036-.005q.029 0 .05.008.023.008.033.022.01.015.014.038l-.04.006q-.003-.019-.017-.03-.013-.01-.037-.01-.029 0-.04.01-.013.008-.013.021 0 .008.005.015.005.007.016.01.006.003.037.011.044.012.061.02.018.007.028.022.01.014.01.035 0 .02-.013.04-.012.017-.035.028-.022.01-.051.01-.048 0-.073-.02-.025-.02-.032-.06z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.174 120.27l.006.037q-.018.004-.032.004-.022 0-.035-.007-.012-.007-.017-.018-.006-.012-.006-.05v-.14h-.03v-.033h.03v-.06l.042-.025v.085h.041v.032h-.041v.144q0 .018.002.023.002.005.007.008t.014.003l.019-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.214 120.308v-.245h.037v.037q.014-.026.026-.035.013-.008.027-.008.021 0 .043.014l-.014.038q-.016-.009-.03-.009-.015 0-.025.008-.011.008-.016.023-.007.022-.007.049v.128z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.532 120.308v-.036q-.028.041-.078.041-.021 0-.04-.008t-.028-.02q-.01-.013-.013-.031-.002-.013-.002-.04v-.151h.041v.136q0 .032.003.044.004.016.016.026.013.009.032.009.018 0 .035-.01.016-.01.023-.025.007-.017.007-.048v-.132h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.793 120.308v-.031q-.023.036-.068.036-.03 0-.054-.016-.025-.016-.038-.045-.014-.029-.014-.067 0-.036.013-.066.012-.03.036-.046.025-.016.055-.016.022 0 .04.01.017.008.028.023v-.121h.041v.338zm-.13-.123q0 .048.019.07.02.024.047.024t.046-.022q.02-.022.02-.068 0-.05-.02-.074-.02-.023-.048-.023t-.046.022q-.019.023-.019.071z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.312 120.831l.043.005q-.01.038-.038.059-.027.02-.07.02-.053 0-.085-.033-.031-.033-.031-.093 0-.062.031-.096.032-.034.083-.034.05 0 .08.034.031.033.031.094v.01h-.183q.003.041.023.063.02.021.051.021.023 0 .04-.012.016-.012.025-.038zm-.136-.067h.137q-.003-.031-.016-.046-.02-.024-.052-.024-.028 0-.048.019t-.021.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.38 120.91l.09-.127-.084-.118h.052l.038.057.017.028.019-.027.04-.058h.05l-.084.115.091.13h-.051l-.05-.076-.014-.02-.064.096z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.811 120.831l.043.005q-.01.038-.037.059-.028.02-.07.02-.054 0-.086-.033-.031-.033-.031-.093 0-.062.032-.096.031-.034.082-.034.05 0 .08.034.032.033.032.094v.01h-.183q.002.041.022.063.021.021.052.021.023 0 .039-.012t.025-.038zm-.136-.067h.137q-.003-.031-.016-.046-.02-.024-.051-.024-.029 0-.049.019-.019.019-.021.05z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.906 120.91v-.245h.037v.037q.015-.026.027-.034.012-.008.026-.008.021 0 .043.013l-.014.039q-.015-.01-.03-.01-.014 0-.025.009-.01.008-.016.022-.006.022-.006.049v.128z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.224 120.82l.04.005q-.006.042-.034.066-.027.024-.067.024-.05 0-.081-.033-.03-.033-.03-.094 0-.04.012-.07.013-.03.04-.044.027-.015.059-.015.04 0 .065.02.026.02.033.058l-.04.006q-.006-.025-.021-.038-.015-.012-.036-.012-.03 0-.05.022-.02.023-.02.072 0 .049.019.071.019.023.05.023.024 0 .04-.015t.02-.046z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.3 120.62v-.048h.042v.048zm0 .29v-.245h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.496 120.873l.006.037q-.018.004-.031.004-.023 0-.036-.007-.012-.007-.017-.02-.005-.01-.005-.048v-.141h-.03v-.033h.03v-.06l.041-.025v.085h.042v.033h-.042v.143q0 .018.002.023.002.005.007.008t.015.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.696 120.88q-.023.02-.044.028-.021.008-.046.008-.04 0-.062-.02t-.022-.05q0-.019.009-.033.008-.015.021-.024.013-.01.03-.014.012-.003.037-.006.05-.006.074-.014v-.011q0-.025-.011-.036-.016-.014-.048-.014-.03 0-.043.01-.014.01-.02.037l-.041-.006q.005-.026.018-.042.013-.017.037-.025.024-.01.055-.01.032 0 .051.008.02.007.03.019.008.01.012.028.002.01.002.038v.056q0 .057.003.073.002.015.01.03h-.043q-.007-.014-.008-.031zm-.003-.093q-.023.009-.068.016-.026.004-.036.008-.01.005-.017.013-.005.01-.005.02 0 .017.012.028.013.01.037.01t.043-.01q.018-.01.027-.029.007-.014.007-.041z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.89 120.873l.006.037q-.017.004-.031.004-.023 0-.035-.007-.013-.007-.018-.02-.005-.01-.005-.048v-.141h-.03v-.033h.03v-.06l.041-.025v.085h.042v.033h-.042v.143q0 .018.002.023.003.005.008.008t.014.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.93 120.62v-.048h.042v.048zm0 .29v-.245h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.02 120.788q0-.069.038-.101.032-.028.077-.028.05 0 .083.034.032.033.032.091 0 .047-.014.075-.015.027-.042.042-.027.015-.059.015-.051 0-.083-.033-.032-.033-.032-.096zm.043 0q0 .047.02.07.021.023.052.023.031 0 .052-.023.02-.024.02-.072 0-.045-.02-.069-.021-.023-.052-.023-.031 0-.052.023-.02.023-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.299 120.91v-.245h.037v.035q.027-.04.078-.04.022 0 .04.007.02.008.029.021.009.013.012.031.003.011.003.04v.151h-.042v-.149q0-.025-.005-.038-.005-.013-.017-.02-.012-.008-.029-.008-.026 0-.046.017-.019.017-.019.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.853 120.91v-.036q-.028.042-.077.042-.022 0-.041-.008-.019-.008-.028-.021-.009-.013-.013-.031-.002-.012-.002-.039v-.152h.041v.136q0 .033.003.044.004.016.017.026.012.009.03.009.02 0 .036-.01.016-.01.023-.025.007-.017.007-.048v-.132h.042v.246z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.955 120.91v-.338h.041v.338z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.06 120.91v-.338h.041v.338z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.326 120.88q-.023.02-.045.028-.021.008-.046.008-.04 0-.062-.02-.021-.02-.021-.05 0-.019.008-.033.008-.015.021-.024.014-.01.03-.014.012-.003.037-.006.05-.006.074-.014v-.011q0-.025-.011-.036-.016-.014-.048-.014-.029 0-.043.01-.014.01-.02.037l-.041-.006q.005-.026.018-.042.013-.017.037-.025.024-.01.055-.01.032 0 .051.008.02.007.03.019.008.01.012.028.002.01.002.038v.056q0 .057.003.073.003.015.01.03h-.043q-.007-.014-.008-.031zm-.004-.093q-.023.009-.068.016-.025.004-.036.008-.01.005-.016.013-.006.01-.006.02 0 .017.012.028.013.01.037.01t.043-.01q.019-.01.027-.029.007-.014.007-.041z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.429 120.91v-.245h.037v.034q.011-.018.03-.028.02-.012.044-.012.027 0 .045.012.017.011.024.031.03-.043.076-.043.036 0 .056.02.02.02.02.063v.168h-.042v-.154q0-.025-.004-.036-.004-.011-.014-.018-.011-.007-.025-.007-.026 0-.043.017-.017.018-.017.055v.143h-.042v-.16q0-.027-.01-.041-.01-.014-.033-.014-.018 0-.033.01-.015.008-.021.026-.007.018-.007.051v.127z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.982 120.82l.041.005q-.007.042-.034.066-.028.024-.068.024-.05 0-.081-.033-.03-.033-.03-.094 0-.04.013-.07.013-.03.04-.044.027-.015.058-.015.04 0 .066.02.025.02.032.058l-.04.006q-.006-.025-.02-.038-.015-.012-.036-.012-.032 0-.051.022-.02.023-.02.072 0 .049.02.071.018.023.049.023.024 0 .04-.015.017-.015.021-.046z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.043 120.788q0-.069.038-.101.032-.028.077-.028.05 0 .083.034.032.033.032.091 0 .047-.015.075-.014.027-.04.042-.028.015-.06.015-.051 0-.083-.033-.032-.033-.032-.096zm.043 0q0 .047.02.07.02.023.052.023.031 0 .052-.023.02-.024.02-.072 0-.045-.02-.069-.021-.023-.052-.023-.031 0-.052.023-.02.023-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.452 120.91v-.338h.041v.338z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.718 120.88q-.023.02-.045.028-.021.008-.046.008-.04 0-.062-.02-.021-.02-.021-.05 0-.019.008-.033.008-.015.021-.024.014-.01.03-.014l.037-.006q.05-.006.074-.014v-.011q0-.025-.011-.036-.016-.014-.048-.014-.029 0-.043.01-.014.01-.02.037l-.041-.006q.005-.026.018-.042.013-.017.037-.025.024-.01.055-.01.032 0 .051.008.02.007.03.019.009.01.012.028.002.01.002.038v.056q0 .057.003.073.003.015.01.03h-.043q-.006-.014-.008-.031zm-.004-.093q-.022.009-.068.016-.025.004-.036.008-.01.005-.016.013-.006.01-.006.02 0 .017.012.028.013.01.037.01t.043-.01q.019-.01.027-.029.007-.014.007-.041z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.859 120.91h-.039v-.338h.042v.12q.026-.033.067-.033.023 0 .043.01.02.008.033.025.013.016.02.04.008.023.008.05 0 .063-.031.097t-.075.034q-.043 0-.068-.036zm0-.124q0 .044.012.063.02.032.053.032.027 0 .047-.023.02-.024.02-.07 0-.049-.02-.071-.019-.023-.046-.023t-.047.023q-.02.024-.02.069z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.068 120.788q0-.069.038-.101.032-.028.077-.028.05 0 .083.034.032.033.032.091 0 .047-.015.075-.014.027-.04.042-.028.015-.06.015-.051 0-.083-.033-.032-.033-.032-.096zm.043 0q0 .047.02.07.02.023.052.023.03 0 .051-.023.021-.024.021-.072 0-.045-.02-.069-.021-.023-.052-.023-.031 0-.052.023-.02.023-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.346 120.91v-.245h.037v.037q.015-.026.027-.034.012-.008.026-.008.021 0 .043.013l-.014.039q-.015-.01-.03-.01-.014 0-.025.009-.011.008-.016.022-.006.022-.006.049v.128z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.504 120.62v-.048h.042v.048zm0 .29v-.245h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.592 120.837l.041-.006q.004.025.02.038.015.013.044.013.028 0 .042-.012.014-.011.014-.027 0-.014-.012-.022-.009-.006-.043-.014-.045-.012-.063-.02-.018-.009-.027-.023-.009-.015-.009-.033 0-.017.008-.03.007-.015.02-.024.01-.007.026-.012.017-.005.036-.005.03 0 .05.008.023.008.033.023.01.014.015.038l-.041.006q-.003-.02-.016-.03-.013-.01-.038-.01-.028 0-.04.009-.013.009-.013.022 0 .008.005.014.005.007.016.011l.037.011q.044.012.061.02.018.006.028.021.01.014.01.036 0 .02-.013.039-.012.018-.034.028-.023.01-.052.01-.048 0-.073-.02-.025-.02-.032-.059z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.976 120.91v-.245h.038v.035q.027-.04.078-.04.022 0 .04.007.02.008.028.021.01.013.013.031.003.011.003.04v.151h-.042v-.149q0-.025-.005-.038-.005-.013-.017-.02-.012-.008-.029-.008-.026 0-.046.017-.019.017-.019.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.24 120.62v-.048h.041v.048zm0 .29v-.245h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.328 120.837l.04-.006q.004.025.02.038.016.013.044.013.029 0 .043-.012.014-.011.014-.027 0-.014-.013-.022-.008-.006-.042-.014-.046-.012-.064-.02-.017-.009-.026-.023-.01-.015-.01-.033 0-.017.008-.03.008-.015.02-.024.01-.007.027-.012t.036-.005q.029 0 .05.008.022.008.033.023.01.014.014.038l-.04.006q-.003-.02-.017-.03-.013-.01-.037-.01-.029 0-.041.009t-.012.022q0 .008.005.014.005.007.016.011l.036.011q.045.012.062.02.017.006.027.021.01.014.01.036 0 .02-.012.039-.012.018-.035.028-.023.01-.052.01-.047 0-.072-.02-.025-.02-.032-.059z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.58 120.62v-.048h.042v.048zm0 .29v-.245h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.978 120.91v-.036q-.029.042-.078.042-.022 0-.04-.008-.02-.008-.029-.021-.009-.013-.012-.031-.003-.012-.003-.039v-.152h.042v.136q0 .033.002.044.004.016.017.026.012.009.031.009t.035-.01q.017-.01.023-.025.007-.017.007-.048v-.132h.042v.246z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M75.17 120.873l.007.037q-.018.004-.032.004-.022 0-.035-.007-.012-.007-.017-.02-.006-.01-.006-.048v-.141h-.03v-.033h.03v-.06l.042-.025v.085h.042v.033h-.042v.143q0 .018.002.023.002.005.007.008t.014.003l.019-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.304 121.482q-.023.02-.044.028-.021.008-.046.008-.04 0-.062-.02t-.022-.05q0-.018.008-.033.009-.015.022-.024.013-.01.03-.014.012-.003.037-.006.05-.006.074-.014v-.01q0-.026-.012-.037-.016-.014-.047-.014-.03 0-.043.01-.014.01-.02.037l-.041-.006q.005-.026.018-.042.012-.016.036-.025.024-.009.056-.009.031 0 .051.007.02.007.029.019.01.01.013.028.002.01.002.038v.056q0 .058.002.073.003.015.011.03h-.043q-.007-.013-.009-.03zm-.003-.093q-.023.01-.068.016-.026.004-.036.008-.01.005-.017.014-.005.009-.005.02 0 .016.012.027.013.011.037.011t.043-.01q.018-.011.027-.03.007-.013.007-.04z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.406 121.512v-.338h.042v.338z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.512 121.222v-.048h.042v.048zm0 .29v-.245h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M68.774 121.606v-.12q-.01.014-.028.023-.017.009-.037.009-.043 0-.075-.035-.031-.035-.031-.096 0-.036.012-.066.013-.029.038-.044.024-.015.053-.015.046 0 .072.038v-.033h.037v.34zm-.129-.217q0 .047.02.071.02.024.048.024.026 0 .046-.023.019-.022.019-.068 0-.05-.02-.074-.02-.025-.048-.025-.027 0-.046.023t-.019.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.04 121.512v-.036q-.028.042-.077.042-.022 0-.04-.008-.02-.008-.029-.021-.009-.013-.012-.03-.003-.013-.003-.04v-.152h.042v.136q0 .033.002.044.004.017.017.026.013.01.031.01.019 0 .035-.01.017-.01.023-.026.007-.017.007-.048v-.131h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.143 121.222v-.048h.042v.048zm0 .29v-.245h.042v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.248 121.606v-.339h.038v.032q.013-.019.03-.028.017-.009.041-.009.031 0 .055.016.024.017.037.046.012.03.012.064 0 .038-.014.068-.013.03-.039.046-.026.016-.054.016-.02 0-.037-.009-.017-.009-.027-.022v.12zm.038-.215q0 .047.019.07.019.023.046.023.028 0 .047-.024.02-.023.02-.072 0-.047-.019-.07-.02-.024-.046-.024-.027 0-.047.025t-.02.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.81 121.433l.043.005q-.01.038-.038.059-.027.02-.07.02-.054 0-.085-.032-.032-.034-.032-.093 0-.062.032-.096t.083-.034q.049 0 .08.033.031.034.031.094v.011h-.183q.003.04.023.062t.051.022q.023 0 .04-.012.015-.012.025-.039zm-.136-.067h.136q-.002-.03-.015-.046-.02-.024-.052-.024-.028 0-.048.019-.02.02-.021.051z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M69.877 121.512l.09-.127-.083-.118h.052l.038.058.017.027.018-.027.042-.058h.05l-.085.116.09.13h-.05l-.05-.077-.014-.02-.064.096z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.44 121.433l.043.005q-.01.038-.037.059-.028.02-.07.02-.054 0-.086-.032-.031-.034-.031-.093 0-.062.032-.096t.082-.034q.05 0 .08.033.032.034.032.094v.011h-.183q.002.04.023.062.02.022.05.022.024 0 .04-.012t.025-.039zm-.136-.067h.137q-.003-.03-.016-.046-.02-.024-.051-.024-.029 0-.048.019-.02.02-.022.051z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M70.696 121.482q-.024.02-.045.028-.021.008-.046.008-.04 0-.062-.02-.021-.02-.021-.05 0-.018.008-.033.008-.015.021-.024.013-.01.03-.014.012-.003.037-.006.05-.006.074-.014v-.01q0-.026-.011-.037-.016-.014-.048-.014-.029 0-.043.01-.014.01-.02.037l-.041-.006q.005-.026.018-.042.013-.016.037-.025.024-.009.055-.009.032 0 .051.007.02.007.03.019.008.01.012.028.002.01.002.038v.056q0 .058.003.073.002.015.01.03h-.043q-.007-.013-.008-.03zm-.004-.093q-.023.01-.068.016-.025.004-.036.008-.01.005-.016.014-.006.009-.006.02 0 .016.012.027.013.011.037.011t.043-.01q.019-.011.027-.03.007-.013.007-.04z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.09 121.423l.04.005q-.006.042-.034.066-.027.024-.067.024-.05 0-.081-.033-.03-.033-.03-.095 0-.04.012-.07.013-.029.04-.044.027-.015.059-.015.04 0 .065.02t.033.058l-.04.006q-.007-.025-.021-.037-.015-.013-.036-.013-.031 0-.05.023-.02.022-.02.071 0 .05.019.072.019.022.05.022.024 0 .04-.015t.02-.046z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.15 121.39q0-.068.039-.101.031-.027.077-.027.05 0 .082.033t.032.091q0 .048-.014.075-.014.027-.041.042-.027.015-.06.015-.05 0-.083-.033-.031-.033-.031-.095zm.043 0q0 .047.02.07.021.024.053.024.03 0 .051-.024.02-.023.02-.072 0-.045-.02-.068-.02-.024-.051-.024-.032 0-.052.023-.02.024-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.429 121.512v-.245h.037v.035q.012-.018.03-.03.02-.01.044-.01.028 0 .045.01.018.012.025.033.029-.043.075-.043.037 0 .056.02.02.02.02.062v.168h-.041v-.154q0-.025-.004-.036-.004-.011-.015-.018-.01-.007-.025-.007-.026 0-.043.018-.017.017-.017.054v.143h-.041v-.16q0-.027-.01-.041-.01-.014-.034-.014-.017 0-.032.01-.015.008-.022.026-.007.018-.007.051v.128z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M71.823 121.512v-.245h.037v.035q.011-.018.03-.03.02-.01.044-.01.027 0 .045.01.017.012.024.033.03-.043.076-.043.037 0 .056.02.02.02.02.062v.168h-.041v-.154q0-.025-.005-.036-.004-.011-.014-.018-.01-.007-.025-.007-.026 0-.043.018-.017.017-.017.054v.143h-.042v-.16q0-.027-.01-.041-.01-.014-.033-.014-.018 0-.033.01-.014.008-.021.026-.007.018-.007.051v.128z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.201 121.39q0-.068.038-.101.031-.027.077-.027.05 0 .083.033.032.033.032.091 0 .048-.015.075-.014.027-.041.042-.027.015-.06.015-.05 0-.082-.033t-.032-.095zm.043 0q0 .047.02.07.02.024.052.024.03 0 .051-.024.02-.023.02-.072 0-.045-.02-.068-.02-.024-.051-.024-.031 0-.052.023-.02.024-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.638 121.512v-.03q-.023.036-.068.036-.03 0-.054-.016-.025-.016-.038-.045-.014-.03-.014-.067 0-.037.013-.066.012-.03.036-.046.025-.016.055-.016.022 0 .04.009.017.009.028.024v-.121h.04v.338zm-.131-.122q0 .047.02.07.02.024.047.024t.046-.022q.019-.023.019-.069 0-.05-.02-.073-.019-.024-.047-.024t-.047.023q-.018.022-.018.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M72.727 121.39q0-.068.038-.101.031-.027.077-.027.05 0 .082.033t.032.091q0 .048-.014.075-.014.027-.041.042-.027.015-.06.015-.05 0-.083-.033-.031-.033-.031-.095zm.042 0q0 .047.021.07.02.024.052.024.03 0 .051-.024.02-.023.02-.072 0-.045-.02-.068-.02-.024-.051-.024-.032 0-.052.023-.02.024-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.296 121.423l.041.005q-.007.042-.034.066-.028.024-.068.024-.05 0-.08-.033-.031-.033-.031-.095 0-.04.013-.07.013-.029.04-.044.027-.015.058-.015.04 0 .066.02.025.02.032.058l-.04.006q-.006-.025-.02-.037-.015-.013-.036-.013-.031 0-.051.023-.02.022-.02.071 0 .05.02.072.018.022.049.022.024 0 .04-.015.017-.015.021-.046z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.357 121.39q0-.068.038-.101.032-.027.077-.027.05 0 .083.033.032.033.032.091 0 .048-.014.075-.015.027-.042.042-.027.015-.059.015-.051 0-.083-.033-.032-.033-.032-.095zm.043 0q0 .047.02.07.021.024.052.024.031 0 .052-.024.02-.023.02-.072 0-.045-.02-.068-.021-.024-.052-.024-.031 0-.052.023-.02.024-.02.07z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.636 121.512v-.245h.037v.035q.027-.04.078-.04.022 0 .04.008.02.008.029.02.009.013.012.031.003.012.003.04v.151h-.042v-.149q0-.025-.005-.038-.005-.012-.017-.02t-.029-.008q-.026 0-.046.017-.019.017-.019.064v.134z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M73.882 121.44l.04-.007q.004.025.02.038.016.013.044.013.029 0 .043-.011.014-.012.014-.028 0-.014-.013-.022-.008-.006-.042-.014-.046-.012-.063-.02-.018-.009-.027-.023-.01-.015-.01-.033 0-.017.008-.03.008-.015.02-.024.01-.007.027-.012t.036-.005q.029 0 .05.008.022.008.033.023.01.014.014.038l-.04.006q-.003-.02-.017-.03-.013-.01-.037-.01-.029 0-.04.008-.013.01-.013.023 0 .008.005.014.005.007.016.011l.037.01q.044.013.061.02.018.007.027.022.01.014.01.035 0 .021-.012.04-.012.018-.035.028-.023.01-.051.01-.048 0-.073-.02-.025-.02-.032-.059z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.303 121.433l.042.005q-.01.038-.037.059-.028.02-.07.02-.054 0-.086-.032-.031-.034-.031-.093 0-.062.032-.096t.082-.034q.05 0 .08.033.032.034.032.094v.011h-.183q.002.04.023.062.02.022.05.022.024 0 .04-.012t.025-.039zm-.137-.067h.137q-.003-.03-.016-.046-.02-.024-.051-.024-.029 0-.048.019-.02.02-.022.051z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.554 121.606v-.12q-.01.014-.027.023-.018.009-.037.009-.044 0-.076-.035-.03-.035-.03-.096 0-.036.012-.066.013-.029.037-.044.024-.015.053-.015.046 0 .072.038v-.033h.037v.34zm-.128-.217q0 .047.02.071.02.024.047.024t.046-.023q.019-.022.019-.068 0-.05-.02-.074-.02-.025-.048-.025-.027 0-.046.023-.018.023-.018.072z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M74.821 121.512v-.036q-.028.042-.078.042-.021 0-.04-.008t-.028-.021q-.01-.013-.013-.03-.002-.013-.002-.04v-.152h.041v.136q0 .033.003.044.004.017.016.026.013.01.032.01.018 0 .035-.01.016-.01.023-.026.007-.017.007-.048v-.131h.041v.245z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M75.083 121.482q-.023.02-.044.028-.021.008-.046.008-.04 0-.062-.02t-.022-.05q0-.018.008-.033.009-.015.022-.024.013-.01.03-.014.012-.003.037-.006.05-.006.074-.014v-.01q0-.026-.012-.037-.016-.014-.047-.014-.03 0-.043.01-.014.01-.02.037l-.041-.006q.005-.026.018-.042.012-.016.036-.025.024-.009.056-.009.031 0 .051.007.02.007.029.019.01.01.013.028.002.01.002.038v.056q0 .058.002.073.003.015.011.03h-.043q-.007-.013-.009-.03zm-.003-.093q-.023.01-.068.016-.026.004-.036.008-.01.005-.017.014-.005.009-.005.02 0 .016.012.027.013.011.037.011t.043-.01q.018-.011.027-.03.007-.013.007-.04z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M75.277 121.475l.006.037q-.018.004-.031.004-.023 0-.036-.007-.012-.007-.017-.019-.005-.012-.005-.049v-.141h-.03v-.032h.03v-.061l.041-.025v.086h.042v.032h-.042v.143q0 .018.002.023.003.005.007.008.006.003.015.003l.018-.002z"
+            ></path>
+            <path
+              style={{
+                InkscapeFontSpecification: "Arial",
+                whiteSpace: "pre",
+                InkscapeStroke: "none",
+              }}
+              d="M75.33 121.512v-.047h.047v.047z"
+            ></path>
+          </g>
+        </g>
+      </g>
+    </svg>

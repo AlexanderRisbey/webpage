@@ -1,0 +1,6 @@
+ {
+    imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
+    name: "Khurem Farooq",
+    title:"Advisor",
+    bio: "Khurem currently serves as the CEO at Aiolos Bio which recently announced an agreement to  be acquired by GSK. Previously Khurem served as the CEO of Gyroscope, which was acquired by Novartis in 2021. Prior to Gyroscope, Khurem was Senior Vice President of the Immunology and Ophthalmology business unit at Genentech, part of the Roche Group, where he led the commercialization and launch planning of a number of medicines and contributed to the development of several pipeline products. Khurem holds a Master’s Degree in Business Administration as well as an Honours degree in Biological Sciences.",
+},
