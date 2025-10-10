@@ -1,0 +1,16 @@
+export const routes = {
+  home: '',
+  about: 'about.html',
+  contact: 'contact.html',
+  aiStudio: 'products/ai-studio.html',
+  trackAndTrace: 'products/track-and-trace.html',
+  epi: 'products/epi.html',
+  demo: 'products/demo.html',
+  csv: 'services/csv.html',
+  it: 'services/it-infrastructure.html',
+  dataAnalytics: 'services/data-analytics.html',
+  news: 'news/index.html',
+  privacy: 'legal/privacy-policy.html',
+  terms: 'legal/terms-of-service.html',
+  modernSlavery: 'legal/modern-slavery.html',
+};
