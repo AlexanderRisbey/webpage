@@ -8,11 +8,12 @@ export const renderHomepage = (root) => {
       <div id="startRef">
         <section class="section-home-header">
           <canvas id="globe-canvas" class="canvas" style="position:fixed; height: 100vh; width: 100vw; z-index: -2;"></canvas>
+          <div id="globe-overlay" style="position:fixed; height: 100vh; width: 100vw; z-index: -1; background-color: #fff; opacity: 0;"></div>
           <div class="page-padding special top">
             <div class="container-large">
-              <div class="home-header_component">
+              <div class="home-header_component container-background">
                 <h1 class="heading" style="text-align: left;">
-                  Introducing LydiaRx AI R&amp;D Studio
+                  Introducing LydiaRx AI R&D Studio
                   Transforming Life Sciences with AI
                 </h1>
                 <div>
@@ -48,7 +49,7 @@ export const renderHomepage = (root) => {
                       </div>
                       <div class="ai-studio-column">
                         ${icons.network}
-                        <h2>R&amp;D Ops<br>Platform</h2>
+                        <h2>R&D Ops<br>Platform</h2>
                         <div class="margin-top margin-small">
                           <p>Unifying systems and workflows into a central AI-driven hub, enabling efficiency, scalability, and seamless data integrity.</p>
                         </div>

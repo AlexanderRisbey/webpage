@@ -12,6 +12,7 @@ const interpolate = (progress, outputRange) => {
 
 export const initGlobe = () => {
   const globeCanvas = document.getElementById('globe-canvas');
+  const globeOverlay = document.getElementById('globe-overlay');
 
   if (!globeCanvas || typeof ThreeGlobe !== 'function' || typeof THREE === 'undefined') {
     return null;
@@ -177,6 +178,10 @@ export const initGlobe = () => {
 
   window.addEventListener('scroll', () => {
     scrollY = window.scrollY;
+    const scrollRatio = getScrollRatio();
+    if (globeOverlay) {
+      globeOverlay.style.opacity = interpolate(scrollRatio, [0, 1]);
+    }
   });
 
   const getScrollRatio = () => {
