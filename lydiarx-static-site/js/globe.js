@@ -24,8 +24,7 @@ export const initGlobe = () => {
     WebGLRenderer,
     AmbientLight,
     DirectionalLight,
-    MeshStandardMaterial,
-    ACESFilmicToneMapping
+    MeshBasicMaterial
   } = THREE;
 
   const scene = new Scene();
@@ -34,15 +33,15 @@ export const initGlobe = () => {
   renderer.setPixelRatio(window.devicePixelRatio || 1);
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.setClearColor(0x000000, 0);
-  renderer.toneMapping = ACESFilmicToneMapping;
 
-  scene.add(new AmbientLight(0x050505));
-  scene.add(new DirectionalLight(0xffffff, 3));
+  // Use a single, strong ambient light to make hexagons visible without shading
+  scene.add(new AmbientLight(0xffffff, 5));
 
   const globe = new ThreeGlobe();
   globe.scale.set(0.1, 0.1, 0.1);
 
-  const blueMaterial = new MeshStandardMaterial({ color: '#22577a' });
+  // Use MeshBasicMaterial for a flat, solid color that ignores light
+  const blueMaterial = new MeshBasicMaterial({ color: '#22577a' });
   globe.globeMaterial(blueMaterial);
 
   fetch(assetHref('json/110_countries.json'))
@@ -53,6 +52,7 @@ export const initGlobe = () => {
         globe.hexPolygonResolution(3);
         globe.hexPolygonMargin(0.1);
         globe.hexPolygonUseDots(false);
+        // This color will be fully visible due to the strong ambient light
         globe.hexPolygonColor(() => '#fff');
         globe.hexPolygonAltitude(0.001);
         globe.hexPolygonCurvatureResolution(5);
