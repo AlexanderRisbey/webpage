@@ -1,7 +1,18 @@
 import { assetHref } from './utils.js';
 
+// Helper function to interpolate values based on scroll progress
+const interpolate = (progress, outputRange) => {
+  const segments = outputRange.length - 1;
+  if (segments < 1) return outputRange[0];
+  const segmentLength = 1 / segments;
+  const currentSegment = Math.min(segments - 1, Math.floor(progress / segmentLength));
+  const progressInSegment = (progress - currentSegment * segmentLength) / segmentLength;
+  return outputRange[currentSegment] + (outputRange[currentSegment + 1] - outputRange[currentSegment]) * progressInSegment;
+};
+
 export const initGlobe = () => {
   const globeCanvas = document.getElementById('globe-canvas');
+
   if (!globeCanvas || typeof ThreeGlobe !== 'function' || typeof THREE === 'undefined') {
     return null;
   }
@@ -13,6 +24,7 @@ export const initGlobe = () => {
     AmbientLight,
     DirectionalLight,
     MeshStandardMaterial,
+    ACESFilmicToneMapping
   } = THREE;
 
   const scene = new Scene();
@@ -21,11 +33,13 @@ export const initGlobe = () => {
   renderer.setPixelRatio(window.devicePixelRatio || 1);
   renderer.setSize(window.innerWidth, window.innerHeight);
   renderer.setClearColor(0x000000, 0);
+  renderer.toneMapping = ACESFilmicToneMapping;
 
-  scene.add(new AmbientLight(0xbbbbbb));
-  scene.add(new DirectionalLight(0xffffff, 0.6));
+  scene.add(new AmbientLight(0x050505));
+  scene.add(new DirectionalLight(0xffffff, 3));
 
   const globe = new ThreeGlobe();
+  globe.scale.set(0.1, 0.1, 0.1);
 
   const blueMaterial = new MeshStandardMaterial({ color: '#22577a' });
   globe.globeMaterial(blueMaterial);
@@ -35,6 +49,12 @@ export const initGlobe = () => {
     .then((countries) => {
       if (countries && countries.features) {
         globe.hexPolygonsData(countries.features);
+        globe.hexPolygonResolution(3);
+        globe.hexPolygonMargin(0.1);
+        globe.hexPolygonUseDots(false);
+        globe.hexPolygonColor(() => '#fff');
+        globe.hexPolygonAltitude(0.001);
+        globe.hexPolygonCurvatureResolution(5);
       }
     })
     .catch(() => {});
@@ -151,33 +171,63 @@ export const initGlobe = () => {
 
   scene.add(globe);
 
-  camera.position.z = 400;
-
   let scrollY = window.scrollY;
+  const startRef = document.getElementById('startRef');
+  let startRefHeight = startRef ? startRef.offsetHeight : 0;
+
   window.addEventListener('scroll', () => {
     scrollY = window.scrollY;
   });
 
   const getScrollRatio = () => {
-    const scrollableDistance = Math.max(document.body.scrollHeight - window.innerHeight, 1);
+    if (!startRef) return 0;
+    const scrollableDistance = startRefHeight - window.innerHeight;
+    if (scrollableDistance <= 0) return 0;
     const ratio = scrollY / scrollableDistance;
     return Math.max(0, Math.min(1, ratio));
   };
 
   const animate = () => {
     const scrollRatio = getScrollRatio();
-    camera.position.x = -10 + scrollRatio * 20;
-    camera.position.y = 5 - scrollRatio * 10;
-    camera.position.z = 400 - scrollRatio * 300;
+    const screenWidth = window.innerWidth;
 
-    camera.lookAt(scene.position);
-    globe.rotation.y += 0.001;
+    let cameraPosX, cameraPosY, cameraPosZ, cameraLookX;
+
+    if (screenWidth <= 479) {
+        cameraPosX = interpolate(scrollRatio, [-4, 2]);
+        cameraPosY = interpolate(scrollRatio, [7, -2]);
+        cameraPosZ = interpolate(scrollRatio, [75, 20]);
+        cameraLookX = interpolate(scrollRatio, [-4, 2]);
+    } else if (screenWidth <= 767) {
+        cameraPosX = interpolate(scrollRatio, [-6, 2]);
+        cameraPosY = interpolate(scrollRatio, [6, -2]);
+        cameraPosZ = interpolate(scrollRatio, [50, 20]);
+        cameraLookX = interpolate(scrollRatio, [-6, 2]);
+    } else if (screenWidth <= 991) {
+        cameraPosX = interpolate(scrollRatio, [-9, 2]);
+        cameraPosY = interpolate(scrollRatio, [4, -2]);
+        cameraPosZ = interpolate(scrollRatio, [60, 20]);
+        cameraLookX = interpolate(scrollRatio, [-9, 2]);
+    } else {
+        cameraPosX = interpolate(scrollRatio, [-10, -13, -16, -19, -21, -24, -27, -30]);
+        cameraPosY = 5;
+        cameraPosZ = interpolate(scrollRatio, [45, 35, 25, 15, 5, -5, -15, -25]);
+        cameraLookX = interpolate(scrollRatio, [-10, -9, -8, -7, -6, -5, -4, -3]);
+    }
+
+    camera.position.x = cameraPosX;
+    camera.position.y = cameraPosY;
+    camera.position.z = cameraPosZ;
+    camera.lookAt(cameraLookX, cameraPosY, 0);
+
+    globe.rotation.y += (1 / 60) * Math.PI * 2 / 60;
     renderer.render(scene, camera);
     requestAnimationFrame(animate);
   };
   animate();
 
   const resizeRenderer = () => {
+    startRefHeight = startRef ? startRef.offsetHeight : 0;
     const width = globeCanvas.clientWidth || window.innerWidth;
     const height = globeCanvas.clientHeight || window.innerHeight;
     camera.aspect = width / height;
@@ -189,5 +239,5 @@ export const initGlobe = () => {
   resizeRenderer();
   window.addEventListener('resize', resizeRenderer, false);
 
-  return { camera };
+  return { camera, resize: resizeRenderer };
 };

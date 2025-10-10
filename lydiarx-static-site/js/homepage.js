@@ -7,10 +7,10 @@ export const renderHomepage = (root) => {
     <main class="main-wrapper">
       <div id="startRef">
         <section class="section-home-header">
-          <canvas id="globe-canvas" class="canvas"></canvas>
+          <canvas id="globe-canvas" class="canvas" style="position:fixed; height: 100vh; width: 100vw; z-index: -2;"></canvas>
           <div class="page-padding special top">
             <div class="container-large">
-              <div class="home-header_component container-background">
+              <div class="home-header_component">
                 <h1 class="heading" style="text-align: left;">
                   Introducing LydiaRx AI R&amp;D Studio
                   Transforming Life Sciences with AI
