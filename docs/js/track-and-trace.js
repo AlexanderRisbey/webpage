@@ -1,7 +1,11 @@
 import { assetHref } from './utils.js';
+import { initTrackAndTraceScene } from './track-and-trace-scene.js';
+import { initView2Scene } from './track-and-trace-scene-view2.js';
+import { initView3Scene } from './track-and-trace-scene-view3.js';
 
 export const renderTrackAndTracePage = () => {
     return `
+    <div id="canvas-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
     <main class="main-wrapper">
         <section class="section_product-header">
             <div class="page-padding">
@@ -53,9 +57,7 @@ export const renderTrackAndTracePage = () => {
                 <div class="container-large">
                     <div class="padding-vertical padding-huge">
                         <div class="layout-2-col" >
-                            <div class="about-image-wrapper">
-                                <img src="${assetHref('images/LydiaRx_aggregation.jpg')}" class="about-image"/>
-                            </div>          
+                            <div id="view1-container" class="about-image-wrapper" style="height: 500px;"></div>          
                             <div class="about-content">
                                 <h2>
                                     Manufacturing <br />
@@ -100,9 +102,7 @@ export const renderTrackAndTracePage = () => {
                                     </p>
                                 </div>
                             </div>
-                            <div class="meet-os-image-wrapper">
-                                <img src="${assetHref('images/LydiaRx_aggregation.jpg')}" class="meet-os-image" alt="Aggregation"/>
-                            </div>
+                            <div id="view2-container" class="meet-os-image-wrapper" style="height: 500px;"></div>
                         </div>
                     </div>
                 </div>
@@ -113,9 +113,7 @@ export const renderTrackAndTracePage = () => {
                 <div class="container-large">
                     <div class="padding-vertical padding-huge">
                         <div class="layout-2-col">
-                            <div class="about-image-wrapper">
-                                <img src="${assetHref('images/LydiaRx_transport_by_marcinjozwiak.jpg')}" class="about-image" alt="Transport"/>
-                            </div>
+                            <div id="view3-container" class="about-image-wrapper" style="height: 500px;"></div>
                             <div class="about-content">
                                 <h2>
                                     Transport <br />
@@ -197,3 +195,11 @@ export const renderTrackAndTracePage = () => {
     </main>
     `;
 }
+
+document.addEventListener('DOMContentLoaded', () => {
+    if (window.location.pathname.includes('track-and-trace.html')) {
+        initTrackAndTraceScene();
+        initView2Scene();
+        initView3Scene();
+    }
+});
