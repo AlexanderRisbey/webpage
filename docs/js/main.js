@@ -1,6 +1,7 @@
 import { isHomePath } from './utils.js';
 import { initFirebase } from './firebase.js';
-import { renderHeader, renderFooter } from './renderers.js';
+import { renderHeader, renderFooter, loadCSS } from './renderers.js';
+import { initMobileMenu } from './mobile-menu.js';
 import { renderHomepage } from './homepage.js';
 import { initGlobe } from './globe.js';
 import { initNewsSlider } from './news.js';
@@ -15,7 +16,8 @@ import { renderCsvPage, renderItInfrastructurePage, renderDataAnalyticsPage } fr
 import { initScrollIndicator, renderScrollIndicator } from './scroll-indicator.js';
 import { renderPrivacyPolicyPage, renderTermsOfServicePage, renderModernSlaveryPage } from './legal.js';
 
-document.addEventListener('DOMContentLoaded', () => {
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadCSS();
   initFirebase();
 
   const root = document.getElementById('root');
@@ -79,6 +81,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   root.insertAdjacentHTML('beforeend', renderFooter());
   initCookieBanner();
+  initMobileMenu();
 
   if (isTrackAndTracePage) {
     initTrackAndTracePage();

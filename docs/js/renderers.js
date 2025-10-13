@@ -1,5 +1,6 @@
 import { pageHref, assetHref } from './utils.js';
 import { routes } from './routes.js';
+import { getStyleVariant, STYLE_VARIANTS } from './ab-testing.js';
 
 export const newsArticleHref = (id) => `${pageHref(routes.news)}?id=${encodeURIComponent(id)}`;
 
@@ -101,3 +102,102 @@ export const renderFooter = () => `
     </div>
   </footer>
 `;
+
+const STYLESHEET_MATCHERS = {
+  fonts: (href) => href.endsWith('/assets/css/plus-jakarta-sans.css'),
+  common: (href) => href.endsWith('/assets/css/common/common.css'),
+  mobile: (href) => href.endsWith('/assets/css/mobile-menu-fix.css'),
+  swiper: (href) => href.endsWith('/vendor/swiper-bundle.min.css'),
+  about: (href) => href.endsWith('/assets/css/pages/about.css'),
+  trackAndTrace: (href) => href.endsWith('/assets/css/pages/track-and-trace.css'),
+  variantB: (href) => href.endsWith('/assets/css/main-theme-alt.css'),
+};
+
+const vendorHref = (path = '') => new URL(path, new URL('../vendor/', import.meta.url)).href;
+
+const findStylesheet = (matcher) =>
+  Array.from(document.querySelectorAll('link[rel="stylesheet"]')).find((link) => matcher(link.href));
+
+const ensureStylesheet = ({ id, href, matcher }) => {
+  const existing = findStylesheet(matcher);
+  if (existing) {
+    existing.dataset.styleId = id;
+    if (existing.href !== href) {
+      existing.href = href;
+    }
+    return existing;
+  }
+
+  const link = document.createElement('link');
+  link.rel = 'stylesheet';
+  link.href = href;
+  link.dataset.styleId = id;
+  document.head.appendChild(link);
+  return link;
+};
+
+const removeStylesheet = (matcher) => {
+  const existing = findStylesheet(matcher);
+  if (existing) {
+    existing.remove();
+  }
+};
+
+const ensureBaseStylesheets = () => {
+  const baseStyles = [
+    { id: 'fonts', href: assetHref('css/plus-jakarta-sans.css'), matcher: STYLESHEET_MATCHERS.fonts },
+    { id: 'common', href: assetHref('css/common/common.css'), matcher: STYLESHEET_MATCHERS.common },
+    { id: 'mobile', href: assetHref('css/mobile-menu-fix.css'), matcher: STYLESHEET_MATCHERS.mobile },
+    { id: 'swiper', href: vendorHref('swiper-bundle.min.css'), matcher: STYLESHEET_MATCHERS.swiper },
+  ];
+
+  baseStyles.forEach(ensureStylesheet);
+};
+
+const ensurePageStylesheet = () => {
+  const path = window.location.pathname || '';
+  if (path.includes('about.html')) {
+    ensureStylesheet({
+      id: 'page-about',
+      href: assetHref('css/pages/about.css'),
+      matcher: STYLESHEET_MATCHERS.about,
+    });
+  } else {
+    removeStylesheet(STYLESHEET_MATCHERS.about);
+  }
+
+  if (path.includes('track-and-trace.html')) {
+    ensureStylesheet({
+      id: 'page-track-and-trace',
+      href: assetHref('css/pages/track-and-trace.css'),
+      matcher: STYLESHEET_MATCHERS.trackAndTrace,
+    });
+  } else {
+    removeStylesheet(STYLESHEET_MATCHERS.trackAndTrace);
+  }
+};
+
+const ensureVariantStylesheet = (variant) => {
+  if (variant === STYLE_VARIANTS.B) {
+    ensureStylesheet({
+      id: 'variant-b',
+      href: assetHref('css/main-theme-alt.css'),
+      matcher: STYLESHEET_MATCHERS.variantB,
+    });
+  } else {
+    removeStylesheet(STYLESHEET_MATCHERS.variantB);
+  }
+};
+
+export const loadCSS = async () => {
+  try {
+    ensureBaseStylesheets();
+    ensurePageStylesheet();
+    const variant = getStyleVariant();
+    ensureVariantStylesheet(variant);
+    return variant;
+  } catch (error) {
+    console.error('Failed to load CSS:', error);
+    return null;
+  }
+};
