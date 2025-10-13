@@ -8,11 +8,12 @@ import { initCookieBanner } from './cookies.js';
 import { initDropdowns } from './ui.js';
 import { renderTransitionScreen, initTransition } from './transition.js';
 import { renderEpiPage, renderAiStudioPage, renderDemoPage } from './products.js';
-import { renderTrackAndTracePage } from './track-and-trace.js';
+import { renderTrackAndTracePage, initTrackAndTracePage } from './track-and-trace.js';
 import { renderAboutPage, renderTeamMembers, handleBioPopup } from './about.js';
 import { renderContactPage, handleContactForm } from './contact.js';
 import { renderCsvPage, renderItInfrastructurePage, renderDataAnalyticsPage } from './services.js';
 import { initScrollIndicator, renderScrollIndicator } from './scroll-indicator.js';
+import { renderPrivacyPolicyPage, renderTermsOfServicePage, renderModernSlaveryPage } from './legal.js';
 
 document.addEventListener('DOMContentLoaded', () => {
   initFirebase();
@@ -30,6 +31,8 @@ document.addEventListener('DOMContentLoaded', () => {
   initTransition();
 
   const path = window.location.pathname;
+
+  let isTrackAndTracePage = false;
 
   if (isHomePath()) {
     renderHomepage(root);
@@ -52,6 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
     root.insertAdjacentHTML('beforeend', renderDemoPage());
   } else if (path.includes('track-and-trace.html')) {
     root.insertAdjacentHTML('beforeend', renderTrackAndTracePage());
+    isTrackAndTracePage = true;
   } else if (path.includes('about.html')) {
     root.insertAdjacentHTML('beforeend', renderAboutPage());
     renderTeamMembers();
@@ -75,4 +79,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
   root.insertAdjacentHTML('beforeend', renderFooter());
   initCookieBanner();
+
+  if (isTrackAndTracePage) {
+    initTrackAndTracePage();
+  }
 });

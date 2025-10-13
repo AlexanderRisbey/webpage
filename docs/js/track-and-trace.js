@@ -1,19 +1,12 @@
 import { assetHref } from './utils.js';
-import { initTrackAndTraceScene } from './track-and-trace-scene.js';
-import { initView2Scene } from './track-and-trace-scene-view2.js';
-import { initView3Scene } from './track-and-trace-scene-view3.js';
 
-export const renderTrackAndTracePage = () => {
-    return `
-    <div id="canvas-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: -1;"></div>
+export const renderTrackAndTracePage = () => `
     <main class="main-wrapper">
         <section class="section_product-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-medium">
-                        <h1>
-                            Track & Trace
-                        </h1>
+                        <h1>Track & Trace</h1>
                         <div class="padding-bottom"></div>
                         <p class="Paragraph">Safeguarding health through transparent supply chains</p>
                     </div>
@@ -28,7 +21,7 @@ export const renderTrackAndTracePage = () => {
                 <div class="container-large">
                     <div class="padding-section-huge">
                         <div class="about_component">
-                            <div class="max-width-large"> 
+                            <div class="max-width-large">
                                 <p>
                                 Introducing our advanced Track and Trace solution, a sophisticated pharmaceutical track and trace system poised to redefine industry standards. Rooted in blockchain technology, our platform adopts a decentralized framework for meticulously tracking drugs from manufacturing to dispensation, ensuring unparalleled transparency and security throughout the supply chain.
                                 <br/><br/>
@@ -46,7 +39,7 @@ export const renderTrackAndTracePage = () => {
                 <div class="container-large">
                     <div class="padding-vertical padding-huge">
                         <div style="display:flex; align-items: center; justify-content: center;">
-                            <h1 >How it works</h1>
+                            <h1>How it works</h1>
                         </div>
                     </div>
                 </div>
@@ -56,21 +49,22 @@ export const renderTrackAndTracePage = () => {
             <div class="page-padding">
                 <div class="container-large">
                     <div class="padding-vertical padding-huge">
-                        <div class="layout-2-col" >
-                            <div id="view1-container" class="about-image-wrapper" style="height: 500px;"></div>          
+                        <div class="layout-2-col">
+                            <div class="about-image-wrapper track-view">
+                                <video class="track-view__video" src="${assetHref('video/manufacturing.mov')}" autoplay muted loop playsinline poster="${assetHref('images/LydiaRx_aggregation.jpg')}"></video>
+                                <img src="${assetHref('images/LydiaRx_aggregation.jpg')}" class="track-view__fallback" alt="Serialized packaging line" loading="lazy"/>
+                            </div>
                             <div class="about-content">
-                                <h2>
-                                    Manufacturing <br />
-                                </h2>
+                                <h2>Manufacturing <br /></h2>
                                 <div class="margin-top margin-small">
                                     <p>
                                     LydiaRx's pharmaceutical track and trace system commences with the integration of a DataMatrix onto each drug box,
                                     accompanied by a non-tampering seal, ensuring product security and facilitating seamless traceability throughout
-                                    the product's lifecycle, from production through the supply chain to the end user. 
+                                    the product's lifecycle, from production through the supply chain to the end user.
                                     <br />
                                     Simultaneously, the system initiates the creation of a digital twin, which is then added to the ledger.
                                     This digital twin serves as the cornerstone for tracking, as data is continually appended to it,
-                                    enabling comprehensive traceability throughout the pharmaceutical distribution process. 
+                                    enabling comprehensive traceability throughout the pharmaceutical distribution process.
                                     </p>
                                 </div>
                             </div>
@@ -86,9 +80,7 @@ export const renderTrackAndTracePage = () => {
                         <div class="layout-2-col is-for-meet-os">
                             <div class="meet-os-content">
                                 <div class="max-width-small">
-                                    <h2>
-                                        Aggregation
-                                    </h2>
+                                    <h2>Aggregation</h2>
                                 </div>
                                 <div class="margin-top margin-small">
                                     <p>
@@ -97,27 +89,31 @@ export const renderTrackAndTracePage = () => {
                                         This enables a scan of the parent to update data for all its children,
                                         simplifying tracking and management. This step can be repeated as needed,
                                         such as aggregation to a distribution box, and then further aggregation to
-                                        palletized distribution boxes, ensuring comprehensive tracking at every stage of the journey. 
+                                        palletized distribution boxes, ensuring comprehensive tracking at every stage of the journey.
                                         <br />
                                     </p>
                                 </div>
                             </div>
-                            <div id="view2-container" class="meet-os-image-wrapper" style="height: 500px;"></div>
+                            <div class="meet-os-image-wrapper track-view">
+                                <video class="track-view__video" src="${assetHref('video/aggregation.mov')}" autoplay muted loop playsinline poster="${assetHref('images/LydiaRx_aggregation.jpg')}"></video>
+                                <img src="${assetHref('images/LydiaRx_aggregation.jpg')}" class="track-view__fallback" alt="Aggregation process" loading="lazy"/>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </section>
-        <section class="section-about">
+        <section class="section-transport">
             <div class="page-padding">
                 <div class="container-large">
                     <div class="padding-vertical padding-huge">
                         <div class="layout-2-col">
-                            <div id="view3-container" class="about-image-wrapper" style="height: 500px;"></div>
+                            <div class="about-image-wrapper track-view">
+                                <video class="track-view__video" src="${assetHref('video/transport.mov')}" autoplay muted loop playsinline poster="${assetHref('images/LydiaRx_transport_by_marcinjozwiak.jpg')}"></video>
+                                <img src="${assetHref('images/LydiaRx_transport_by_marcinjozwiak.jpg')}" class="track-view__fallback" alt="Transport logistics" loading="lazy"/>
+                            </div>
                             <div class="about-content">
-                                <h2>
-                                    Transport <br />
-                                </h2>
+                                <h2>Transport <br /></h2>
                                 <div class="margin-top margin-small">
                                     <p>
                                         Prior to loading onto vehicles, each pallet is scanned, marking its departure from the location.
@@ -147,17 +143,17 @@ export const renderTrackAndTracePage = () => {
                                 </div>
                                 <div class="margin-top margin-small">
                                     <p>
-                                    Disaggregation occurs when parent containers are opened, allowing for the separation of individual products. 
-                                    This essential step ensures precise tracking and management as items progress through the supply chain. 
-                                    By disaggregating, updated data for each product is accurately recorded, 
-                                    maintaining visibility and control over the process, 
-                                    particularly as goods transition between different stages of distribution. 
+                                    Disaggregation occurs when parent containers are opened, allowing for the separation of individual products.
+                                    This essential step ensures precise tracking and management as items progress through the supply chain.
+                                    By disaggregating, updated data for each product is accurately recorded,
+                                    maintaining visibility and control over the process,
+                                    particularly as goods transition between different stages of distribution.
                                     <br />
                                     </p>
                                 </div>
                             </div>
                             <div class="meet-os-image-wrapper">
-                                <img src="${assetHref('images/LydiaRx_disaggregation.jpg')}" class="meet-os-image" alt="Disaggregation"/>
+                                <img src="${assetHref('images/LydiaRx_disaggregation.jpg')}" class="meet-os-image" alt="Disaggregation" loading="lazy"/>
                             </div>
                         </div>
                     </div>
@@ -170,7 +166,7 @@ export const renderTrackAndTracePage = () => {
                     <div class="padding-vertical padding-huge">
                         <div class="layout-2-col">
                             <div class="about-image-wrapper">
-                                <img src="${assetHref('images/LydiaRx_dispensation.jpg')}" class="about-image" alt="Dispensation"/>
+                                <img src="${assetHref('images/LydiaRx_dispensation.jpg')}" class="about-image" alt="Dispensation" loading="lazy"/>
                             </div>
                             <div class="about-content">
                                 <h2>
@@ -178,11 +174,11 @@ export const renderTrackAndTracePage = () => {
                                 </h2>
                                 <div class="margin-top margin-small">
                                     <p>
-                                    The track and trace process concludes at dispensation, whether it be in a hospital or pharmacy setting. 
-                                    Here, the final scan marks the end of tracking for the specific product, 
-                                    enabling consumers to access comprehensive data about its journey from the factory door to dispensation. 
-                                    This last scan ensures transparency and accountability, 
-                                    empowering consumers with valuable insights into the product's history and ensuring trust in its quality and authenticity. 
+                                    The track and trace process concludes at dispensation, whether it be in a hospital or pharmacy setting.
+                                    Here, the final scan marks the end of tracking for the specific product,
+                                    enabling consumers to access comprehensive data about its journey from the factory door to dispensation.
+                                    This last scan ensures transparency and accountability,
+                                    empowering consumers with valuable insights into the product's history and ensuring trust in its quality and authenticity.
                                     <br />
                                     </p>
                                 </div>
@@ -193,13 +189,6 @@ export const renderTrackAndTracePage = () => {
             </div>
         </section>
     </main>
-    `;
-}
+`;
 
-document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes('track-and-trace.html')) {
-        initTrackAndTraceScene();
-        initView2Scene();
-        initView3Scene();
-    }
-});
+export const initTrackAndTracePage = () => {};
