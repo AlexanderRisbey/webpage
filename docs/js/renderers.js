@@ -117,22 +117,22 @@ export const renderHeader = () => `
                     </div>
                 </div>
                 <ul class="dropdown-container-mobile menu">
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.aiStudio)}" class="mobile-menu-item">AI R&amp;D Studio</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.trackAndTrace)}" class="mobile-menu-item">Track &amp; Trace</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.epi)}" class="mobile-menu-item">Electronic product information</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.csv)}" class="mobile-menu-item">Computer System Validation</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.it)}" class="mobile-menu-item">IT Infrastructure Services</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.dataAnalytics)}" class="mobile-menu-item">Data and Analytics</a>
                     </li>
                 </ul>
@@ -147,52 +147,49 @@ export const renderHeader = () => `
                     </div>
                 </div>
                 <ul class="dropdown-container-mobile menu">
-                    <li class="white-point mobile-menu-item-title">Venture Studio</li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.ventureStudio)}#building-together" class="mobile-menu-item">Building Together</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.ventureStudio)}#studio-advantage" class="mobile-menu-item">Studio Advantage</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.ventureStudio)}#our-process" class="mobile-menu-item">Our Process</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.ventureStudio)}#de-risking-innovation" class="mobile-menu-item">De-risking Innovation</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.ventureStudio)}#shared-resources" class="mobile-menu-item">Shared Resources</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.ventureStudio)}#join-us" class="mobile-menu-item">Join Us</a>
                     </li>
-                    <li class="white-point mobile-menu-item-title">Investment Thesis</li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.investmentThesis)}#ai-native-lab" class="mobile-menu-item">The AI-Native Lab</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.investmentThesis)}#strategic-intelligence" class="mobile-menu-item">Strategic Intelligence</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.investmentThesis)}#compliance-as-a-competitive-edge" class="mobile-menu-item">Compliance</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.investmentThesis)}#autonomous-discovery" class="mobile-menu-item">Autonomous Discovery</a>
                     </li>
-                    <li class="white-point mobile-menu-item-title">Our Portfolio</li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.portfolio)}#portfolio-at-a-glance" class="mobile-menu-item">Portfolio at a Glance</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.portfolio)}#ai-assisted-rd" class="mobile-menu-item">AI-Assisted R&D</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.portfolio)}#deep-research" class="mobile-menu-item">Deep Research</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.portfolio)}#regulatory-quality" class="mobile-menu-item">Regulatory & Quality</a>
                     </li>
-                    <li class="white-point">
+                    <li>
                         <a href="${pageHref(routes.portfolio)}#drug-discovery" class="mobile-menu-item">Drug Discovery</a>
                     </li>
                 </ul>

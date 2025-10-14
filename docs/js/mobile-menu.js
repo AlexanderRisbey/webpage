@@ -1,8 +1,7 @@
 export const initMobileMenu = () => {
   const toggle = document.querySelector('.nav_menu-button button');
   const menu = document.getElementById('mobile-menu');
-  const dropdownToggle = document.querySelector('.dropdown-mobile .is-for-dropdown');
-  const dropdownMenu = document.querySelector('.dropdown-container-mobile');
+  const dropdownToggles = document.querySelectorAll('.dropdown-mobile .is-for-dropdown');
 
   if (!toggle || !menu) {
     return;
@@ -43,10 +42,12 @@ export const initMobileMenu = () => {
     toggleMenu();
   });
 
-  if (dropdownToggle && dropdownMenu) {
-    dropdownToggle.addEventListener('click', (event) => {
-      event.stopPropagation();
-      dropdownToggle.parentElement.classList.toggle('is-open');
+  if (dropdownToggles.length > 0) {
+    dropdownToggles.forEach(dropdownToggle => {
+      dropdownToggle.addEventListener('click', (event) => {
+        event.stopPropagation();
+        dropdownToggle.parentElement.classList.toggle('is-open');
+      });
     });
   }
 
