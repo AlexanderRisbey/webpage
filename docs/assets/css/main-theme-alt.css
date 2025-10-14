@@ -1,129 +1,168 @@
 :root {
-  --primary-blue: #1b3a57;
-  --primary-blue-dark: #112235;
-  --accent-mint: #45d1bc;
-  --accent-coral: #ff6f61;
-  --bg-soft: #0c1624;
-  --bg-elevated: rgba(17, 34, 53, 0.7);
-  --text-light: #f7f9fc;
-  --text-muted: #c9d3e0;
-  --border-subtle: rgba(120, 140, 160, 0.25);
+  --primary-bg: #F0F8FF; /* AliceBlue, a very light blue */
+  --text-dark: #003366; /* Dark blue for high contrast text */
+  --accent-teal: #008080; /* Teal for accents */
+  --accent-green: #2E8B57; /* SeaGreen for another accent option */
+  --neutral-bg: #F8F9FA; /* Very light gray for section backgrounds */
+  --text-gray: #6c757d; /* Bootstrap's gray for secondary text */
+  --white: #FFFFFF;
+  --border-light: #DEE2E6; /* Bootstrap's light border color */
+  --shadow-soft: 0 4px 8px rgba(0, 0, 0, 0.05);
+  --primary-blue: var(--accent-teal); /* Overriding for consistency */
 }
 
 body {
-  background: radial-gradient(circle at 20% 20%, rgba(36, 58, 91, 0.4), rgba(12, 22, 36, 0.95));
-  color: var(--text-light);
+  background-color: var(--white);
+  color: var(--text-dark);
+  font-family: 'Plus Jakarta Sans', sans-serif;
 }
 
 .container-background,
 .meet-os-content,
 .cta_content,
-.home-header_component {
-  background: var(--bg-elevated);
-  border: 1px solid var(--border-subtle);
-  backdrop-filter: blur(12px);
-  box-shadow: 0 24px 60px rgba(6, 12, 20, 0.55);
+.home-header_component,
+.section_product-header,
+.section_about-us,
+.footer_component {
+  background-color: var(--neutral-bg);
+  border: 1px solid var(--border-light);
+  border-radius: 12px;
+  box-shadow: var(--shadow-soft);
+  padding: 2rem;
+  margin-bottom: 2rem;
 }
 
-.heading,
-h1,
-h2,
-h3,
-h4 {
-  color: var(--text-light);
-}
-
-.Paragraph,
-p {
-  color: var(--text-muted);
-}
-
-.button.is-grey,
-.w-button {
-  background: transparent;
-  color: var(--accent-mint);
-  border: 1px solid rgba(69, 209, 188, 0.7);
-  border-radius: 999px;
-  padding: 0.75rem 1.8rem;
-  letter-spacing: 0.04em;
-  text-transform: uppercase;
+.heading, h1, h2, h3, h4, h5, h6 {
+  color: var(--text-dark);
   font-weight: 600;
-  transition: background 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease, color 0.25s ease;
 }
 
-.button {
-  background: linear-gradient(135deg, var(--accent-mint), var(--primary-blue));
-  color: #0a1624;
-  box-shadow: 0 18px 36px rgba(69, 209, 188, 0.35);
+.Paragraph, p {
+  color: var(--text-gray);
+  line-height: 1.6;
 }
 
-.button:hover {
-  color: var(--primary-blue-dark);
-  background: rgba(69, 209, 188, 0.18);
-  transform: translateY(-1px);
+a {
+  color: var(--accent-teal);
+  text-decoration: none;
+  transition: color 0.3s ease;
 }
 
-.button.is-grey:hover,
-.w-button:hover {
-  background: rgba(69, 209, 188, 0.18);
-  color: #0a1624;
-  box-shadow: 0 14px 36px rgba(69, 209, 188, 0.35);
-  transform: translateY(-1px);
+a:hover {
+  color: var(--accent-green);
 }
 
-.button.is-grey:focus,
-.w-button:focus {
-  outline: none;
-  box-shadow: 0 0 0 3px rgba(69, 209, 188, 0.35);
+.button, .w-button {
+  background-color: var(--accent-teal);
+  color: var(--white);
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
-.scroll-indicator-wrapper {
-  filter: drop-shadow(0 0 12px var(--accent-mint));
+.button:hover, .w-button:hover {
+  background-color: var(--accent-green);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.15);
 }
 
-.track-view__video {
-  filter: saturate(0.95) contrast(1.05);
+.button.is-grey {
+  background-color: var(--neutral-bg);
+  color: var(--text-dark);
+  border: 1px solid var(--border-light);
 }
 
-.track-view::after {
-  content: '';
-  position: absolute;
-  inset: 0;
-  border: 1px solid rgba(69, 209, 188, 0.2);
-  pointer-events: none;
+.button.is-grey:hover {
+  background-color: #e9ecef; /* A slightly darker gray */
+}
+
+.nav_component {
+  background-color: var(--white);
+  box-shadow: var(--shadow-soft);
+}
+
+.nav_link, .nav_link.w-nav-link {
+  color: var(--text-dark);
+  font-weight: 500;
+}
+
+.nav_link:hover {
+  color: var(--accent-teal);
+}
+
+.nav_link.is-for-dropdown.is-blue > div {
+    color: var(--accent-teal) !important;
+}
+
+.dropdown-container {
+    background-color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    border: 1px solid var(--border-light);
+}
+
+.dropdownTitle {
+    color: var(--text-gray);
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid var(--border-light);
+}
+
+.dropdownItem {
+    color: var(--text-dark);
+}
+
+.dropdownItem:hover {
+    background-color: var(--neutral-bg);
+    color: var(--accent-teal);
+}
+
+.footer_component {
+  background-color: var(--text-dark);
+  color: var(--white);
+}
+
+.footer_heading {
+  color: var(--white);
+}
+
+.footer_link {
+  color: #adb5bd; /* Lighter gray for footer links */
+}
+
+.footer_link:hover {
+  color: var(--white);
+}
+
+/* Mobile Menu */
+@media screen and (max-width: 991px) {
+  .mobile-menu {
+    background: var(--white);
+  }
+  .mobile-menu-item {
+    color: var(--text-dark);
+  }
+  .mobileMenu-button {
+    background-color: var(--accent-teal);
+  }
+  .mobileMenu-button path {
+      stroke: var(--white);
+  }
+  ul li.white-point::before {
+    color: var(--text-dark);
+  }
+}
+
+/* Specific component adjustments */
+.ps_header-image {
+  filter: none;
 }
 
 .ai-studio-column svg path {
-  stroke: var(--accent-mint);
-}
-
-.ps_header-image {
-  filter: drop-shadow(0 12px 25px rgba(69, 209, 188, 0.35));
-}
-
-
-
-
-@media (max-width: 991px) {
-  .nav_menu {
-    background: rgba(17, 38, 58, 0.95);
-    box-shadow: 0 20px 48px rgba(4, 10, 18, 0.5);
-  }
-
-  .nav_menu a {
-    color: rgba(241, 249, 255, 0.82);
-  }
-
-  .nav_menu .dropdownTitle {
-    color: rgba(156, 195, 227, 0.65);
-  }
-
-  .nav_mobile-toggle {
-    background: rgba(9, 18, 30, 0.92);
-    border: 1px solid rgba(69, 209, 188, 0.45);
-  }
-
-  .nav_mobile-toggle span {
-    background: var(--accent-mint);
-  }
+  stroke: var(--accent-teal);
 }

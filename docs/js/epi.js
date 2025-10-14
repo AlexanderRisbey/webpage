@@ -2,7 +2,7 @@
 const renderEpiPage = () => {
     const epiPageContent = `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -14,8 +14,8 @@ const renderEpiPage = () => {
                     <div class="max-width-medium">
                         <p class="Paragraph">Effortless accessibility, infinite languages, zero recall worries: Revolutionize information dissemination with ePI.</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="../assets/images/LydiaRx_web-art.svg" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="../assets/images/LydiaRx_web-art.svg" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>

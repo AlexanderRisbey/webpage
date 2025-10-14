@@ -2,7 +2,7 @@
 const renderItInfrastructurePage = () => {
     const itInfrastructurePageContent = `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-medium">
@@ -12,8 +12,8 @@ const renderItInfrastructurePage = () => {
                         <div class="padding-bottom"></div>
                         <p class="Paragraph">Digital compliance for pharma and fast growing biotech</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="../assets/images/LydiaRx_web-art.svg" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="../assets/images/LydiaRx_web-art.svg" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div> 
             </div>

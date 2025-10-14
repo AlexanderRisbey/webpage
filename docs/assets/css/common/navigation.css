@@ -1,3 +1,10 @@
+.nav_component {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
 .nav_link-icon {
     height: .75rem;
     justify-content: center;

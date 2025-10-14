@@ -3,7 +3,7 @@ import { assetHref } from './utils.js';
 export const renderEpiPage = () => {
     return `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -15,8 +15,8 @@ export const renderEpiPage = () => {
                     <div class="max-width-medium">
                         <p class="Paragraph">Effortless accessibility, infinite languages, zero recall worries: Revolutionize information dissemination with ePI.</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>
@@ -85,7 +85,7 @@ export const renderEpiPage = () => {
 export const renderAiStudioPage = () => {
     return `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -97,8 +97,8 @@ export const renderAiStudioPage = () => {
                     <div class="max-width-medium">
                         <p class="Paragraph">Accelerate discovery, ensure compliance, automate operations with intelligent copilots built for life sciences.</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>
@@ -163,7 +163,7 @@ export const renderAiStudioPage = () => {
 export const renderDemoPage = () => {
     return `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -175,8 +175,8 @@ export const renderDemoPage = () => {
                     <div class="max-width-medium">
                         <p class="Paragraph">Coming Soon</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>

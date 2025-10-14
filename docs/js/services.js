@@ -3,7 +3,7 @@ import { assetHref } from './utils.js';
 export const renderCsvPage = () => {
     return `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-medium">
@@ -13,8 +13,8 @@ export const renderCsvPage = () => {
                         <div class="padding-bottom"></div>
                         <p class="Paragraph">Digital compliance for pharma and fast growing biotech</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div> 
             </div>
@@ -109,7 +109,7 @@ export const renderCsvPage = () => {
 export const renderItInfrastructurePage = () => {
     return `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-medium">
@@ -119,8 +119,8 @@ export const renderItInfrastructurePage = () => {
                         <div class="padding-bottom"></div>
                         <p class="Paragraph">Digital compliance for pharma and fast growing biotech</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div> 
             </div>
@@ -204,7 +204,7 @@ export const renderItInfrastructurePage = () => {
 export const renderDataAnalyticsPage = () => {
     return `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-medium">
@@ -214,8 +214,8 @@ export const renderDataAnalyticsPage = () => {
                         <div class="padding-bottom"></div>
                         <p class="Paragraph">Empowering pharma supply chains through data excellence</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div> 
             </div>

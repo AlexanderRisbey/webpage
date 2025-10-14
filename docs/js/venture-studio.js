@@ -3,7 +3,7 @@ import { assetHref } from './utils.js';
 
 export const renderVentureStudioPage = () => `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -15,8 +15,8 @@ export const renderVentureStudioPage = () => `
                     <div class="max-width-medium">
                         <p class="Paragraph">Building the future of life sciences, together.</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>
@@ -104,7 +104,7 @@ export const renderVentureStudioPage = () => `
 
 export const renderInvestmentThesisPage = () => `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -116,8 +116,8 @@ export const renderInvestmentThesisPage = () => `
                     <div class="max-width-medium">
                         <p class="Paragraph">Investing in the future of AI-native life sciences.</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>
@@ -164,7 +164,7 @@ export const renderInvestmentThesisPage = () => `
 
 export const renderPortfolioPage = () => `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -176,8 +176,8 @@ export const renderPortfolioPage = () => `
                     <div class="max-width-medium">
                         <p class="Paragraph">Forging the future of life sciences.</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>

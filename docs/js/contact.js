@@ -3,7 +3,7 @@ import { assetHref } from './utils.js';
 export const renderContactPage = () => {
     return `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_about-header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-medium">
@@ -11,8 +11,8 @@ export const renderContactPage = () => {
                         <div class="padding-bottom"></div>
                         <p class="Paragraph">Get in touch to begin your journey with us</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="about_header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div> 
             </div>
