@@ -42,6 +42,23 @@ export const renderHeader = () => `
                   </div>
                 </div>
               </div>
+              <div class="nav_link-wrapper dropdown">
+                <div class="nav_link is-for-dropdown w-dropdown-toggle">
+                  <div>Venture Studio<br></div>
+                  <div style="margin-left: 5px; display: flex; align-items: center;">
+                    <svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M0 7 L 20 7 L 10 16"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="dropdown-container">
+                  <div class="dropdown-content">
+                    <a href="${pageHref(routes.ventureStudio)}" class="dropdownItem">Venture Studio</a>
+                    <a href="${pageHref(routes.investmentThesis)}" class="dropdownItem">Investment Thesis</a>
+                    <a href="${pageHref(routes.portfolio)}" class="dropdownItem">Our Portfolio</a>
+                  </div>
+                </div>
+              </div>
               <div class="nav_link-wrapper">
                 <a href="${pageHref(routes.contact)}" class="nav_link w-nav-link">Contact</a>
                 <div class="nav_link-line"></div>
@@ -98,6 +115,27 @@ export const renderHeader = () => `
                     </li>
                     <li class="white-point">
                         <a href="${pageHref(routes.dataAnalytics)}" class="mobile-menu-item">Data and Analytics</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-link no-point dropdown-mobile">
+                <div class="mobile-menu-item is-for-dropdown">
+                    <span>Venture Studio</span>
+                    <div style="margin-left: 5px; display: flex; align-items: center;">
+                        <svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true">
+                            <path d="M0 7 L 20 7 L 10 16" fill="#fff"></path>
+                        </svg>
+                    </div>
+                </div>
+                <ul class="dropdown-container-mobile menu">
+                    <li class="white-point">
+                        <a href="${pageHref(routes.ventureStudio)}" class="mobile-menu-item">Venture Studio</a>
+                    </li>
+                    <li class="white-point">
+                        <a href="${pageHref(routes.investmentThesis)}" class="mobile-menu-item">Investment Thesis</a>
+                    </li>
+                    <li class="white-point">
+                        <a href="${pageHref(routes.portfolio)}" class="mobile-menu-item">Our Portfolio</a>
                     </li>
                 </ul>
             </li>
@@ -163,6 +201,7 @@ const STYLESHEET_MATCHERS = {
   swiper: (href) => href.endsWith('/vendor/swiper-bundle.min.css'),
   about: (href) => href.endsWith('/assets/css/pages/about.css'),
   trackAndTrace: (href) => href.endsWith('/assets/css/pages/track-and-trace.css'),
+  ventureStudio: (href) => href.endsWith('/assets/css/pages/venture-studio.css'),
   variantB: (href) => href.endsWith('/assets/css/main-theme-alt.css'),
 };
 
@@ -227,6 +266,16 @@ const ensurePageStylesheet = () => {
     });
   } else {
     removeStylesheet(STYLESHEET_MATCHERS.trackAndTrace);
+  }
+
+  if (path.includes('venture-studio')) {
+    ensureStylesheet({
+      id: 'page-venture-studio',
+      href: assetHref('css/pages/venture-studio.css'),
+      matcher: STYLESHEET_MATCHERS.ventureStudio,
+    });
+  } else {
+    removeStylesheet(STYLESHEET_MATCHERS.ventureStudio);
   }
 };
 

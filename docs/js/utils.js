@@ -7,16 +7,11 @@ export const assetHref = (path = '') => toHref(ASSET_BASE_URL, path);
 
 export const isHomePath = () => {
   const path = window.location.pathname || '';
-  if (path === '/' || path === '') {
-    return true;
-  }
-  if (path.endsWith('/index.html')) {
+  const basePathname = SITE_BASE_URL.pathname.replace(/\/$/, '');
+
+  if (path === '/' || path === '' || path === '/index.html' || path === `${basePathname}/` || path === `${basePathname}/index.html`) {
     return true;
   }
 
-  const basePathname = SITE_BASE_URL.pathname.replace(/\/$/, '');
-  return (
-    (basePathname && path === basePathname) ||
-    (basePathname && path === `${basePathname}/`)
-  );
+  return false;
 };

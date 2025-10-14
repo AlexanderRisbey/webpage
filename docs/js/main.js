@@ -15,6 +15,7 @@ import { renderContactPage, handleContactForm } from './contact.js';
 import { renderCsvPage, renderItInfrastructurePage, renderDataAnalyticsPage } from './services.js';
 import { initScrollIndicator, renderScrollIndicator } from './scroll-indicator.js';
 import { renderPrivacyPolicyPage, renderTermsOfServicePage, renderModernSlaveryPage } from './legal.js';
+import { renderVentureStudioPage, renderInvestmentThesisPage, renderPortfolioPage } from './venture-studio.js';
 
 document.addEventListener('DOMContentLoaded', async () => {
   await loadCSS();
@@ -75,8 +76,14 @@ document.addEventListener('DOMContentLoaded', async () => {
     root.insertAdjacentHTML('beforeend', renderPrivacyPolicyPage());
   } else if (path.includes('terms-of-service.html')) {
     root.insertAdjacentHTML('beforeend', renderTermsOfServicePage());
-  } else if (path.includes('modern-slavery.html')) {
+  } else if (path.endsWith('modern-slavery.html')) {
     root.insertAdjacentHTML('beforeend', renderModernSlaveryPage());
+  } else if (path.endsWith('venture-studio/') || path.endsWith('venture-studio/index.html')) {
+    root.insertAdjacentHTML('beforeend', renderVentureStudioPage());
+  } else if (path.endsWith('venture-studio/investment-thesis.html')) {
+    root.insertAdjacentHTML('beforeend', renderInvestmentThesisPage());
+  } else if (path.endsWith('venture-studio/portfolio.html')) {
+    root.insertAdjacentHTML('beforeend', renderPortfolioPage());
   }
 
   root.insertAdjacentHTML('beforeend', renderFooter());

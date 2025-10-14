@@ -13,4 +13,7 @@ export const routes = {
   privacy: 'legal/privacy-policy.html',
   terms: 'legal/terms-of-service.html',
   modernSlavery: 'legal/modern-slavery.html',
+  ventureStudio: 'venture-studio/index.html',
+  investmentThesis: 'venture-studio/investment-thesis.html',
+  portfolio: 'venture-studio/portfolio.html',
 };
