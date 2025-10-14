@@ -39,8 +39,7 @@ export const renderCsvPage = () => {
                                     as well as ensuring data integrity throughout.
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                            </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h4>Develop CSV frameworks</h4  >
                                 <ul style="margin: 2rem">
@@ -139,8 +138,7 @@ export const renderItInfrastructurePage = () => {
                                     We specialize in providing comprehensive solutions to ensure the robustness, reliability, and compliance of your IT infrastructure. From data centers to workstations, applications to security protocols, we offer end-to-end support to meet your unique needs.
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                            </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h2>IT Infrastructure Qualification</h2>
                                 <div class="padding-bottom"></div>
@@ -233,8 +231,7 @@ export const renderDataAnalyticsPage = () => {
                                     In the dynamic landscape of the pharmaceutical industry, effective supply chain management is paramount. However, it\'s often fraught with challenges such as stringent regulatory requirements, complex distribution networks, and the need for stringent quality control measures. In such a high-stakes environment, the ability to harness data effectively becomes a strategic imperative. That\'s where our Data & Analysis Services come into play, offering tailored solutions to navigate these complexities and drive operational excellence.
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                            </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h4>Key issues in pharmaceutical supply chain management include:</h4  >
                                 <ul style="margin: 2rem">

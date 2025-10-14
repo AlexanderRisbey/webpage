@@ -33,11 +33,11 @@ export const renderEpiPage = () => {
                                     Introducing digital product information through mobile apps or digital platforms may seem commonplace, yet its adoption remains largely unexplored by many. Fortunately, for those who frequently seek information from paper or digital leaflets—patients, caregivers, and healthcare providers—the necessity of clear, accessible information is paramount.
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                                <div class="about_image-wrapper">
-                                    <img src="${assetHref('images/LydiaRx_ePI.jpeg')}" class="epi_image" alt="Person checking the ePI of a product"/>
-                                </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
+                            <div class="about_image-wrapper">
+                                <img src="${assetHref('images/LydiaRx_ePI.jpeg')}" class="epi_image" alt="Person checking the ePI of a product"/>
                             </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h2>LydiaRx's ePI Solution</h2>
                                 <div class="padding-bottom"></div>
@@ -115,8 +115,7 @@ export const renderAiStudioPage = () => {
                                     Implementing AI solutions in regulated R&D environments may seem straightforward, yet its effective adoption remains largely unexplored by many pharmaceutical companies. For those who frequently navigate complex research workflows—scientists, regulatory professionals, and R&D leaders—the necessity of intelligent, compliant AI tools is paramount.
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                            </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h2>LydiaRx's AI R&D Studio Solution</h2>
                                 <div class="padding-bottom"></div>

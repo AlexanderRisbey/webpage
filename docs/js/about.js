@@ -37,6 +37,7 @@ export const renderAboutPage = () => {
                                     <img src="${assetHref('images/LydiaRx_about-us.jpeg')}" class="about_image"/>
                                 </div>
                             </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h2>What we do</h2>
                                 <div class="padding-bottom"></div>

@@ -1,18 +1,1 @@
-
-.section_product-header{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--transparent-light-blue));
-    padding: 6rem 0 4rem 0;
-    position: relative;
-}
-
-.ps_header_shapes {
-    position: absolute;
-    bottom: -4rem;
-    right: 0rem;
-}
-
-.ps_header-image {
-    height: 25vw;
-    max-height: 260px;
-}
-
+/* No page-specific styles for Venture Studio pages yet. */

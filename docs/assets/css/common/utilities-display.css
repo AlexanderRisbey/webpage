@@ -335,18 +335,26 @@
     flex-direction: column;
   }
   .contact-input{
-    border: 0px;
-    background-color: var(--transparent-light-blue);
-    margin-bottom: 15px;
-    padding: 20px 10px 20px 10px;
+    border: 1px solid var(--borders);
+    background-color: var(--white);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
   }
   .contact-text-area{
-    border: 0px;
-    background-color: var(--transparent-light-blue);
-    margin-bottom: 15px;
-    padding: 20px 10px 20px 10px;
-    resize: none;
-    height: auto;
+    border: 1px solid var(--borders);
+    background-color: var(--white);
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.05);
+    resize: vertical;
+    min-height: 120px;
+  }
+
+  .contact-form .button {
+    width: 100%;
   }
 
   .error-container{
