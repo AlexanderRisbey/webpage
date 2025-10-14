@@ -93,8 +93,8 @@ html[data-style-variant="C"] .section-home-header {
 }
 
 html[data-style-variant="C"] .section-meet-os {
-    padding-top: clamp(2.5rem, 5vw, 4rem);
-    padding-bottom: clamp(2.5rem, 5vw, 4rem);
+    padding-top: 0;
+    padding-bottom: 0;
 }
 
 .container-background,
@@ -389,6 +389,14 @@ a.w-button::after {
 .hero_component::before,
 .home-header_component::before {
     background: linear-gradient(140deg, rgba(62, 172, 247, 0.18) 0%, rgba(14, 213, 238, 0.12) 38%, rgba(255, 255, 255, 0) 100%);
+}
+
+.news-carousel__controls {
+    margin: 0 -1.5rem;
+}
+
+.padding-huge {
+    padding: 0;
 }
 
 .stat-card,
