@@ -2,7 +2,15 @@ import { pageHref, assetHref } from './utils.js';
 import { routes } from './routes.js';
 import { getStyleVariant, STYLE_VARIANTS } from './ab-testing.js';
 
-export const newsArticleHref = (id) => `${pageHref(routes.news)}?id=${encodeURIComponent(id)}`;
+const sanitizeAnchorSegment = (value) => {
+  const raw = String(value ?? '').trim().toLowerCase();
+  const sanitized = raw.replace(/[^a-z0-9]+/g, '-').replace(/^-+|-+$/g, '');
+  return sanitized || 'article';
+};
+
+export const newsAnchorId = (id) => `news-${sanitizeAnchorSegment(id)}`;
+
+export const newsArticleHref = (id) => `${pageHref(routes.news)}#${newsAnchorId(id)}`;
 
 export const renderHeader = () => `
   <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav_component w-nav">

@@ -60,7 +60,6 @@ html[data-style-variant="A"] .ps_header-image {
 
 html[data-style-variant="A"] .news-slider-slide--variant-a {
   display: flex;
-  margin-bottom: 40px;
 }
 
 html[data-style-variant="A"] .news-slider-slide--variant-a .news-slider-link {
@@ -71,15 +70,10 @@ html[data-style-variant="A"] .news-slider-slide--variant-a .news-slider-link {
 
 html[data-style-variant="A"] .news-card--variant-a {
   width: 100%;
+  background: linear-gradient(145deg, rgba(169, 190, 203, 0.65), rgba(255, 255, 255, 0.92));
+  border-color: rgba(13, 19, 23, 0.08);
 }
 
-html[data-style-variant="A"] .button-wrapper--variant-a {
+html[data-style-variant="A"] .news-card-cta-button {
   margin-top: auto;
-  padding-top: 1.5rem;
-  display: flex;
-  justify-content: flex-start;
-}
-
-html[data-style-variant="A"] .news-card--variant-a .button {
-  text-decoration: none;
 }

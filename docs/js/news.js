@@ -1,6 +1,5 @@
-import { assetHref, pageHref } from './utils.js';
-import { newsArticleHref } from './renderers.js';
-import { routes } from './routes.js';
+import { assetHref } from './utils.js';
+import { newsArticleHref, newsAnchorId } from './renderers.js';
 import { getStyleVariant, STYLE_VARIANTS } from './ab-testing.js';
 
 let newsDataPromise;
@@ -73,35 +72,7 @@ const formatDate = (isoDate) => {
   });
 };
 
-const renderListView = (newsItems) => {
-  const articles = newsItems
-    .map(
-      (item) => `
-        <a class="news-card news-card--list" href="${newsArticleHref(item.id)}">
-          <div>
-            <p class="news-card-date">${formatDate(item.date)}</p>
-            <h3 class="news-card-title">${escapeHtml(item.title)}</h3>
-            <p class="news-card-excerpt">${escapeHtml(item.excerpt)}</p>
-          </div>
-          <span class="news-card-cta">Read article</span>
-        </a>
-      `,
-    )
-    .join('');
-
-  return `
-    <div class="news-page-header">
-      <span class="tag">Latest updates</span>
-      <h1>News &amp; Announcements</h1>
-      <p>Explore the milestones, partnerships, and product stories shaping LydiaRx.</p>
-    </div>
-    <div class="news-page-list">
-      ${articles}
-    </div>
-  `;
-};
-
-const renderArticleView = (article) => {
+const parseArticleContent = (article) => {
   const parsedContent =
     typeof window !== 'undefined' &&
     window.marked &&
@@ -112,44 +83,49 @@ const renderArticleView = (article) => {
           .map((paragraph) => `<p>${escapeHtml(paragraph).replace(/\n/g, '<br>')}</p>`)
           .join('');
 
+  return parsedContent;
+};
+
+const renderArticleSection = (article, index) => {
+  const anchorId = newsAnchorId(article.id || index);
+  const titleId = `${anchorId}-title`;
+  const bodyContent = parseArticleContent(article);
+
   return `
-    <h2>${escapeHtml(article.title)}</h2>
-    <div class="padding-bottom"></div>
-    <p><strong>Published on ${formatDate(article.date)}</strong></p>
-    <div class="padding-bottom"></div>
-    <div class="news-article-body">
-      ${parsedContent}
-    </div>
+    <article class="news-article" id="${anchorId}" data-news-anchor="${anchorId}" aria-labelledby="${titleId}">
+      <span class="news-card-date">${formatDate(article.date)}</span>
+      <h2 class="news-article-title" id="${titleId}">${escapeHtml(article.title)}</h2>
+      <div class="news-article-body">
+        ${bodyContent}
+      </div>
+    </article>
   `;
 };
 
+const renderArticlesView = (newsItems) =>
+  newsItems.map((item, index) => renderArticleSection(item, index)).join('');
+
 const renderSliderCard = (item, variant) => {
   const cardContent = `
-    <div>
-      <p class="news-card-date">${formatDate(item.date)}</p>
-      <h3 class="news-card-title">${escapeHtml(item.title)}</h3>
-      <p class="news-card-excerpt">${escapeHtml(item.excerpt)}</p>
-    </div>
+    <span class="news-card-date">${formatDate(item.date)}</span>
+    <h3 class="news-card-title">${escapeHtml(item.title)}</h3>
+    <p class="news-card-excerpt">${escapeHtml(item.excerpt)}</p>
   `;
 
   if (variant === STYLE_VARIANTS.A) {
     return `
-      <div class="swiper-slide news-slider-slide news-slider-slide--variant-a">
-        <a href="${newsArticleHref(item.id)}" class="news-slider-link">
-          <div class="news-card news-card--slider news-card--variant-a">
-            ${cardContent}
-            <div class="button-wrapper button-wrapper--variant-a">
-              <span class="button is-grey w-button">Read more</span>
-            </div>
-          </div>
+      <div class="swiper-slide news-carousel__slide news-slider-slide--variant-a">
+        <a href="${newsArticleHref(item.id)}" class="news-card news-card--slider news-card--carousel news-card--variant-a news-slider-link" aria-label="${escapeHtml(item.title)}">
+          ${cardContent}
+          <span class="button is-grey w-button news-card-cta-button">Read more</span>
         </a>
       </div>
     `;
   }
 
   return `
-    <div class="swiper-slide">
-      <a href="${newsArticleHref(item.id)}" class="news-card news-card--slider">
+    <div class="swiper-slide news-carousel__slide">
+      <a href="${newsArticleHref(item.id)}" class="news-card news-card--slider news-card--carousel" aria-label="${escapeHtml(item.title)}">
         ${cardContent}
         <span class="news-card-cta">Read article</span>
       </a>
@@ -165,10 +141,21 @@ export const initNewsSlider = (onReady) => {
     return;
   }
 
+  const carouselContainer = newsSliderContainer.closest('.news-carousel');
+  newsSliderContainer.innerHTML = '<div class="news-loading">Loading news...</div>';
+
   loadNewsData()
     .then((news) => {
       if (!Array.isArray(news) || news.length === 0) {
         newsSliderContainer.innerHTML = '<p class="news-empty-state">No news available at this time.</p>';
+        if (carouselContainer) {
+          carouselContainer.classList.add('news-carousel--empty');
+          const controls = carouselContainer.querySelectorAll('.news-carousel__button');
+          controls.forEach((button) => {
+            button.setAttribute('disabled', 'disabled');
+            button.setAttribute('aria-hidden', 'true');
+          });
+        }
         if (onReady) onReady();
         return;
       }
@@ -176,29 +163,78 @@ export const initNewsSlider = (onReady) => {
       const slidesHTML = news.map((item) => renderSliderCard(item, activeVariant)).join('');
 
       newsSliderContainer.innerHTML = `
-        <section class="news-container">
-          <h2 style="margin-bottom: 30px;">Company News</h2>
-          <div class="swiper">
-            <div class="swiper-wrapper">
-              ${slidesHTML}
-            </div>
-            <div class="swiper-pagination"></div>
+        <div class="swiper news-carousel__swiper">
+          <div class="swiper-wrapper">
+            ${slidesHTML}
           </div>
-        </section>
+        </div>
+        <div class="news-carousel__pagination"></div>
       `;
 
-      if (typeof Swiper === 'function') {
-        new Swiper('.swiper', {
-          pagination: {
-            el: '.swiper-pagination',
-            clickable: true,
-          },
-          spaceBetween: 20,
-          breakpoints: {
-            0: { slidesPerView: 1 },
-            768: { slidesPerView: 3 },
-          },
+      const prevButton = carouselContainer?.querySelector('.news-carousel__button--prev') ?? null;
+      const nextButton = carouselContainer?.querySelector('.news-carousel__button--next') ?? null;
+      const paginationEl = newsSliderContainer.querySelector('.news-carousel__pagination');
+      const swiperEl = newsSliderContainer.querySelector('.news-carousel__swiper');
+
+      if (news.length <= 1) {
+        [prevButton, nextButton].forEach((button) => {
+          if (button) {
+            button.setAttribute('disabled', 'disabled');
+            button.setAttribute('aria-hidden', 'true');
+          }
         });
+      } else {
+        [prevButton, nextButton].forEach((button) => {
+          if (button) {
+            button.removeAttribute('disabled');
+            button.removeAttribute('aria-hidden');
+          }
+        });
+      }
+
+      if (typeof Swiper === 'function' && swiperEl) {
+        const slideCount = news.length;
+        const slidesPerViewMd = Math.min(slideCount, 2);
+        const slidesPerViewLg = Math.min(slideCount, 3);
+
+        const config = {
+          slidesPerView: 1,
+          spaceBetween: 24,
+          loop: slideCount > 1,
+          autoHeight: true,
+          grabCursor: true,
+          speed: 600,
+          breakpoints: {
+            768: { slidesPerView: slidesPerViewMd },
+            1280: { slidesPerView: slidesPerViewLg },
+          },
+        };
+
+        if (slideCount > 1) {
+          config.autoplay = {
+            delay: 6000,
+            disableOnInteraction: false,
+            pauseOnMouseEnter: true,
+          };
+        }
+
+        if (paginationEl) {
+          config.pagination = {
+            el: paginationEl,
+            clickable: true,
+            bulletClass: 'news-carousel__bullet',
+            bulletActiveClass: 'news-carousel__bullet--active',
+          };
+        }
+
+        if (prevButton && nextButton && slideCount > 1) {
+          config.navigation = {
+            prevEl: prevButton,
+            nextEl: nextButton,
+          };
+        }
+
+        new Swiper(swiperEl, config);
       }
       if (onReady) onReady();
     })
@@ -210,11 +246,12 @@ export const initNewsSlider = (onReady) => {
 
 export const renderNewsPage = () => `
   <main class="main-wrapper">
-    <section class="section_product-header">
+    <section class="section_product-header section_news-header">
       <div class="page-padding">
-        <div class="container-large" style="position: relative;">
+        <div class="container-large section_news-header__container">
           <div class="max-width-large">
-            <h1>News</h1>
+            <span class="tag">Newsroom</span>
+            <h1>LydiaRx News</h1>
             <div class="padding-bottom"></div>
           </div>
           <div class="max-width-medium">
@@ -226,15 +263,17 @@ export const renderNewsPage = () => `
         </div>
       </div>
     </section>
-    <section class="section_about-us">
+    <section class="section_about-us section_news-feed">
       <div class="page-padding">
         <div class="container-large">
           <div class="padding-section-huge">
-            <div class="about_component">
-              <div class="max-width-large">
-                <div id="news-page-root" class="news-page">
-                  <div class="news-loading">Loading news...</div>
-                </div>
+              <div class="news-feed container-background">
+              <div class="news-feed__intro">
+                <h2>All articles</h2>
+                <p>Browse every update in one place. Each story is part of our journey to build trusted healthcare technology.</p>
+              </div>
+              <div id="news-page-root" class="news-feed__articles">
+                <div class="news-loading">Loading news...</div>
               </div>
             </div>
           </div>
@@ -250,6 +289,8 @@ export const initNewsPage = () => {
     return;
   }
 
+  container.innerHTML = '<div class="news-loading">Loading news...</div>';
+
   loadNewsData()
     .then((news) => {
       if (!Array.isArray(news) || news.length === 0) {
@@ -257,25 +298,71 @@ export const initNewsPage = () => {
         return;
       }
 
-      const params = new URLSearchParams(window.location.search);
-      const articleId = params.get('id');
+      container.innerHTML = renderArticlesView(news);
 
-      if (articleId) {
-        const article = news.find((item) => item.id === articleId);
-        if (!article) {
-          container.innerHTML = `
-            <div class="news-empty-state">
-              We could not find that article. <a class="news-back-link" href="${pageHref(routes.news)}">Back to all news</a>
-            </div>
-          `;
+      let highlightedElement = null;
+      let highlightTimeout = null;
+
+      const highlightArticle = (anchorId, { smooth = false } = {}) => {
+        if (!anchorId) {
           return;
         }
 
-        container.innerHTML = renderArticleView(article);
-        return;
+        requestAnimationFrame(() => {
+          const target = document.getElementById(anchorId);
+          if (!target) {
+            return;
+          }
+
+          if (highlightedElement && highlightedElement !== target) {
+            highlightedElement.classList.remove('news-article--highlight');
+            highlightedElement.removeAttribute('tabindex');
+          }
+
+          target.classList.add('news-article--highlight');
+          target.setAttribute('tabindex', '-1');
+          target.focus({ preventScroll: true });
+          target.scrollIntoView({
+            behavior: smooth ? 'smooth' : 'auto',
+            block: 'start',
+          });
+
+          if (highlightTimeout) {
+            window.clearTimeout(highlightTimeout);
+          }
+
+          highlightTimeout = window.setTimeout(() => {
+            target.classList.remove('news-article--highlight');
+            target.removeAttribute('tabindex');
+            if (highlightedElement === target) {
+              highlightedElement = null;
+            }
+          }, 2000);
+
+          highlightedElement = target;
+        });
+      };
+
+      const params = new URLSearchParams(window.location.search);
+      const searchId = params.get('id');
+      const initialHash = window.location.hash;
+
+      if (searchId) {
+        const anchorId = newsAnchorId(searchId);
+        highlightArticle(anchorId, { smooth: false });
+        if (window.history && typeof window.history.replaceState === 'function') {
+          window.history.replaceState(null, '', `${window.location.pathname}#${anchorId}`);
+        }
+      } else if (initialHash && initialHash.startsWith('#news-')) {
+        highlightArticle(initialHash.substring(1), { smooth: false });
       }
 
-      container.innerHTML = renderListView(news);
+      window.addEventListener('hashchange', () => {
+        const { hash } = window.location;
+        if (hash && hash.startsWith('#news-')) {
+          highlightArticle(hash.substring(1), { smooth: true });
+        }
+      });
     })
     .catch(() => {
       container.innerHTML = '<div class="news-empty-state">Unable to load news at this time.</div>';

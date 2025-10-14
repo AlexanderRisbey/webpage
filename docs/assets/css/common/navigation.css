@@ -513,7 +513,7 @@
       max-height: 380px;
     }
     .page-padding.special.top {
-      height: 100vh;
+      height: 25vh;
       align-items: flex-start;
       padding-top: 30vh;
       display: flex;

@@ -6,6 +6,34 @@ export const renderHomepage = (root) => {
   const homepageContent = `
     <main class="main-wrapper">
       <div id="startRef">
+        <section class="section-home-news">
+          <div class="page-padding">
+            <div class="container-large">
+              <div class="news-carousel container-background">
+                <div class="news-carousel__body">
+                  <div class="news-carousel__controls">
+                    <button type="button" class="news-carousel__button news-carousel__button--prev" aria-label="Previous article">
+                      <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M15.5 5.5 9 12l6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </button>
+                    <button type="button" class="news-carousel__button news-carousel__button--next" aria-label="Next article">
+                      <svg width="20" height="20" viewBox="0 0 24 24" aria-hidden="true">
+                        <path d="M8.5 5.5 15 12l-6.5 6.5" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                      </svg>
+                    </button>
+                  </div>
+                  <div class="news-carousel__viewport">
+                    <div id="news-slider" class="news-carousel__slider">
+                      <div class="news-loading">Loading news...</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
         <section class="section-home-header">
           <canvas id="globe-canvas" class="canvas" style="position:fixed; height: 100vh; width: 100vw; z-index: -2;"></canvas>
           <div id="globe-overlay" style="position:fixed; height: 100vh; width: 100vw; z-index: -1; background-color: #fff; opacity: 0;"></div>
@@ -127,7 +155,7 @@ export const renderHomepage = (root) => {
                           <a href="${pageHref(routes.it)}" class="button is-grey w-button">More about this service</a>
                         </div>
                       </div>
-                      <div class="ai-studio-column">
+                    <div class="ai-studio-column">
                         ${icons.barChart}
                         <h2>Data &amp; Analysis</h2>
                         <div class="margin-top margin-small">
@@ -138,20 +166,6 @@ export const renderHomepage = (root) => {
                         </div>
                       </div>
                     </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
-
-        <section class="section-meet-os">
-          <div class="page-padding">
-            <div class="container-large">
-              <div class="padding-vertical padding-huge">
-                <div class="layout-1-col">
-                  <div class="meet-os-content container-background">
-                    <div id="news-slider"></div>
                   </div>
                 </div>
               </div>
