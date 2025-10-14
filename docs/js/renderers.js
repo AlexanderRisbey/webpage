@@ -11,48 +11,101 @@ export const renderHeader = () => `
         <a href="${pageHref(routes.home)}" class="nav_brand-link w-nav-brand">
           <img src="${assetHref('images/LydiaRx_Logo_Light.svg')}" loading="lazy" alt="LydiaRx" class="nav_brand-logo">
         </a>
-        <nav role="navigation" class="nav_menu w-nav-menu">
-          <div class="nav_left-wrapper">
-            <div class="nav_link-wrapper">
-              <a href="${pageHref(routes.about)}" class="nav_link w-nav-link">About</a>
-              <div class="nav_link-line"></div>
-            </div>
-            <div class="nav_link-wrapper dropdown">
-              <div class="nav_link is-for-dropdown w-dropdown-toggle">
-                <div>Products &amp; Services <br></div>
-                <div style="margin-left: 5px; display: flex; align-items: center;">
-                  <svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true">
-                    <path d="M0 7 L 20 7 L 10 16"></path>
-                  </svg>
+        <div class="nav_menu-wrapper">
+          <nav role="navigation" class="nav_menu w-nav-menu">
+            <div class="nav_left-wrapper">
+              <div class="nav_link-wrapper">
+                <a href="${pageHref(routes.about)}" class="nav_link w-nav-link">About</a>
+                <div class="nav_link-line"></div>
+              </div>
+              <div class="nav_link-wrapper dropdown">
+                <div class="nav_link is-for-dropdown w-dropdown-toggle">
+                  <div>Products &amp; Services <br></div>
+                  <div style="margin-left: 5px; display: flex; align-items: center;">
+                    <svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true">
+                      <path d="M0 7 L 20 7 L 10 16"></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="dropdown-container">
+                  <div class="dropdown-content">
+                    <h6 class="dropdownTitle">Products</h6>
+                    <a href="${pageHref(routes.aiStudio)}" class="dropdownItem">AI R&amp;D Studio</a>
+                    <a href="${pageHref(routes.trackAndTrace)}" class="dropdownItem">Track &amp; Trace</a>
+                    <a href="${pageHref(routes.epi)}" class="dropdownItem">Electronic product information</a>
+                  </div>
+                  <div class="dropdown-content">
+                    <h6 class="dropdownTitle">Consultancy Services</h6>
+                    <a href="${pageHref(routes.csv)}" class="dropdownItem">Computer System Validation</a>
+                    <a href="${pageHref(routes.it)}" class="dropdownItem">IT Infrastructure Design, Implementation and Qualification</a>
+                    <a href="${pageHref(routes.dataAnalytics)}" class="dropdownItem">Data and Analytics</a>
+                  </div>
                 </div>
               </div>
-              <div class="dropdown-container">
-                <div class="dropdown-content">
-                  <h6 class="dropdownTitle">Products</h6>
-                  <a href="${pageHref(routes.aiStudio)}" class="dropdownItem">AI R&amp;D Studio</a>
-                  <a href="${pageHref(routes.trackAndTrace)}" class="dropdownItem">Track &amp; Trace</a>
-                  <a href="${pageHref(routes.epi)}" class="dropdownItem">Electronic product information</a>
-                </div>
-                <div class="dropdown-content">
-                  <h6 class="dropdownTitle">Consultancy Services</h6>
-                  <a href="${pageHref(routes.csv)}" class="dropdownItem">Computer System Validation</a>
-                  <a href="${pageHref(routes.it)}" class="dropdownItem">IT Infrastructure Design, Implementation and Qualification</a>
-                  <a href="${pageHref(routes.dataAnalytics)}" class="dropdownItem">Data and Analytics</a>
-                </div>
+              <div class="nav_link-wrapper">
+                <a href="${pageHref(routes.contact)}" class="nav_link w-nav-link">Contact</a>
+                <div class="nav_link-line"></div>
               </div>
             </div>
-            <div class="nav_link-wrapper">
-              <a href="${pageHref(routes.contact)}" class="nav_link w-nav-link">Contact</a>
-              <div class="nav_link-line"></div>
-            </div>
-          </div>
-        </nav>
+          </nav>
+        </div>
         <div class="nav_menu-button w-nav-button">
-          <div class="w-icon-nav-menu"></div>
+            <button class="mobileMenu-button">
+                <svg width="23" height="18" viewBox="0 0 23 18">
+                    <path fill="transparent" stroke-width="3" stroke="#fff" stroke-linecap="round" d="M 2 2.5 L 20 2.5" class="top"></path>
+                    <path fill="transparent" stroke-width="3" stroke="#fff" stroke-linecap="round" d="M 2 9.423 L 20 9.423" opacity="1" class="middle"></path>
+                    <path fill="transparent" stroke-width="3" stroke="#fff" stroke-linecap="round" d="M 2 16.346 L 20 16.346" class="bottom"></path>
+                </svg>
+            </button>
         </div>
       </div>
     </div>
     <div class="w-nav-overlay" data-wf-ignore="" id="w-nav-overlay-0"></div>
+    <nav id="mobile-menu" class="mobile-menu">
+        <ul class="menu">
+            <li class="menu-link no-point logo-mobile-menu"> 
+                <a href="${pageHref(routes.home)}" class="nav_brand-link w-nav-brand">
+                    <img src="${assetHref('images/LydiaRx_Logo_Dark.svg')}" loading="lazy" alt="LydiaRx" class="nav_brand-logo">
+                </a>
+            </li>
+            <li class="menu-link no-point">
+                <a href="${pageHref(routes.about)}" class="mobile-menu-item">About</a>
+            </li>
+            <li class="menu-link no-point dropdown-mobile">
+                <div class="mobile-menu-item is-for-dropdown">
+                    <span>Products & Services</span>
+                    <div style="margin-left: 5px; display: flex; align-items: center;">
+                        <svg width="15" height="15" viewBox="0 0 20 20" aria-hidden="true">
+                            <path d="M0 7 L 20 7 L 10 16" fill="#fff"></path>
+                        </svg>
+                    </div>
+                </div>
+                <ul class="dropdown-container-mobile menu">
+                    <li class="white-point">
+                        <a href="${pageHref(routes.aiStudio)}" class="mobile-menu-item">AI R&amp;D Studio</a>
+                    </li>
+                    <li class="white-point">
+                        <a href="${pageHref(routes.trackAndTrace)}" class="mobile-menu-item">Track &amp; Trace</a>
+                    </li>
+                    <li class="white-point">
+                        <a href="${pageHref(routes.epi)}" class="mobile-menu-item">Electronic product information</a>
+                    </li>
+                    <li class="white-point">
+                        <a href="${pageHref(routes.csv)}" class="mobile-menu-item">Computer System Validation</a>
+                    </li>
+                    <li class="white-point">
+                        <a href="${pageHref(routes.it)}" class="mobile-menu-item">IT Infrastructure Services</a>
+                    </li>
+                    <li class="white-point">
+                        <a href="${pageHref(routes.dataAnalytics)}" class="mobile-menu-item">Data and Analytics</a>
+                    </li>
+                </ul>
+            </li>
+            <li class="menu-link no-point">
+                <a href="${pageHref(routes.contact)}" class="mobile-menu-item">Contact</a>
+            </li>
+        </ul>
+    </nav>
   </div>
 `;
 

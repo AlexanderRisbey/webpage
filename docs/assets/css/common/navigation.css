@@ -403,34 +403,6 @@
       padding-bottom: .75rem;
     }
 
-    .nav_menu {
-      max-height: 80vh;
-      box-shadow: 0 20px 8rem 0 var(--shadows);
-      background-color: #fff;
-      padding: .5rem 2rem 2rem;
-      overflow: auto;
-    }
-
-    .nav_link.is-dropdown-link {
-      padding-top: .75rem;
-      padding-bottom: .75rem;
-      font-size: .75rem;
-    }
-
-    .nav_left-wrapper {
-      flex-direction: column;
-    }
-
-    .nav_right-wrapper {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-
-    .nav_menu-button.w--open {
-      color: var(--primary-blue);
-      background-color: rgba(0, 0, 0, 0);
-    }
-
     .section-home-header {
       padding-top: 0rem;
       padding-bottom: 6rem;
@@ -459,19 +431,6 @@
 
     .cta_image-wrapper {
       margin-top: -12%;
-    }
-
-    .nav_link-wrapper {
-      margin-left: 0;
-      margin-right: 0;
-    }
-
-    .nav_link-line {
-      display: none;
-    }
-
-    .nav_dropdown-list {
-      box-shadow: 0 0 1rem rgba(0, 0, 0, .05);
     }
 
     .tool-tip_popup {
