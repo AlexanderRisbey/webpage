@@ -257,7 +257,9 @@ const STYLESHEET_MATCHERS = {
   about: (href) => href.endsWith('/assets/css/pages/about.css'),
   trackAndTrace: (href) => href.endsWith('/assets/css/pages/track-and-trace.css'),
   ventureStudio: (href) => href.endsWith('/assets/css/pages/venture-studio.css'),
+  variantA: (href) => href.endsWith('/assets/css/main-theme-a.css'),
   variantB: (href) => href.endsWith('/assets/css/main-theme-alt.css'),
+  variantC: (href) => href.endsWith('/assets/css/main-theme-c.css'),
 };
 
 const vendorHref = (path = '') => new URL(path, new URL('../vendor/', import.meta.url)).href;
@@ -335,6 +337,16 @@ const ensurePageStylesheet = () => {
 };
 
 const ensureVariantStylesheet = (variant) => {
+  if (variant === STYLE_VARIANTS.A) {
+    ensureStylesheet({
+      id: 'variant-a',
+      href: assetHref('css/main-theme-a.css'),
+      matcher: STYLESHEET_MATCHERS.variantA,
+    });
+  } else {
+    removeStylesheet(STYLESHEET_MATCHERS.variantA);
+  }
+
   if (variant === STYLE_VARIANTS.B) {
     ensureStylesheet({
       id: 'variant-b',
@@ -344,13 +356,23 @@ const ensureVariantStylesheet = (variant) => {
   } else {
     removeStylesheet(STYLESHEET_MATCHERS.variantB);
   }
+
+  if (variant === STYLE_VARIANTS.C) {
+    ensureStylesheet({
+      id: 'variant-c',
+      href: assetHref('css/main-theme-c.css'),
+      matcher: STYLESHEET_MATCHERS.variantC,
+    });
+  } else {
+    removeStylesheet(STYLESHEET_MATCHERS.variantC);
+  }
 };
 
 export const loadCSS = async () => {
   try {
+    const variant = getStyleVariant();
     ensureBaseStylesheets();
     ensurePageStylesheet();
-    const variant = getStyleVariant();
     ensureVariantStylesheet(variant);
     return variant;
   } catch (error) {

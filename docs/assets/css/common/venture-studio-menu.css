@@ -1,0 +1,8 @@
+.mobile-menu-item-title {
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+}

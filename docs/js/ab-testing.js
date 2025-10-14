@@ -1,6 +1,6 @@
 const STYLE_VARIANT_KEY = 'lydiarx-style-variant';
 const STYLE_VARIANT_PARAM = 'styleVariant';
-const VALID_VARIANTS = new Set(['A', 'B']);
+const VALID_VARIANTS = new Set(['A', 'B', 'C']);
 
 const safeLocalStorage = {
   getItem(key) {
@@ -43,7 +43,7 @@ const applyVariantMetadata = (variant) => {
   window.__LYDIARX_STYLE_VARIANT__ = variant;
 };
 
-const pickRandomVariant = () => (Math.random() < 0.5 ? 'A' : 'B');
+const pickDefaultVariant = () => STYLE_VARIANTS.A;
 
 export const getStyleVariant = () => {
   const variantFromUrl = readVariantFromUrl();
@@ -59,7 +59,7 @@ export const getStyleVariant = () => {
     return storedVariant;
   }
 
-  const variant = pickRandomVariant();
+  const variant = pickDefaultVariant();
   writeVariantToStorage(variant);
   applyVariantMetadata(variant);
   return variant;
@@ -78,4 +78,5 @@ export const forceStyleVariant = (variant) => {
 export const STYLE_VARIANTS = Object.freeze({
   A: 'A',
   B: 'B',
+  C: 'C',
 });

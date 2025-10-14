@@ -4,7 +4,7 @@ import { renderHeader, renderFooter, loadCSS } from './renderers.js';
 import { initMobileMenu } from './mobile-menu.js';
 import { renderHomepage } from './homepage.js';
 import { initGlobe } from './globe.js';
-import { initNewsSlider } from './news.js';
+import { initNewsSlider, renderNewsPage, initNewsPage } from './news.js';
 import { initCookieBanner } from './cookies.js';
 import { initDropdowns } from './ui.js';
 import { renderTransitionScreen, initTransition } from './transition.js';
@@ -72,6 +72,9 @@ document.addEventListener('DOMContentLoaded', async () => {
     root.insertAdjacentHTML('beforeend', renderItInfrastructurePage());
   } else if (path.includes('data-analytics.html')) {
     root.insertAdjacentHTML('beforeend', renderDataAnalyticsPage());
+  } else if (path.includes('/news/')) {
+    root.insertAdjacentHTML('beforeend', renderNewsPage());
+    initNewsPage();
   } else if (path.includes('privacy-policy.html')) {
     root.insertAdjacentHTML('beforeend', renderPrivacyPolicyPage());
   } else if (path.includes('terms-of-service.html')) {

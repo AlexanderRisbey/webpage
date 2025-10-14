@@ -1,0 +1,85 @@
+html[data-style-variant="A"] {
+  --text-grey: #363636;
+  --black: #0d1317;
+  --white: #ffffff;
+  --grey: #5b5b5b;
+  --primary-blue: #22577a;
+  --transparent-light-blue: rgba(169, 190, 203, 0.445);
+  --transparent-light-red: rgba(203, 169, 169, 0.445);
+  --transparent-light-green: rgba(169, 203, 175, 0.445);
+  --transparent-light-blue-90: rgba(169, 190, 203, 0.9);
+  --transparent-light-blue-70: rgba(169, 190, 203, 0.7);
+  --shadows: rgba(0, 0, 0, 0.1);
+  --borders: #f2f2f2;
+  --border-light-c: #f2f2f2;
+  --primary-bg-c: var(--transparent-light-blue-70);
+  --secondary-bg-c: var(--transparent-light-blue-90);
+  --tertiary-bg-c: rgba(169, 190, 203, 0.55);
+  --surface-bg-c: #ffffff;
+  --surface-bg-alt-c: rgba(255, 255, 255, 0.92);
+  --surface-glass-c: rgba(255, 255, 255, 0.82);
+  --text-yellow: #ffc107;
+  --text-green: #00bb72;
+  --text-dark-grey: #404040;
+  --text-white: #ffffff;
+  --transparent-blue-gradient: rgba(148, 153, 221, 0.1);
+  --shadow-soft: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+html[data-style-variant="A"] .nav_component {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  box-shadow: none;
+  z-index: 10;
+}
+
+html[data-style-variant="A"] .section_about-header,
+html[data-style-variant="A"] .section_product-header {
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--transparent-light-blue));
+}
+
+html[data-style-variant="A"] .section_product-header {
+  padding: 10rem 0 8rem;
+}
+
+html[data-style-variant="A"] .ps_header_shapes {
+  bottom: -8rem;
+}
+
+html[data-style-variant="A"] .about_header-image,
+html[data-style-variant="A"] .ps_header-image {
+  filter: brightness(0) invert(1);
+  mix-blend-mode: normal;
+  opacity: 1;
+}
+
+html[data-style-variant="A"] .news-slider-slide--variant-a {
+  display: flex;
+  margin-bottom: 40px;
+}
+
+html[data-style-variant="A"] .news-slider-slide--variant-a .news-slider-link {
+  display: flex;
+  width: 100%;
+  text-decoration: none;
+}
+
+html[data-style-variant="A"] .news-card--variant-a {
+  width: 100%;
+}
+
+html[data-style-variant="A"] .button-wrapper--variant-a {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+}
+
+html[data-style-variant="A"] .news-card--variant-a .button {
+  text-decoration: none;
+}

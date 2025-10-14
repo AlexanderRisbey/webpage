@@ -96,21 +96,21 @@
 
   :root {
     /* --text-grey: #757575; */
-    --text-grey: #363636;
+    --text-grey: #6B7280;
     --black: #0d1317;
     --white: #ffffff;
     --grey: #5b5b5b;
-    --primary-blue: #22577a;
+    --primary-blue: #1E40AF;
     --transparent-light-blue: rgba(169, 190, 203, 0.445);
     --transparent-light-red: rgba(203, 169, 169, 0.445);
     --transparent-light-green: rgba(169, 203, 175, 0.445);
     --transparent-light-blue-90: rgba(169, 190, 203, 0.9);
     --transparent-light-blue-70: rgba(169, 190, 203, 0.7);
-    --shadows: rgba(0, 0, 0, .1);
-    --borders: #f2f2f2;
-    --text-yellow: #ffc107;
-    --text-green: #00bb72;
-    --text-dark-grey: #404040;
+    --shadows: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    --borders: var(--border-light-c);
+    --text-yellow: #D97706;
+    --text-green: #059669;
+    --text-dark-grey: #374151;
     --text-white: white;
     --transparent-blue-gradient: rgba(148, 153, 221, .1);
   }
