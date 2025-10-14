@@ -51,6 +51,11 @@ export const initMobileMenu = () => {
     });
   }
 
+  menu.addEventListener('click', (event) => {
+    if (event.target.tagName === 'A') {
+      closeMenu();
+    }
+  });
 
   document.addEventListener('click', (event) => {
     if (!menu.contains(event.target) && !toggle.contains(event.target)) {
