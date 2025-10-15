@@ -22,10 +22,6 @@
     margin: 4rem;
   }
 
-  .margin-xxlarge {
-    margin: 5rem;
-  }
-
   .margin-huge {
     margin: 6rem;
   }
@@ -308,7 +304,6 @@
     position: relative;
   }
   .section_about-us{
-    padding: 10rem 0 8rem 0;
     position: relative;
   }
 

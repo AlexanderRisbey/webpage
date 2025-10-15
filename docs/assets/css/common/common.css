@@ -21,3 +21,12 @@
   flex-direction: column;
   height: 100%;
 }
+
+.margin-xxlarge {
+  margin: var(--margin-xxlarge);
+}
+
+section h1,
+section h2 {
+  text-align: left;
+}

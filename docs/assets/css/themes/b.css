@@ -80,10 +80,7 @@ a:hover {
   background-color: #e9ecef; /* A slightly darker gray */
 }
 
-.nav_component {
-  background-color: var(--white);
-  box-shadow: var(--shadow-soft);
-}
+
 
 .nav_link, .nav_link.w-nav-link {
   color: var(--text-dark);
@@ -165,4 +162,12 @@ a:hover {
 
 .ai-studio-column svg path {
   stroke: var(--accent-teal);
+}
+
+.section_about-us,
+.section-home-news,
+.section-home-header,
+.section-meet-os,
+.section-featured {
+  padding: 4rem 0;
 }

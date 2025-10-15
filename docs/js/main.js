@@ -38,6 +38,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   let isTrackAndTracePage = false;
 
   if (isHomePath()) {
+    document.body.classList.add('is-homepage');
     renderHomepage(root);
     const globe = initGlobe();
     initNewsSlider(() => {
