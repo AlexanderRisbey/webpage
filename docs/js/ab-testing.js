@@ -1,6 +1,6 @@
 const STYLE_VARIANT_KEY = 'lydiarx-style-variant';
 const STYLE_VARIANT_PARAM = 'design';
-const VALID_VARIANTS = new Set(['a', 'b', 'c', 'default']);
+const VALID_VARIANTS = new Set(['a', 'b', 'c', 'd', 'default']);
 
 const safeLocalStorage = {
   getItem(key) {
@@ -79,5 +79,6 @@ export const STYLE_VARIANTS = Object.freeze({
   a: 'a',
   b: 'b',
   c: 'c',
+  d: 'd',
   default: 'default',
 });

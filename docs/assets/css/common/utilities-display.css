@@ -196,6 +196,7 @@
 
 .page-padding.nav {
     overflow: visible;
+    padding-top: 0;
 }
 
 .page-padding.special {
