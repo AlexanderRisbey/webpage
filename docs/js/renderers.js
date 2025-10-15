@@ -265,9 +265,7 @@ const STYLESHEET_MATCHERS = {
   about: (href) => href.endsWith('/assets/css/pages/about.css'),
   trackAndTrace: (href) => href.endsWith('/assets/css/pages/track-and-trace.css'),
   ventureStudio: (href) => href.endsWith('/assets/css/pages/venture-studio.css'),
-  variantA: (href) => href.endsWith('/assets/css/main-theme-a.css'),
-  variantB: (href) => href.endsWith('/assets/css/main-theme-alt.css'),
-  variantC: (href) => href.endsWith('/assets/css/main-theme-c.css'),
+  variant: (href) => href.includes('/assets/css/themes/'),
 };
 
 const vendorHref = (path = '') => new URL(path, new URL('../vendor/', import.meta.url)).href;
@@ -345,34 +343,14 @@ const ensurePageStylesheet = () => {
 };
 
 const ensureVariantStylesheet = (variant) => {
-  if (variant === STYLE_VARIANTS.A) {
-    ensureStylesheet({
-      id: 'variant-a',
-      href: assetHref('css/main-theme-a.css'),
-      matcher: STYLESHEET_MATCHERS.variantA,
-    });
-  } else {
-    removeStylesheet(STYLESHEET_MATCHERS.variantA);
-  }
+  removeStylesheet(STYLESHEET_MATCHERS.variant);
 
-  if (variant === STYLE_VARIANTS.B) {
+  if (variant) {
     ensureStylesheet({
-      id: 'variant-b',
-      href: assetHref('css/main-theme-alt.css'),
-      matcher: STYLESHEET_MATCHERS.variantB,
+      id: `variant-${variant}`,
+      href: assetHref(`css/themes/${variant}.css`),
+      matcher: STYLESHEET_MATCHERS.variant,
     });
-  } else {
-    removeStylesheet(STYLESHEET_MATCHERS.variantB);
-  }
-
-  if (variant === STYLE_VARIANTS.C) {
-    ensureStylesheet({
-      id: 'variant-c',
-      href: assetHref('css/main-theme-c.css'),
-      matcher: STYLESHEET_MATCHERS.variantC,
-    });
-  } else {
-    removeStylesheet(STYLESHEET_MATCHERS.variantC);
   }
 };
 

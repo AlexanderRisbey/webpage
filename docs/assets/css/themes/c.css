@@ -80,19 +80,19 @@ body {
     padding-bottom: var(--section-offset-c);
 }
 
-html[data-style-variant="C"] .padding-section-huge,
-html[data-style-variant="C"] .padding-section-xhuge,
-html[data-style-variant="C"] .padding-section-large {
+html[data-style-variant="c"] .padding-section-huge,
+html[data-style-variant="c"] .padding-section-xhuge,
+html[data-style-variant="c"] .padding-section-large {
     padding: clamp(3rem, 5vw, 4.5rem) 0;
 }
 
-html[data-style-variant="C"] .section-home-header {
+html[data-style-variant="c"] .section-home-header {
     min-height: auto;
     padding-top: clamp(2rem, 4vw, 3.5rem);
     padding-bottom: clamp(2.5rem, 4vw, 3.5rem);
 }
 
-html[data-style-variant="C"] .section-meet-os {
+html[data-style-variant="c"] .section-meet-os {
     padding-top: 0;
     padding-bottom: 0;
 }

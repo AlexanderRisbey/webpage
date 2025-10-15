@@ -11,3 +11,13 @@
 @import url('./navigation.css');
 @import url('./responsive-global.css');
 @import url('./mobile-extras.css');
+
+.news-carousel__slider .swiper-slide {
+  height: auto;
+}
+
+.news-carousel__slider .news-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}

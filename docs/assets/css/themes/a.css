@@ -1,4 +1,4 @@
-html[data-style-variant="A"] {
+html[data-style-variant="a"] {
   --text-grey: #363636;
   --black: #0d1317;
   --white: #ffffff;
@@ -26,7 +26,7 @@ html[data-style-variant="A"] {
   --shadow-soft: 0 0 1rem 0 rgba(0, 0, 0, 0.1);
 }
 
-html[data-style-variant="A"] .nav_component {
+html[data-style-variant="a"] .nav_component {
   position: absolute;
   top: 0;
   left: 0;
@@ -38,42 +38,42 @@ html[data-style-variant="A"] .nav_component {
   z-index: 10;
 }
 
-html[data-style-variant="A"] .section_about-header,
-html[data-style-variant="A"] .section_product-header {
+html[data-style-variant="a"] .section_about-header,
+html[data-style-variant="a"] .section_product-header {
   background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--transparent-light-blue));
 }
 
-html[data-style-variant="A"] .section_product-header {
+html[data-style-variant="a"] .section_product-header {
   padding: 10rem 0 8rem;
 }
 
-html[data-style-variant="A"] .ps_header_shapes {
+html[data-style-variant="a"] .ps_header_shapes {
   bottom: -8rem;
 }
 
-html[data-style-variant="A"] .about_header-image,
-html[data-style-variant="A"] .ps_header-image {
+html[data-style-variant="a"] .about_header-image,
+html[data-style-variant="a"] .ps_header-image {
   filter: brightness(0) invert(1);
   mix-blend-mode: normal;
   opacity: 1;
 }
 
-html[data-style-variant="A"] .news-slider-slide--variant-a {
+html[data-style-variant="a"] .news-slider-slide--variant-a {
   display: flex;
 }
 
-html[data-style-variant="A"] .news-slider-slide--variant-a .news-slider-link {
+html[data-style-variant="a"] .news-slider-slide--variant-a .news-slider-link {
   display: flex;
   width: 100%;
   text-decoration: none;
 }
 
-html[data-style-variant="A"] .news-card--variant-a {
+html[data-style-variant="a"] .news-card--variant-a {
   width: 100%;
   background: linear-gradient(145deg, rgba(169, 190, 203, 0.65), rgba(255, 255, 255, 0.92));
   border-color: rgba(13, 19, 23, 0.08);
 }
 
-html[data-style-variant="A"] .news-card-cta-button {
+html[data-style-variant="a"] .news-card-cta-button {
   margin-top: auto;
 }

@@ -201,7 +201,7 @@ export const initNewsSlider = (onReady) => {
           slidesPerView: 1,
           spaceBetween: 24,
           loop: slideCount > 1,
-          autoHeight: true,
+          autoHeight: false,
           grabCursor: true,
           speed: 600,
           breakpoints: {

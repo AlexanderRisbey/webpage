@@ -1,6 +1,6 @@
 const STYLE_VARIANT_KEY = 'lydiarx-style-variant';
-const STYLE_VARIANT_PARAM = 'styleVariant';
-const VALID_VARIANTS = new Set(['A', 'B', 'C']);
+const STYLE_VARIANT_PARAM = 'design';
+const VALID_VARIANTS = new Set(['a', 'b', 'c']);
 
 const safeLocalStorage = {
   getItem(key) {
@@ -23,8 +23,8 @@ const normalizeVariant = (value) => {
   if (!value) {
     return null;
   }
-  const upper = String(value).toUpperCase();
-  return VALID_VARIANTS.has(upper) ? upper : null;
+  const lower = String(value).toLowerCase();
+  return VALID_VARIANTS.has(lower) ? lower : null;
 };
 
 const readVariantFromUrl = () => {
@@ -43,7 +43,7 @@ const applyVariantMetadata = (variant) => {
   window.__LYDIARX_STYLE_VARIANT__ = variant;
 };
 
-const pickDefaultVariant = () => STYLE_VARIANTS.A;
+const pickDefaultVariant = () => STYLE_VARIANTS.a;
 
 export const getStyleVariant = () => {
   const variantFromUrl = readVariantFromUrl();
@@ -76,7 +76,7 @@ export const forceStyleVariant = (variant) => {
 };
 
 export const STYLE_VARIANTS = Object.freeze({
-  A: 'A',
-  B: 'B',
-  C: 'C',
+  a: 'a',
+  b: 'b',
+  c: 'c',
 });
