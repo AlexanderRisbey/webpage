@@ -10,7 +10,12 @@ const sanitizeAnchorSegment = (value) => {
 
 export const newsAnchorId = (id) => `news-${sanitizeAnchorSegment(id)}`;
 
-export const newsArticleHref = (id) => `${pageHref(routes.news)}#${newsAnchorId(id)}`;
+export const newsArticleHref = (id) => {
+  const rawId = String(id ?? '').trim();
+  const anchorId = newsAnchorId(id);
+  const query = rawId ? `?id=${encodeURIComponent(rawId)}` : '';
+  return `${pageHref(routes.news)}${query}#${anchorId}`;
+};
 
 export const renderHeader = () => `
   <div data-collapse="medium" data-animation="default" data-duration="400" data-easing="ease" data-easing2="ease" role="banner" class="nav_component w-nav">
@@ -24,6 +29,10 @@ export const renderHeader = () => `
             <div class="nav_left-wrapper">
               <div class="nav_link-wrapper">
                 <a href="${pageHref(routes.about)}" class="nav_link w-nav-link">About</a>
+                <div class="nav_link-line"></div>
+              </div>
+              <div class="nav_link-wrapper">
+                <a href="${pageHref(routes.news)}" class="nav_link w-nav-link">News</a>
                 <div class="nav_link-line"></div>
               </div>
               <div class="nav_link-wrapper dropdown">
@@ -114,6 +123,9 @@ export const renderHeader = () => `
             </li>
             <li class="menu-link no-point">
                 <a href="${pageHref(routes.about)}" class="mobile-menu-item">About</a>
+            </li>
+            <li class="menu-link no-point">
+                <a href="${pageHref(routes.news)}" class="mobile-menu-item">News</a>
             </li>
             <li class="menu-link no-point dropdown-mobile">
                 <div class="mobile-menu-item is-for-dropdown">
