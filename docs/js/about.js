@@ -133,7 +133,18 @@ const teamMembers =[
         title:"Director of Operations",
         bio: "Alexander brings over six years of professional experience across diverse sectors, including business development, logistics, operations, and software. With a background that includes service in the Swiss armed forces and roles in fintech, commodity trading, and software development, his track record reflects adaptability and success in varied environments.",
     },
-   
+    {
+        imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
+        name: "Dr Andrew Roddam",
+        title:"Advisor",
+        bio: "Dr Andrew Roddam is a life sciences executive and internationally recognized epidemiologist with over 25 years’ experience spanning academia, pharmaceuticals, biotechnology, and public health. He is Chief Business Development Officer at EveryONE Medicines, leading the adoption of precision medicine capabilities from genetic discovery to patient monitoring. Previously, he was CEO of Our Future Health, the UK’s largest health research programme in partnership with the NHS, creating one of the world’s largest prospective cohorts and genetic resources. An Oxford-trained statistician, Andrew has published over 100 scientific papers and is a regular keynote speaker. He serves as Chair of SNOMED International, where he has been a board director since 2020, and advises multiple organizations on data-driven healthcare innovation.",
+    },
+    {
+        imageSrc: "https://upload.wikimedia.org/wikipedia/commons/5/59/User-avatar.svg",
+        name: "Shahid Hanif",
+        title:"Advisor",
+        bio: "Dr Shahid Hanif is a life sciences executive with over 20 years’ of experience, specialising in driving strategic and collaborative approaches to data, evidence generation and patient outcomes. He is the Founder of Avenzoar Consulting, providing strategic support to life science organisations, and Co-Founder of a voluntary Science Policy Think Tank initiative. Previously, he led the establishment and development of the GetReal Institute, a multistakeholder initiative to advance the use of RWE for decision-making, and was the Head of Health Data & Outcomes at the ABPI. Recognised for enabling the development, approval, and access to innovative health technologies, combining deep industry knowledge with a forward-thinking mindset. Known for fostering partnerships across diverse stakeholders and aligning organisational goals with emerging trends in healthcare to deliver impactful, patient-focused solutions.",
+    }
 ]
 
 export const renderTeamMembers = () => {

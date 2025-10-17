@@ -1,6 +1,7 @@
+import { assetHref } from './utils.js';
 
-const renderItInfrastructurePage = () => {
-    const itInfrastructurePageContent = `
+export const renderItInfrastructurePage = () => {
+    return `
     <main class="main-wrapper">
         <section class="section_about-header">
             <div class="page-padding">
@@ -13,7 +14,7 @@ const renderItInfrastructurePage = () => {
                         <p class="Paragraph">Digital compliance for pharma and fast growing biotech</p>
                     </div>
                     <div class="about_header_shapes">
-                        <img src="../assets/images/LydiaRx_web-art.svg" class="about_header-image" alt="LydiaRx Logo Art"/>
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div> 
             </div>
@@ -31,8 +32,7 @@ const renderItInfrastructurePage = () => {
                                     We specialize in providing comprehensive solutions to ensure the robustness, reliability, and compliance of your IT infrastructure. From data centers to workstations, applications to security protocols, we offer end-to-end support to meet your unique needs.
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                            </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h2>IT Infrastructure Qualification</h2>
                                 <div class="padding-bottom"></div>
@@ -49,7 +49,7 @@ const renderItInfrastructurePage = () => {
                                 </p>
                                 <ul style="margin: 2rem">
                                     <li>
-                                        <span style="font-weight: bold;">IT Infrastructure Qualification SOP:</span> Standard Operating Procedures tailored to your infrastructure's unique requirements.
+                                        <span style="font-weight: bold;">IT Infrastructure Qualification SOP:</span> Standard Operating Procedures tailored to your infrastructure\'s unique requirements.
                                     </li>
                                     <li>
                                         <span style="font-weight: bold;">Workstation Qualification SOP:</span> Detailed protocols for workstation validation to guarantee optimal performance.
@@ -93,11 +93,4 @@ const renderItInfrastructurePage = () => {
         </section>
     </main>
     `;
-    document.getElementById('root').insertAdjacentHTML('beforeend', itInfrastructurePageContent);
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes('it-infrastructure.html')) {
-        renderItInfrastructurePage();
-    }
-});

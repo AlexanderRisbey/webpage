@@ -1,6 +1,7 @@
+import { assetHref } from './utils.js';
 
-const renderDataAnalyticsPage = () => {
-    const dataAnalyticsPageContent = `
+export const renderDataAnalyticsPage = () => {
+    return `
     <main class="main-wrapper">
         <section class="section_about-header">
             <div class="page-padding">
@@ -13,7 +14,7 @@ const renderDataAnalyticsPage = () => {
                         <p class="Paragraph">Empowering pharma supply chains through data excellence</p>
                     </div>
                     <div class="about_header_shapes">
-                        <img src="../assets/images/LydiaRx_web-art.svg" class="about_header-image" alt="LydiaRx Logo Art"/>
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div> 
             </div>
@@ -26,11 +27,10 @@ const renderDataAnalyticsPage = () => {
                             
                             <div class="max-width-large">
                                 <p>
-                                    In the dynamic landscape of the pharmaceutical industry, effective supply chain management is paramount. However, it's often fraught with challenges such as stringent regulatory requirements, complex distribution networks, and the need for stringent quality control measures. In such a high-stakes environment, the ability to harness data effectively becomes a strategic imperative. That's where our Data & Analysis Services come into play, offering tailored solutions to navigate these complexities and drive operational excellence.
+                                    In the dynamic landscape of the pharmaceutical industry, effective supply chain management is paramount. However, it\'s often fraught with challenges such as stringent regulatory requirements, complex distribution networks, and the need for stringent quality control measures. In such a high-stakes environment, the ability to harness data effectively becomes a strategic imperative. That\'s where our Data & Analysis Services come into play, offering tailored solutions to navigate these complexities and drive operational excellence.
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                            </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h4>Key issues in pharmaceutical supply chain management include:</h4  >
                                 <ul style="margin: 2rem">
@@ -82,11 +82,4 @@ const renderDataAnalyticsPage = () => {
         </section>
     </main>
     `;
-    document.getElementById('root').insertAdjacentHTML('beforeend', dataAnalyticsPageContent);
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes('data-analytics.html')) {
-        renderDataAnalyticsPage();
-    }
-});

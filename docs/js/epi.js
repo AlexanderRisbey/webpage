@@ -1,6 +1,7 @@
+import { assetHref } from './utils.js';
 
-const renderEpiPage = () => {
-    const epiPageContent = `
+export const renderEpiPage = () => {
+    return `
     <main class="main-wrapper">
         <section class="section_about-header">
             <div class="page-padding">
@@ -15,7 +16,7 @@ const renderEpiPage = () => {
                         <p class="Paragraph">Effortless accessibility, infinite languages, zero recall worries: Revolutionize information dissemination with ePI.</p>
                     </div>
                     <div class="about_header_shapes">
-                        <img src="../assets/images/LydiaRx_web-art.svg" class="about_header-image" alt="LydiaRx Logo Art"/>
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>
@@ -32,11 +33,11 @@ const renderEpiPage = () => {
                                     Introducing digital product information through mobile apps or digital platforms may seem commonplace, yet its adoption remains largely unexplored by many. Fortunately, for those who frequently seek information from paper or digital leaflets—patients, caregivers, and healthcare providers—the necessity of clear, accessible information is paramount.
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                                <div class="about_image-wrapper">
-                                    <img src="../assets/images/LydiaRx_ePI.jpeg" class="epi_image" alt="Person checking the ePI of a product"/>
-                                </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
+                            <div class="about_image-wrapper">
+                                <img src="${assetHref('images/LydiaRx_ePI.jpeg')}" class="epi_image" alt="Person checking the ePI of a product"/>
                             </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h2>LydiaRx's ePI Solution</h2>
                                 <div class="padding-bottom"></div>
@@ -79,11 +80,4 @@ const renderEpiPage = () => {
         </section>
     </main>
     `;
-    document.getElementById('root').insertAdjacentHTML('beforeend', epiPageContent);
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes('epi.html')) {
-        renderEpiPage();
-    }
-});

@@ -330,11 +330,12 @@
     flex-direction: column;
     width: auto;
     min-width:300px;
+    padding-bottom: 0.5rem;
     /* border: (1 ,"default","black") */
   }
 
   .dropdown-content{
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0 1rem;
     display: flex;
     flex: 1;
     flex-direction: column;
@@ -349,12 +350,14 @@
     border-bottom: 1px solid var(--border-light-c);
     text-transform: uppercase;
     letter-spacing: 0.05em;
+    text-align: left;
   }
 
   .dropdownItem {
     color: var(--text-primary-c);
-    padding: 0.75rem 0;
+    padding: 0.2rem 0;
     transition: all 0.2s ease;
+    text-align: left;
   }
 
   .dropdownItem:hover {

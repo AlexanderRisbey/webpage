@@ -235,9 +235,9 @@ export const renderFooter = () => `
           <div class="footer_col">
             <h4 class="footer_heading">Products</h4>
             <div class="footer_links-grid">
+            <a href="${pageHref(routes.aiStudio)}" class="footer_link">AI R&amp;D Studio</a>
               <a href="${pageHref(routes.trackAndTrace)}" class="footer_link">Pharmaceutical Track &amp; Trace</a>
               <a href="${pageHref(routes.epi)}" class="footer_link">Electronic Product Information (ePI)</a>
-              <a href="${pageHref(routes.demo)}" class="footer_link">LRx Check Demo</a>
             </div>
           </div>
           <div class="footer_col">

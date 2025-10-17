@@ -1,6 +1,7 @@
+import { assetHref } from './utils.js';
 
-const renderCsvPage = () => {
-    const csvPageContent = `
+export const renderCsvPage = () => {
+    return `
     <main class="main-wrapper">
         <section class="section_about-header">
             <div class="page-padding">
@@ -11,7 +12,7 @@ const renderCsvPage = () => {
                         <p class="Paragraph">Digital compliance for pharma and fast growing biotech</p>
                     </div>
                     <div class="about_header_shapes">
-                        <img src="../assets/images/LydiaRx_web-art.svg" class="about_header-image" alt="LydiaRx Logo Art"/>
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div> 
             </div>
@@ -36,8 +37,7 @@ const renderCsvPage = () => {
                                     as well as ensuring data integrity throughout.
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                            </div>
+                            <div class="margin-vertical margin-xxlarge"></div>
                             <div class="max-width-large">
                                 <h4>Develop CSV frameworks</h4  >
                                 <ul style="margin: 2rem">
@@ -102,11 +102,4 @@ const renderCsvPage = () => {
         </section>
     </main>
     `;
-    document.getElementById('root').insertAdjacentHTML('beforeend', csvPageContent);
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes('csv.html')) {
-        renderCsvPage();
-    }
-});

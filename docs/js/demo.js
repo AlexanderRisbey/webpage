@@ -1,6 +1,7 @@
+import { assetHref } from './utils.js';
 
-const renderDemoPage = () => {
-    const demoPageContent = `
+export const renderDemoPage = () => {
+    return `
     <main class="main-wrapper">
         <section class="section_about-header">
             <div class="page-padding">
@@ -15,18 +16,11 @@ const renderDemoPage = () => {
                         <p class="Paragraph">Coming Soon</p>
                     </div>
                     <div class="about_header_shapes">
-                        <img src="../assets/images/LydiaRx_web-art.svg" class="about_header-image" alt="LydiaRx Logo Art"/>
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>
         </section>
     </main>
     `;
-    document.getElementById('root').insertAdjacentHTML('beforeend', demoPageContent);
 }
-
-document.addEventListener('DOMContentLoaded', () => {
-    if (window.location.pathname.includes('demo.html')) {
-        renderDemoPage();
-    }
-});
