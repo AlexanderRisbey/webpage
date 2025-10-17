@@ -1,30 +1,65 @@
 [
   {
+    "id": "9",
+    "date": "2025-10-19",
+    "title": "Innovation Beyond Borders",
+    "excerpt": "Our strategy is focused on cutting-edge AI research. We believe that the needs of Pharma, Biotech, and Life Sciences can be met and improved upon by collaborating with other sectors.",
+    "content": "Our strategy is focused on cutting-edge AI research. We believe that the needs of Pharma, Biotech, and Life Sciences can be met and improved upon by collaborating with other sectors. To prove this, we have taken on a significant project with Coral Communications (https://coralcomms.com/) to show how our AI Agents are adaptable to other industries with complex needs, such as mass transit engineering. We will then take those lessons and apply them to benefit the life sciences."
+  },
+  {
+    "id": "8",
+    "date": "2025-10-07",
+    "title": "Dr. Shahid Hanif Joins as a Strategic Advisor!",
+    "excerpt": "Dr. Shahid Hanif, a recognized leader in the life sciences sector, has joined LydaRX as an Advisor.",
+    "content": "We are thrilled to announce that Dr. Shahid Hanif, a recognized leader in the life sciences sector, has joined LydaRX as an Advisor. With over 20 years of experience in real-world evidence (RWE) generation and data strategies, his expertise will be instrumental in accelerating our mission to deliver innovative, patient-focused solutions.\nWelcome to the team, Shahid!"
+  },
+  {
     "id": "1",
     "date": "2025-09-30",
-    "title": "Lydriarx Welcomes Dr. Andrew Roddam",
+    "title": "LydriaRX Welcomes Dr. Andrew Roddam",
     "excerpt": "Dr. Roddam joins Lydriarx to advance AI and genomic research in Pakistan.",
-    "content": "Lydriarx is proud to announce that **Dr. Andrew Roddam** has joined our team. With extensive expertise in biomedical research, data science, and healthcare innovation, Dr. Roddam strengthens our mission to drive breakthroughs at the intersection of artificial intelligence and genomic research.\n\nAs a company, Lydriarx is committed to developing solutions that harness AI to unlock insights from genetic data, advancing precision medicine and healthcare innovation in Pakistan. By combining global expertise with a focus on local impact, we aim to contribute to the future of life sciences and address some of the region’s most pressing healthcare challenges.\n\nDr. Roddam’s appointment marks an important step in Lydriarx’s journey to expand research collaborations and build technologies that push the boundaries of what’s possible in AI-driven genomics."
+    "content": "Lydriarx is proud to announce that Dr. Andrew Roddam has joined our team. With extensive expertise in biomedical research, data science, and healthcare innovation, Dr. Roddam strengthens our mission to drive breakthroughs at the intersection of artificial intelligence and genomic research.\n\nAs a company, Lydriarx is committed to developing solutions that harness AI to unlock insights from genetic data, advancing precision medicine and healthcare innovation in Pakistan. By combining global expertise with a focus on local impact, we aim to contribute to the future of life sciences and address some of the region’s most pressing healthcare challenges.\n\nDr. Roddam’s appointment marks an important step in Lydriarx’s journey to expand research collaborations and build technologies that push the boundaries of what’s possible in AI-driven genomics."
   },
   {
     "id": "2",
-    "date": "2025-09-25",
-    "title": "Partnership Announced",
-    "excerpt": "We have partnered with XYZ company.",
-    "content": "Full details about the partnership go here."
+    "date": "2025-08-29",
+    "title": "Vision Needs a Visionary: Our Search for Venture Studio Co-Founders",
+    "excerpt": "As our strategy and technology mature, we've opened dialogues with the pioneers—the researchers and entrepreneurs whose visions align with ours.",
+    "content": "As our strategy and technology mature, we've opened dialogues with the pioneers—the researchers and entrepreneurs whose visions align with ours.\n\nA powerful strategy and platform are only part of the equation; the true catalyst is human talent. Our internal progress has given us the clarity to identify the kinds of partners with whom we can build the future. Consequently, we have begun a series of confidential discussions with leaders in academia and industry. These conversations aren't just about funding; they are about finding the right co-founders for the first ventures to emerge from our studio. The interest we’ve received validates the market’s need for this model and confirms we are on the right path to building the home where their brilliant ideas can finally thrive."
   },
   {
     "id": "3",
-    "date": "2025-09-20",
-    "title": "Award Won",
-    "excerpt": "We won a prestigious award for innovation.",
-    "content": "Full details about the award go here."
+    "date": "2025-07-31",
+    "title": "Accelerating Discovery: Path to the Self-Driving Lab",
+    "excerpt": "Our internal research has clarified the pathway to our ultimate goal: integrating AI 'brains' with automated lab hardware to create a fully autonomous discovery cycle.",
+    "content": "Our internal research has clarified the pathway to our ultimate goal: integrating AI \"brains\" with automated lab hardware to create a fully autonomous discovery cycle. Our vision has always extended beyond data analysis. The final objective is to accelerate the discovery of life-changing therapies. Our AI R&D Studio is designed as a digital \"brain\" capable of generating hypotheses and designing experiments. The logical next step, which we are now actively exploring, is connecting this brain to the robotic \"hands\" of a modern laboratory. We are moving from a model where AI suggests what to do to one where AI designs, executes, and learns from experiments in a continuous 24/7 loop. This is the essence of the self-driving laboratory, and the foundation we are building today will make that future possible."
   },
   {
     "id": "4",
-    "date": "2025-09-15",
-    "title": "New Office Opening",
-    "excerpt": "We opened a new office in Zurich.",
-    "content": "Full details about the new office opening go here."
+    "date": "2025-06-27",
+    "title": "LydiaRx AI R&D Studio: Our GxP-Native Foundation",
+    "excerpt": "We are not just building another tool. We are engineering the operating system for the future of life sciences.",
+    "content": "We’ve reached a critical milestone in defining the vision for the LydiaRx AI R&D Studio. For too long, true innovation has been stifled by two immense forces: technical complexity and the regulatory maze. Our Studio is the answer—a GxP-native launchpad that eliminates these risks from day one.\n\nInstead of burning years and capital on foundational infrastructure, we leverage European research (https://www.achilles-project.eu/) to start from a validated, compliant core. But this is just the beginning. Built upon the powerful open-source foundation of the Achilles Project, the Studio will evolve into a dynamic ecosystem. Imagine a marketplace teeming with specialized life science applications and a new class of AI Agents that act as collaborators—not only building production-ready software but advising researchers on their next breakthrough."
+  },
+{
+    "id": "5",
+    "date": "2025-05-30",
+    "title": "AI Agents for Strategic Foresight",
+    "excerpt": "The era of clicking through complex user interfaces is fading. We are entering a new paradigm of computing where interaction is not manual, but agentic—a seamless conversation with a capable digital partner.",
+    "content": "The era of clicking through complex user interfaces is fading. We are entering a new paradigm of computing where interaction is not manual, but agentic—a seamless conversation with a capable digital partner. This shift will fundamentally reshape creative and scientific work, transforming researchers from mere operators of software into directors of discovery.\n\nThis is the future we are actively engineering. We are not waiting for this world to arrive; we are building its foundation. Leveraging the groundbreaking results from our partner research initiatives, we are shaping the LydiaRx AI R&D Studio with one, uncompromising principle: it must be ‘AI Agent-first.’\n\nThis is not a system with AI features bolted on. It is a platform architected from the ground up for a world where AI agents are the primary users and builders of technology. Our internal experiments are the first proof-points, where we are creating the abstractions needed for these advanced agents to thrive. They are learning to navigate scientific data, design research workflows, and even build other, more specialized agents.\n\nThe power of this approach is staggering. It means a scientist will soon be able to articulate a high-level objective—\"Analyze the latest oncology papers for novel protein targets and design a validation experiment\"—and a team of specialized AI agents will orchestrate the entire complex process. Our platform provides the environment where this collaborative symphony between human intellect and autonomous AI doesn't just happen; it becomes the new standard for accelerated discovery."
+  },
+  {
+    "id": "6",
+    "date": "2025-03-30",
+    "title": "Bridging Lab to Market: Our Co-Founder Blueprint",
+    "excerpt": "We’ve finalized the strategic framework for the LydiaRx Venture Studio, a model designed to bridge the vast gap between brilliant science and market success.",
+    "content": "We’ve finalized the strategic framework for the LydiaRx Venture Studio, a model designed to bridge the vast gap between brilliant science and market success. We started with a core observation: countless gifted researchers and technical entrepreneurs hold the keys to revolutionary discoveries but face a wall when navigating market complexities. Beyond the lab, idea validation, market strategy, customer connections, and fundraising are formidable challenges. Our Venture Studio model isn't that of a passive investor, but an active co-founder. We get in the trenches to build the business infrastructure, allowing innovators to focus on what they do best: the science. With this model, we don't just back ideas; we build companies together, from the ground up."
+  },
+  {
+    "id": "7",
+    "date": "2025-01-30",
+    "title": "Dr. Sînică Alboaie as Chief Technology Lead",
+    "excerpt": "The future of health-tech isn't just about good ideas; it's about the technical vision and leadership required to turn those ideas into reality.",
+    "content": "The future of health-tech isn't just about good ideas; it's about the technical vision and leadership required to turn those ideas into reality. Today, we are proud to announce a major step forward in our journey by welcoming Sînică Alboaie to the LydaRX family as our new Chief Technology Lead.\n\nSînică brings to our team a rare and powerful combination of deep expertise in both enterprise blockchain and trustworthy AI. With a PhD in Privacy Preserving Technologies, he is the visionary behind the open-source OpenDSU project, a foundational technology already making an impact in pharmaceutical enterprise solutions and European research projects. As a seasoned entrepreneur and technical leader, he has a proven track record of transforming complex challenges into robust, market-ready products.\n\nWhat makes this moment so exciting for us is Sînică's current work at the absolute cutting edge of innovation. He leads a significant work package within the Achilles European research project (https://www.achilles-project.eu/), a groundbreaking initiative focused on creating trustworthy AI. His team is building a development environment where AI Agents act as intelligent assistants for researchers and developers—pioneering new frontiers in explainability, privacy, and bias mitigation in AI.\n\nThis is not just Sînică's passion project; it is now a core part of our strategy at LydaRX. Our vision is to build a seamless, secure, and intelligent platform. We will integrate the advanced, trustworthy AI capabilities from the Achilles project directly into our existing product suite, which is built on the power of blockchain for track-and-trace. This synergy—combining the verifiable trust of blockchain with the intelligent insights of trustworthy AI—is the future we are building.\n\n\"His unique ability to bridge the gap between academic research and enterprise-grade product development is exactly what LydaRX needs,\" says our CEO, Najib Rehman \"His leadership ensures we remain at the forefront of innovation, building solutions that are not only intelligent but also transparent and secure.”\n\nWith Sînică at the helm of our technology, we are poised to accelerate our mission and redefine what's possible in health-tech. Welcome to the team, Sînică!"
   }
 ]

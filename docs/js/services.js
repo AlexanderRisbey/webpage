@@ -7,9 +7,7 @@ export const renderCsvPage = () => {
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-medium">
-                        <h1>
-                            Computer System Validation (CSV)
-                        </h1>
+                        <h1>Computer System Validation (CSV)</h1>
                         <div class="padding-bottom"></div>
                         <p class="Paragraph">Digital compliance for pharma and fast growing biotech</p>
                     </div>

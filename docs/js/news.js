@@ -250,7 +250,6 @@ export const renderNewsPage = () => `
       <div class="page-padding">
         <div class="container-large section_news-header__container">
           <div class="max-width-large">
-            <span class="tag">Newsroom</span>
             <h1>LydiaRx News</h1>
             <div class="padding-bottom"></div>
           </div>

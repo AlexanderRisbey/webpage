@@ -41,8 +41,7 @@ export const renderHomepage = (root) => {
             <div class="container-large">
               <div class="home-header_component container-background">
                 <h1 class="heading" style="text-align: left;">
-                  Introducing LydiaRx AI R&D Studio
-                  Transforming Life Sciences with AI
+                 Our products and services
                 </h1>
                 <div>
                   <div class="scroll-indicator-wrapper">
@@ -63,7 +62,7 @@ export const renderHomepage = (root) => {
                     <div class="ai-studio-container">
                       <div class="ai-studio-column">
                         ${icons.dna}
-                        <h2>Discovery<br>Studio</h2>
+                        <h2>AI R&D <br> Studio</h2>
                         <div class="margin-top margin-small">
                           <p>Empowering scientists with AI-driven insights to explore literature, analyze patents, and design candidates at unprecedented speed.</p>
                         </div>

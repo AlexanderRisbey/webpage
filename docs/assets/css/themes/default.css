@@ -44,10 +44,6 @@ html[data-style-variant="default"] .section_product-header {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--transparent-light-blue));
 }
 
-html[data-style-variant="default"] .section_product-header {
-    padding: 10rem 0 8rem;
-}
-
 html[data-style-variant="default"] .ps_header_shapes {
     bottom: -8rem;
 }
