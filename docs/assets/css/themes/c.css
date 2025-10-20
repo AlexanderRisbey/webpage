@@ -101,7 +101,7 @@ html[data-style-variant="c"] .section-meet-os {
 .meet-os-content,
 .cta_content,
 .home-header_component,
-.section_product-header,
+.section_page_header,
 .section_about-us,
 .section_team,
 .footer_component {
@@ -120,7 +120,7 @@ html[data-style-variant="c"] .section-meet-os {
 .meet-os-content::before,
 .cta_content::before,
 .home-header_component::before,
-.section_product-header::before,
+.section_page_header::before,
 .section_about-us::before,
 .section_team::before {
     content: '';
@@ -136,7 +136,7 @@ html[data-style-variant="c"] .section-meet-os {
 .meet-os-content:hover,
 .cta_content:hover,
 .home-header_component:hover,
-.section_product-header:hover,
+.section_page_header:hover,
 .section_about-us:hover,
 .section_team:hover {
     transform: translateY(-6px);
@@ -147,7 +147,7 @@ html[data-style-variant="c"] .section-meet-os {
 .meet-os-content:hover::before,
 .cta_content:hover::before,
 .home-header_component:hover::before,
-.section_product-header:hover::before,
+.section_page_header:hover::before,
 .section_about-us:hover::before,
 .section_team:hover::before {
     opacity: 1;
@@ -423,13 +423,13 @@ a.w-button::after {
 }
 
 .ps_header-image,
-.about_header-image {
+.header-shape-image {
     filter: drop-shadow(0 12px 25px rgba(15, 23, 42, 0.12));
     transition: filter 0.25s ease, transform 0.25s ease;
 }
 
 .ps_header-image:hover,
-.about_header-image:hover {
+.header-shape-image:hover {
     filter: drop-shadow(0 18px 35px rgba(15, 23, 42, 0.18));
     transform: translateY(-4px);
 }
@@ -749,7 +749,7 @@ a.w-button::after {
     .meet-os-content,
     .cta_content,
     .home-header_component,
-    .section_product-header,
+    .section_page_header,
     .section_about-us,
     .section_team,
     .footer_component {

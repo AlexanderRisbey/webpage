@@ -39,8 +39,7 @@ html[data-style-variant="default"] .nav_component {
     z-index: 10;
 }
 
-html[data-style-variant="default"] .section_about-header,
-html[data-style-variant="default"] .section_product-header {
+html[data-style-variant="default"] .section_page_header {
     background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), var(--transparent-light-blue));
 }
 
@@ -48,7 +47,7 @@ html[data-style-variant="default"] .ps_header_shapes {
     bottom: -8rem;
 }
 
-html[data-style-variant="default"] .about_header-image,
+html[data-style-variant="default"] .header-shape-image,
 html[data-style-variant="default"] .ps_header-image {
     filter: brightness(0) invert(1);
     mix-blend-mode: normal;

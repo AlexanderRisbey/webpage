@@ -223,7 +223,7 @@ html[data-style-variant="d"] .page-padding {
 }
 
 html[data-style-variant="d"] .home-header_component,
-html[data-style-variant="d"] .section_product-header,
+html[data-style-variant="d"] .section_page_header,
 html[data-style-variant="d"] .section_about-us,
 html[data-style-variant="d"] .section-home-news,
 html[data-style-variant="d"] .section_featured,
@@ -245,7 +245,7 @@ html[data-style-variant="d"] .container-background {
 }
 
 html[data-style-variant="d"] .home-header_component,
-html[data-style-variant="d"] .section_product-header,
+html[data-style-variant="d"] .section_page_header,
 html[data-style-variant="d"] .section_about-us,
 html[data-style-variant="d"] .section-home-news,
 html[data-style-variant="d"] .section_featured,
@@ -256,7 +256,7 @@ html[data-style-variant="d"] .cta_content {
 }
 
 html[data-style-variant="d"] .home-header_component::before,
-html[data-style-variant="d"] .section_product-header::before,
+html[data-style-variant="d"] .section_page_header::before,
 html[data-style-variant="d"] .section_about-us::before,
 html[data-style-variant="d"] .section_featured::before,
 html[data-style-variant="d"] .section_team::before {
@@ -270,7 +270,7 @@ html[data-style-variant="d"] .section_team::before {
 }
 
 html[data-style-variant="d"] .home-header_component > *,
-html[data-style-variant="d"] .section_product-header > *,
+html[data-style-variant="d"] .section_page_header > *,
 html[data-style-variant="d"] .section_about-us > *,
 html[data-style-variant="d"] .section-home-news > *,
 html[data-style-variant="d"] .section_featured > *,
@@ -375,7 +375,7 @@ html[data-style-variant="d"] .section-home-header,
 html[data-style-variant="d"] .section-home-news,
 html[data-style-variant="d"] .section_featured,
 html[data-style-variant="d"] .section_team,
-html[data-style-variant="d"] .section_product-header {
+html[data-style-variant="d"] .section_page_header {
   padding: clamp(3.25rem, 6vw, 5.5rem) 0;
 }
 
@@ -384,14 +384,14 @@ html[data-style-variant="d"] .section_featured .section-heading p {
   color: var(--d-text-muted);
 }
 
-html[data-style-variant="d"] .section_product-header .ps_header_shapes,
-html[data-style-variant="d"] .section_about-header .about_header_shapes {
+html[data-style-variant="d"] .section_page_header .ps_header_shapes,
+html[data-style-variant="d"] .section_page_header .header_shapes {
   opacity: 0.3;
   filter: drop-shadow(0 25px 45px rgba(16, 55, 51, 0.2));
 }
 
 html[data-style-variant="d"] .ps_header-image,
-html[data-style-variant="d"] .about_header-image {
+html[data-style-variant="d"] .header-shape-image {
   filter: saturate(112%);
 }
 
@@ -527,7 +527,7 @@ html[data-style-variant="d"] .swiper-pagination-bullet-active {
 
 @media screen and (max-width: 991px) {
   html[data-style-variant="d"] .home-header_component,
-  html[data-style-variant="d"] .section_product-header,
+  html[data-style-variant="d"] .section_page_header,
   html[data-style-variant="d"] .section_about-us,
   html[data-style-variant="d"] .section-home-news,
   html[data-style-variant="d"] .section_featured,

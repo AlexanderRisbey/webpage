@@ -21,8 +21,7 @@ body {
 .meet-os-content,
 .cta_content,
 .home-header_component,
-.section_product-header,
-.section_about-us,
+.section_page_header,
 .footer_component {
   background-color: var(--neutral-bg);
   border: 1px solid var(--border-light);
@@ -164,7 +163,7 @@ a:hover {
   stroke: var(--accent-teal);
 }
 
-.section_about-us,
+.section_page_header,
 .section-home-news,
 .section-home-header,
 .section-meet-os,

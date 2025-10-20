@@ -3,7 +3,7 @@ import {assetHref} from './utils.js';
 export const renderAiStudioPage = () => {
     return `
     <main class="main-wrapper">
-        <section class="section_product-header">
+        <section class="section_page_header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -15,8 +15,8 @@ export const renderAiStudioPage = () => {
                     <div class="max-width-medium">
                         <p class="Paragraph">AI-native R&D infrastructure for regulated pharmaceutical environments.</p>
                     </div>
-                    <div class="ps_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="header-shape-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>
             </div>

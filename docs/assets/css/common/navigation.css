@@ -453,7 +453,7 @@
     .footer_links-wrapper {
       margin-bottom: 1.5rem;
     }
-    .about_header_shapes {
+    .header_shapes {
       position: absolute;
       bottom: -4rem;
       right: 0rem;
@@ -504,7 +504,7 @@
       background-color: var(--black);
       border-radius: .25rem;
     }
-    .about_header-image {
+    .header-shape-image {
       height: 20vw;
       max-height: 280px;
     }

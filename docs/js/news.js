@@ -246,7 +246,7 @@ export const initNewsSlider = (onReady) => {
 
 export const renderNewsPage = () => `
   <main class="main-wrapper">
-    <section class="section_product-header section_news-header">
+    <section class="section_page_header section_news-header">
       <div class="page-padding">
         <div class="container-large section_news-header__container">
           <div class="max-width-large">
@@ -256,8 +256,8 @@ export const renderNewsPage = () => `
           <div class="max-width-medium">
             <p class="Paragraph">Stay up to date with the latest company news, insights, and announcements from LydiaRx.</p>
           </div>
-          <div class="ps_header_shapes">
-            <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="ps_header-image" alt="LydiaRx Logo Art"/>
+          <div class="header_shapes">
+            <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="header-shape-image" alt="LydiaRx Logo Art"/>
           </div>
         </div>
       </div>

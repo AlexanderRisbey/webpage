@@ -3,7 +3,7 @@ import { assetHref } from './utils.js';
 export const renderModernSlaveryPage = () => {
     return `
     <main class="main-wrapper">
-        <section class="section_about-header">
+        <section class="section_page_header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -15,8 +15,8 @@ export const renderModernSlaveryPage = () => {
                     <div class="max-width-medium">
                         <p class="Paragraph">Last Updated: 01.01.2025</p>
                     </div>
-                    <div class="about_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="header-shape-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>
@@ -94,7 +94,7 @@ export const renderModernSlaveryPage = () => {
                                 <div class="padding-bottom"></div>
 
                                 <p><strong>Signed: Najib Rehman, CEO</strong></p>
-                                <p><strong>Date: 26.04.2024</strong></p>
+                                <p><strong>Date: 01.01.2025</strong></p>
                             </div>
                            
                         </div>

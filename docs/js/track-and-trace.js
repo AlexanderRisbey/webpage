@@ -2,7 +2,7 @@ import { assetHref } from './utils.js';
 
 export const renderTrackAndTracePage = () => `
     <main class="main-wrapper">
-        <section class="section_about-header">
+        <section class="section_page_header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-medium">
@@ -10,8 +10,8 @@ export const renderTrackAndTracePage = () => `
                         <div class="padding-bottom"></div>
                         <p class="Paragraph">Safeguarding health through transparent supply chains</p>
                     </div>
-                    <div class="about_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="header-shape-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>
             </div>

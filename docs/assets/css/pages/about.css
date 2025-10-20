@@ -66,7 +66,7 @@
 }
 
 /* Variant C – medical grade refinements */
-html[data-style-variant="C"] .section_about-header {
+html[data-style-variant="C"] .section_page_header {
     padding: clamp(5rem, 8vw, 7rem) 0 clamp(4rem, 6vw, 5.5rem) 0;
     background: radial-gradient(circle at top right, rgba(59, 130, 246, 0.18), transparent 45%),
                 radial-gradient(circle at bottom left, rgba(14, 165, 233, 0.14), transparent 55%);
@@ -74,8 +74,8 @@ html[data-style-variant="C"] .section_about-header {
     overflow: hidden;
 }
 
-html[data-style-variant="C"] .section_about-header::before,
-html[data-style-variant="C"] .section_about-header::after {
+html[data-style-variant="C"] .section_page_header::before,
+html[data-style-variant="C"] .section_page_header::after {
     content: '';
     position: absolute;
     border-radius: 999px;
@@ -83,7 +83,7 @@ html[data-style-variant="C"] .section_about-header::after {
     opacity: 0.35;
 }
 
-html[data-style-variant="C"] .section_about-header::before {
+html[data-style-variant="C"] .section_page_header::before {
     width: clamp(14rem, 18vw, 20rem);
     height: clamp(14rem, 18vw, 20rem);
     top: -6rem;
@@ -91,7 +91,7 @@ html[data-style-variant="C"] .section_about-header::before {
     background: linear-gradient(140deg, rgba(62, 172, 247, 0.35), rgba(255, 255, 255, 0));
 }
 
-html[data-style-variant="C"] .section_about-header::after {
+html[data-style-variant="C"] .section_page_header::after {
     width: clamp(12rem, 16vw, 18rem);
     height: clamp(12rem, 16vw, 18rem);
     bottom: -5rem;
@@ -99,7 +99,7 @@ html[data-style-variant="C"] .section_about-header::after {
     background: linear-gradient(160deg, rgba(14, 165, 233, 0.25), rgba(255, 255, 255, 0));
 }
 
-html[data-style-variant="C"] .about_header_shapes {
+html[data-style-variant="C"] .header_shapes {
     position: absolute;
     bottom: -2rem;
     right: 0;
@@ -108,7 +108,7 @@ html[data-style-variant="C"] .about_header_shapes {
     animation: aboutFloat 6s ease-in-out infinite alternate;
 }
 
-html[data-style-variant="C"] .about_header-image {
+html[data-style-variant="C"] .header-shape-image {
     width: 100%;
     height: auto;
     display: block;

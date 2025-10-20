@@ -2,7 +2,7 @@ import { assetHref } from '../utils.js';
 
 export const renderInvestmentThesisPage = () => `
     <main class="main-wrapper">
-        <section class="section_about-header">
+        <section class="section_page_header">
             <div class="page-padding">
                 <div class="container-large" style="position: relative;">
                     <div class="max-width-large">
@@ -14,8 +14,8 @@ export const renderInvestmentThesisPage = () => `
                     <div class="max-width-medium">
                         <p class="Paragraph">Investing in the future of AI-native life sciences.</p>
                     </div>
-                    <div class="about_header_shapes">
-                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
+                    <div class="header_shapes">
+                        <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="header-shape-image" alt="LydiaRx Logo Art"/>
                     </div>
                 </div>   
             </div>
