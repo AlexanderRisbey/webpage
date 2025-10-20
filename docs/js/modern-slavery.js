@@ -13,7 +13,7 @@ export const renderModernSlaveryPage = () => {
                         <div class="padding-bottom"></div>
                     </div>
                     <div class="max-width-medium">
-                        <p class="Paragraph">Last Updated: 26.04.2024</p>
+                        <p class="Paragraph">Last Updated: 01.01.2025</p>
                     </div>
                     <div class="about_header_shapes">
                         <img src="${assetHref('images/LydiaRx_web-art.svg')}" class="about_header-image" alt="LydiaRx Logo Art"/>
