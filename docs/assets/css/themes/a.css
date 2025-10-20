@@ -46,6 +46,12 @@ html[data-style-variant="a"] .section_news-header {
   padding: 4rem 0;
 }
 
+html[data-style-variant="a"] .section_about-header .padding-bottom,
+html[data-style-variant="a"] .section_product-header .padding-bottom,
+html[data-style-variant="a"] .section_news-header .padding-bottom {
+  display: none;
+}
+
 /*
 html[data-style-variant="a"] .ps_header_shapes {
   bottom: -8rem;
@@ -100,14 +106,16 @@ html[data-style-variant="a"] .padding-huge {
   padding: 2rem 0;
 }
 
-/*
 html[data-style-variant="a"] .max-width-large {
   max-width: 100%;
 }
-*/
 
 html[data-style-variant="a"] body {
   text-align: justify;
+}
+
+html[data-style-variant="a"] .margin-xxlarge {
+  margin: var(--margin-xxlarge) 0;
 }
 
 html[data-style-variant="a"] .news-card {

@@ -23,7 +23,7 @@
 }
 
 .margin-xxlarge {
-  margin: var(--margin-xxlarge);
+  margin: var(--margin-xxlarge) 0;
 }
 
 section h1,
