@@ -43,7 +43,7 @@ const applyVariantMetadata = (variant) => {
   window.__LYDIARX_STYLE_VARIANT__ = variant;
 };
 
-const pickDefaultVariant = () => STYLE_VARIANTS.default;
+const pickDefaultVariant = () => STYLE_VARIANTS.a;
 
 export const getStyleVariant = () => {
   const variantFromUrl = readVariantFromUrl();
