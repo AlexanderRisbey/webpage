@@ -134,3 +134,28 @@ html[data-style-variant="a"] .news-card-excerpt {
 .container-background{
   top: 3rem;
 }
+
+html[data-style-variant="a"] .consent-banner {
+    background-color: var(--surface-bg-alt-c);
+    color: var(--text-dark-grey);
+  }
+  
+  html[data-style-variant="a"] .consent-banner button {
+    background: var(--primary-blue);
+    color: var(--text-white);
+  }
+  
+  html[data-style-variant="a"] .consent-banner button:hover {
+    background: #1a435e; /* A darker shade of --primary-blue */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(34, 87, 122, 0.3);
+  }
+  
+  html[data-style-variant="a"] .consent-banner a {
+    color: var(--primary-blue);
+  }
+  
+  html[data-style-variant="a"] .consent-banner a:hover {
+    color: #1a435e; /* A darker shade of --primary-blue */
+    text-decoration: underline;
+  }
