@@ -115,7 +115,7 @@ function AboutUsPage() {
             <Helmet>
                 <title>About - LydiaRx</title>
                 <meta property="description" content="Learn about LydiaRx's vision and commitment to revolutionize the global healthcare system. Explore how our innovative solutions are transforming medicine distribution and dispensation, addressing local patient needs on a global scale." />
-                <meta property="og:title" content="About LydiaRX: Innovating Healthcare" />
+                <meta property="og:title" content="About LydiaRx: Innovating Healthcare" />
                 <meta property="og:description" content="Learn about LydiaRx's vision and commitment to revolutionize the global healthcare system. Explore how our innovative solutions are transforming medicine distribution and dispensation, addressing local patient needs on a global scale." />
             </Helmet>
             <Nav />
@@ -146,7 +146,7 @@ function AboutUsPage() {
                                         <h2>LydiaRx</h2>
                                         <div className="padding-bottom"/>
                                         <p>
-                                            At LydiaRX, we believe that every step forward in technology is a potential step toward a better future.
+                                            At LydiaRx, we believe that every step forward in technology is a potential step toward a better future.
                                             Our vision is worldwide, and we see a global healthcare system ripe for transformation, where our innovative track and trace software and Electronic Product Information application will revolutionize the way medicines are distributed and dispensed, where globalized pharmaceuticals will and can address the very local unmet needs for every patient on the planet. 
                                         </p>
                                     </div>
@@ -173,7 +173,7 @@ function AboutUsPage() {
                                         </ul>
                                         <p>
                                             Global pharmaceuticals are a burgeoning and dynamic marketplace that present an exciting opportunity for us to showcase the power of our technology to deliver absolute care for all. By seamlessly integrating with existing infrastructure, compliance by design and inclusive mobile first approach, we aim to be the catalyst for progress in the vibrant healthcare and life sciences market. 
-                                            At LydiaRX, we don't just provide software – we pave the way for innovation, efficiency, and trust. For countries, healthcare service providers, insurers and companies this potentially means savings of hundreds of millions of dollars. For patients it means they get the deserving care and medicines they need, knowing they can trust the drugs they take are legitimate, making for a more equal and just healthcare system. Join us as we embark on this journey to reshape the future of medicines supply chains and drug information for everyone, one transformative solution at a time. Together, let's unlock endless possibilities and propel this area of healthcare forward into a new age of security and trust. 
+                                            At LydiaRx, we don't just provide software – we pave the way for innovation, efficiency, and trust. For countries, healthcare service providers, insurers and companies this potentially means savings of hundreds of millions of dollars. For patients it means they get the deserving care and medicines they need, knowing they can trust the drugs they take are legitimate, making for a more equal and just healthcare system. Join us as we embark on this journey to reshape the future of medicines supply chains and drug information for everyone, one transformative solution at a time. Together, let's unlock endless possibilities and propel this area of healthcare forward into a new age of security and trust. 
                                         </p>
                                     </div>
                                 </div>

@@ -24,39 +24,63 @@ export const renderAboutPage = () => {
                 <div class="container-large">
                     <div class="padding-section-huge">
                         <div class="about_component">
-                            <div class="max-width-large">   
-                                <h2>LydiaRx</h2>
-                                <div class="padding-bottom"></div>
+                            <div className="max-width-large">   
+                                <h2>About LydiaRx</h2>
+                                <div className="padding-bottom"/>
                                 <p>
-                                    At LydiaRX, we believe that every step forward in technology is a potential step toward a better future.
-                                    Our vision is worldwide, and we see a global healthcare system ripe for transformation, where our innovative track and trace software and Electronic Product Information application will revolutionize the way medicines are distributed and dispensed, where globalized pharmaceuticals will and can address the very local unmet needs for every patient on the planet. 
+                                    At LydiaRx, artificial intelligence is not a feature layer: it is our architectural foundation. We are building the infrastructure for next-generation pharmaceutical operations, where AI-native systems drive measurable improvements across drug discovery, regulatory compliance, manufacturing quality, and supply chain integrity. Our technology addresses the pharmaceutical industry's most pressing operational challenges: reducing time-to-market, ensuring regulatory certainty, eliminating counterfeit risk, and delivering verifiable patient safety at scale. 
                                 </p>
                             </div>
-                            <div class="margin-vertical margin-xxlarge">
-                                <div class="about_image-wrapper">
-                                    <img src="${assetHref('images/LydiaRx_about-us.jpeg')}" class="about_image"/>
+                            <div className="margin-vertical margin-xxlarge">
+                                <div className="about_image-wrapper">
+                                    <img src={AboutImage} className="about_image"/>
                                 </div>
                             </div>
-                            <div class="margin-vertical margin-xxlarge"></div>
-                            <div class="max-width-large">
-                                <h2>What we do</h2>
-                                <div class="padding-bottom"></div>
+                            <div className="max-width-large">
+                                <h2>What We Do</h2>
+                                <div className="padding-bottom"/>                        
                                 <p>
-                                    Imagine a world where every product\'s journey is meticulously documented, from its inception to its destination with a patient. With our cutting-edge software, this vision becomes a real time reality surpassing any legacy system available today. Whether it\'s monitoring the flow of goods through intricate supply chains or safeguarding the integrity of pharmaceuticals, our solutions have the potential to empower every state operator, country and businesses to stay ahead of the curve. 
-                                    Take this to the next level with our Electronic Product Information Leaflet (ePI developed by Pharmaledger) so that paper leaflets really do become a thing of the past! It’s obviously better for the planet and the bottom line. You also eliminate a significant cause for product recalls and repackaging, and more importantly patients will always have access to the latest digital medicine information 
-                                    Our products don’t just stop there as we can provide specialist consultancy services to Govts, regulators and drug manufacturers around our area of expertise:  
+                                    LydiaRx provides enterprise-grade, AI-native platforms that modernize pharmaceutical operations from discovery through distribution. Our solutions are purpose-built for regulated environments, delivering quantifiable efficiency gains, risk reduction, and competitive advantage to global pharmaceutical enterprises, regulatory bodies, and healthcare systems.
                                 </p>
-                                <ul style="margin: 2rem">
-                                    <li> Track & Trace </li>
-                                    <li>EPI</li>
-                                    <li>Quality Compliance (for manufacturing)</li>
-                                    <li>Computer System Validation</li>
-                                    <li>IT Infrastructure Design, Implementation and Qualification</li>
-                                    <li>Data and Analytics services for better human decision making </li>
-                                </ul>
+                                <div className="padding-bottom"/>
+                                <h3>Core Platform Suite</h3>                                        
                                 <p>
-                                    Global pharmaceuticals are a burgeoning and dynamic marketplace that present an exciting opportunity for us to showcase the a power of our technology to deliver absolute care for all. By seamlessly integrating with existing infrastructure, compliance by design and inclusive mobile first approach, we aim to be the catalyst for progress in the vibrant healthcare and life sciences market. 
-                                    At LydiaRX, we don\'t just provide software – we pave the way for innovation, efficiency, and trust. For countries, healthcare service providers, insurers and companies this potentially means savings of hundreds of millions of dollars. For patients it means they get the deserving care and medicines they need, knowing they can trust the drugs they take are legitimate, making for a more equal and just healthcare system. Join us as we embark on this journey to reshape the future of medicines supply chains and drug information for everyone, one transformative solution at a time. Together, let\'s unlock endless possibilities and propel this area of healthcare forward into a new age of security and trust. 
+                                <div className="padding-bottom"/>
+                                <strong>Discovery Studio</strong> accelerates pharmaceutical R&D through AI-powered literature synthesis, patent analysis, and candidate design. The platform reduces research timelines while maintaining scientific rigor and full audit trails for regulatory submission.
+                                </p>
+                                <div className="padding-bottom small"/>
+                                <p>
+                                    <strong>GxP Copilot Suite</strong> automates compliance-critical documentation, inspection readiness, and quality management workflows. Purpose-built for FDA, EMA, and global regulatory frameworks, it reduces compliance costs while strengthening audit defensibility.
+                                </p>
+                                <div className="padding-bottom small"/>
+                                <p>
+                                    <strong>R&D Ops Platform</strong> serves as the intelligent orchestration layer for pharmaceutical operations, integrating disparate systems into a unified, AI-driven infrastructure that ensures data integrity, operational efficiency, and enterprise scalability.
+                                </p>
+                                <div className="padding-bottom"/>
+                                <h3>Supply Chain & Patient Information Solutions</h3>
+                                <div className="padding-bottom"/>
+                                <p>
+                                    <strong>Track & Trace</strong> delivers enterprise-scale serialization and supply chain visibility, enabling real-time monitoring from manufacturing through patient delivery. Our solutions support national and regional regulatory compliance frameworks including EU FMD, US DSCSA, and emerging global standards, providing governments and pharmaceutical companies with comprehensive counterfeit protection and supply chain assurance.
+                                </p>
+                                <div className="padding-bottom small"/>
+                                <p>
+                                    <strong>Electronic Product Information (ePI)</strong>, developed through the PharmaLedger consortium, digitizes patient information leaflets while maintaining regulatory compliance across jurisdictions. This infrastructure eliminates paper-based processes, reduces recall risk from outdated inserts, and ensures patients access current, accurate medicine information. The result is both operational savings and enhanced patient safety.
+                                </p>
+                                <div className="padding-bottom"/>
+                                <h3>Professional Services</h3>
+                                <div className="padding-bottom"/>
+                                <p>
+                                    Beyond platform deployment, LydiaRx's consulting practice addresses the organizational, technical, and regulatory complexities of pharmaceutical digital transformation. Our consultants combine deep domain expertise in pharmaceutical operations with technical implementation experience, enabling clients to navigate serialization mandates, validation requirements, and quality system modernization. We architect solutions that bridge legacy infrastructure with next-generation AI capabilities, ensuring continuity of operations while achieving step-change improvements in compliance efficiency and operational visibility.
+                                </p>
+                                <div className="padding-bottom"/>
+                                <h3>Value Proposition</h3>
+                                <div className="padding-bottom"/>
+                                <p>
+                                    Our clients (pharmaceutical manufacturers, national regulatory bodies, and healthcare systems) deploy LydiaRx solutions to achieve concrete operational outcomes: compressed development timelines, reduced compliance overhead, eliminated supply chain vulnerabilities, and strengthened patient safety frameworks. These improvements translate to measurable ROI through reduced operational expenditure, accelerated revenue realization, and mitigated regulatory risk.
+                                </p>
+                                <div className="padding-bottom"/>
+                                <p className="text-weight-semibold">
+                                    LydiaRx delivers the technological infrastructure required for modern pharmaceutical operations. Our AI-native architecture, regulatory-grade security, and enterprise integration capabilities position us as the strategic technology partner for organizations modernizing pharmaceutical R&D, manufacturing, and distribution operations at scale.
                                 </p>
                             </div>
                         </div>
@@ -95,7 +119,7 @@ export const renderAboutPage = () => {
                             <div class="team_content-left">
                                 <h2>Our Team</h2>
                                 <div class="padding-bottom padding-small"></div>
-                                <p>Our team is a close-knit, diverse group driven by passion and collaboration. With unique skills and a strong sense of teamwork, we tackle challenges creatively to achieve success.</p>
+                                <p>Our team brings together pharmaceutical industry veterans and AI specialists with experience across global pharmaceutical companies, regulatory environments, and enterprise technology development.</p>
                             </div>
                             <div class="w-layout-grid team_person-wrapper"></div>
                         </div>
